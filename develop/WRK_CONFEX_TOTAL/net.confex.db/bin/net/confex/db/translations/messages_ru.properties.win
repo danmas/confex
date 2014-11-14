@@ -1,0 +1,17 @@
+DB=DB Файл
+MSG_ERR_CANT_SETUP_CONNECTION=Не могу установить JDBC коннекцию!
+MSG_ERR_ON_EXECUTE_SQL=Ошибка при выполнении SQL:
+MSG_DONE=Выполнено
+
+LABEL_SQL=Sql:
+
+ABOUT_HTPSQLTREEOBJECT=HTML тавлица построенная на основе SQL запроса.
+ABOUT_SQLTREEOBJECT=SQL запрос через JDBC коннекцию. 
+ABOUT_ORAJDBCCONNECTIONNODE=JDBC коннекция к базе данных Oracle.
+ABOUT_MYSQLJDBCCONNECTIONNODE=JDBC коннекция к базе данных MySql.
+
+MSG_CANT_READ_SQL_FOR=Не могу прочитать SQL для 
+MSG_CANT_FIND_AND_SETUP_JDBC=Немогу найти и установить JDBC коннекцию!
+MSG_EMPTY_HTML=Пусто
+MSG_ERR_CANT_CREATE_JDBC_CONNECTION=Немогу создать JDBC коннекцию!
+MSG_ERR_CONNECTIONSTRING_NOT_SETUP=Не задана строка подключения

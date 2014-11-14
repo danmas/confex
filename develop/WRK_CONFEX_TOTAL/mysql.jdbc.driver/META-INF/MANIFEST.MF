@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: mysql jdbc driver
+Bundle-SymbolicName: net.conex.mysql.jdbc.driver;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-ClassPath: mysql-connector-java-5.0.4-bin.jar
+Bundle-Localization: plugin
+Export-Package: com.mysql.jdbc
+Bundle-Vendor: erv
+Eclipse-LazyStart: false

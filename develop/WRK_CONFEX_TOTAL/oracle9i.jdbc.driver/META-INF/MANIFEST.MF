@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: oracle 9i jdbc driver
+Bundle-SymbolicName: net.conex.oracle9i.jdbc.driver;singleton:=true
+Bundle-Version: 0.9.16
+Bundle-ClassPath: classes12.jar
+Bundle-Vendor: erv
+Bundle-Localization: plugin
+Export-Package: oracle.jdbc,
+ oracle.jdbc.driver
+Eclipse-LazyStart: false

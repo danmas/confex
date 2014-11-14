@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.confex.customxml_feature"
+      label="Customxml_feature Feature"
+      version="0.9.16"
+      provider-name="erv">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="net.confex"/>
+   </requires>
+
+   <plugin
+         id="net.confex.customxml"
+         download-size="0"
+         install-size="0"
+         version="0.9.16"
+         unpack="false"/>
+
+</feature>

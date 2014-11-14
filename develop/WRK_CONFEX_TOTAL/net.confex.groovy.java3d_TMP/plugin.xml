@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+   	<extension
+   		point="net.confex.treeNodeFactorys">
+         <factory
+	         class="net.confex.groovy.model.NodeFactory">
+         </factory>
+   	</extension>
+	<extension
+       point="net.confex.confexMessages">
+         <messages
+	         class="net.confex.groovy.translations.Messages">
+         </messages>
+	</extension>
+   
+	<extension point="org.eclipse.ui.popupMenus">
+	  <viewerContribution
+	      id="net.confex.groovy.contributions"
+	      targetID="net.confex.view.navigationView">
+	    <action
+           class="net.confex.groovy.actions.AddGroovyClassNodeAction"
+           enablesFor="?"
+           icon="icons/groovy_class_file.gif"
+           id="net.confex.groovy.actions.AddGroovyClassNodeAction"
+           label="Add Groovy Class"
+           menubarPath="AddOther/additions"/>
+	    <action
+           class="net.confex.groovy.actions.TestAction"
+           enablesFor="?"
+           icon="icons/groovy_file.gif"
+           id="net.confex.groovy.actions.TestAction"
+           label="Add Test  Script"
+           menubarPath="AddOther/additions"/>
+	    <action
+           class="net.confex.groovy.actions.AddGroovyCompositeNodeAction"
+           enablesFor="?"
+           icon="icons/groovy_composite_file.gif"
+           id="net.confex.groovy.actions.AddGroovyCompositeNodeAction"
+           label="Add Groovy Composite Document"
+           menubarPath="AddOther/additions"/>
+	  </viewerContribution>
+	</extension>
+ <extension
+       id="product"
+       point="org.eclipse.core.runtime.products">
+    <product
+          application="net.confex.application"
+          name="Confex Java3D (with groovy)">
+       <property
+             name="windowImages"
+             value="icons/sample.gif">
+       </property>
+       <property
+             name="aboutText"
+             value="%aboutText">
+       </property>
+       <property
+             name="aboutImage"
+             value="product_lg.gif">
+       </property>
+       <property
+             name="startupForegroundColor"
+             value="FF0080">
+       </property>
+       <property
+             name="startupProgressRect"
+             value="5,283,403,15">
+       </property>
+       <property
+             name="startupMessageRect"
+             value="7,267,445,20">
+       </property>
+       <property
+             name="appName"
+             value="Confex Java3D (with groovy)">
+       </property>
+       <property
+             name="preferenceCustomization"
+             value="plugin_customization.ini">
+       </property>
+    </product>
+ </extension>
+
+</plugin>

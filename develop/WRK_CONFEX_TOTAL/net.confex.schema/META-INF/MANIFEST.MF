@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Confex Diagram Editor Plug-in
+Bundle-SymbolicName: net.confex.schema.ConfexDiagramPlugin;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: net.confex.schema.editor.ConfexDiagramPlugin
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.gef,
+ org.eclipse.ui.ide,
+ org.eclipse.ui.views,
+ org.eclipse.jface.text,
+ org.eclipse.ui.editors,
+ org.eclipse.ui.workbench.texteditor,
+ org.eclipse.core.filesystem
+Eclipse-LazyStart: true
+Bundle-Vendor: erv

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+   	<extension
+   		point="net.confex.treeNodeFactorys">
+         <factory
+	         class="net.confex.groovy.model.NodeFactory">
+         </factory>
+   	</extension>
+	<extension
+       point="net.confex.confexMessages">
+         <messages
+	         class="net.confex.groovy.translations.Messages">
+         </messages>
+	</extension>
+   
+	<extension point="org.eclipse.ui.popupMenus">
+	  <viewerContribution
+	      id="net.confex.groovy.contributions"
+	      targetID="net.confex.view.navigationView">
+	    <action
+           class="net.confex.groovy.actions.AddGroovyClassNodeAction"
+           enablesFor="?"
+           icon="icons/groovy_class_file.gif"
+           id="net.confex.groovy.actions.AddGroovyClassNodeAction"
+           label="Add Groovy Class"
+           menubarPath="AddOther/additions"/>
+	    <action
+           class="net.confex.groovy.actions.TestAction"
+           enablesFor="?"
+           icon="icons/groovy_file.gif"
+           id="net.confex.groovy.actions.TestAction"
+           label="Add Test  Script"
+           menubarPath="AddOther/additions"/>
+	    <action
+           class="net.confex.groovy.actions.AddGroovyCompositeNodeAction"
+           enablesFor="?"
+           icon="icons/groovy_composite_file.gif"
+           id="net.confex.groovy.actions.AddGroovyCompositeNodeAction"
+           label="Add Groovy Composite Document"
+           menubarPath="AddOther/additions"/>
+	  </viewerContribution>
+	</extension>
+
+</plugin>

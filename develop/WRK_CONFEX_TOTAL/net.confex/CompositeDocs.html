@@ -1,0 +1,152 @@
+<h2>План</h2>
+
+
+<h3>Создаем <b>ICodePart</b> интерфейс</h3>
+
+<h3>Создаем класс <b>CompositeDoc</b></h3>
+Композитный элемент состоит из трех частей
+
+
+
+
+Нужно создать два класса узлов
+JavaCompositeNode
+GroovyCompositeNode
+ 
+
+
+<h3>Атрибуты</h3>
+<pre class=code>
+	protected static String defaultHeader = "";
+	protected static String defaultFooter = ""; 
+	
+	private String header = defaultHeader;
+	private String content = "";
+	private String footer = defaultFooter;
+</pre>pre>
+
+
+
+
+<h3>Переопределяемые методы</h3>
+<pre class=code>
+	/**
+	 * Конструирует контент проходя по 
+	 * всем дочерним узлам 
+	 */
+	protected void makeContent() {
+		content = "";
+
+		for (int i = 0; i < getChildren().length; i++) {
+			if (getChildren()[i] instanceof IHtmlPart) {
+				content += ((IHtmlPart) getChildren()[i]).getFullHtmltext();
+			}
+		}
+	}
+
+
+	/**
+	 * Устанавливает все свойства элемента такими как у прототипа
+	 * 
+	 * @param prototype
+	 */
+	public void setPropertyLike(ITreeNode prototype) {
+		super.setPropertyLike(prototype);
+		if (!(prototype instanceof HtmlComposite)) {
+			System.err
+					.println("[HtmlComposite.setPropertyLike] prototype NOT instanceof HtmlComposite!");
+			return;
+		}
+		setHeader(((HtmlComposite) prototype).getHeader());
+		setFooter(((HtmlComposite) prototype).getFooter());
+		setFileName(((HtmlComposite) prototype).getFileName());
+	}
+	
+	
+	/**
+	 * Возвращает полный текст кода составленный из трех частей
+	 * header+content+footer
+	 * 
+	 * @return
+	 */
+	public String getFullCodeText() {
+		makeContent();
+		return header + content + footer;
+	}
+
+
+	protected void parsePropertyXml(Node property, boolean new_node) {
+		super.parsePropertyXml(property,new_node);
+
+		if (property.getNodeName().equals("header")) {
+			Node nd = property.getFirstChild();
+			String text = "";
+			if (nd != null)
+				text = nd.getNodeValue();
+			this.setHeader(Utils.fromHtmlSpecialEntities(text.trim()));
+		} else if (property.getNodeName().equals("footer")) {
+			Node nd = property.getFirstChild();
+			String text = "";
+			if (nd != null)
+				text = nd.getNodeValue();
+			this.setFooter(Utils.fromHtmlSpecialEntities(text.trim()));
+		} else if (property.getNodeName().equals("file_name")) {
+			Node nd = property.getFirstChild();
+			String text = "";
+			if (nd != null)
+				text = nd.getNodeValue();
+			this.setFileName(Utils.fromHtmlSpecialEntities(text.trim()));
+		}
+	}
+
+	
+	public String getPropertiesXml(boolean read_src_text) {
+		String str_xml = super.getPropertiesXml(read_src_text);
+		if (header != null && !header.equals("")) {
+			str_xml += "<header>\n";
+			str_xml += Utils.toHtmlSpecialEntities(header) + "\n";
+			str_xml += "</header>\n";
+		}
+		if (footer != null && !footer.equals("")) {
+			str_xml += "<footer>\n";
+			str_xml += Utils.toHtmlSpecialEntities(footer) + "\n";
+			str_xml += "</footer>\n";
+		}
+		if (file_name != null && !file_name.equals("")) {
+			str_xml += "<file_name>\n";
+			str_xml += Utils.toHtmlSpecialEntities(file_name) + "\n";
+			str_xml += "</file_name>\n";
+		}
+
+		return str_xml;
+	}
+
+	
+	public String getContent() {
+		return content;
+	}
+	
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	
+	public String getFooter() {
+		return footer;
+	}
+
+	public void setFooter(String footer) {
+		this.footer = footer;
+	}
+
+	public String getHeader() {
+		return header;
+	}
+
+	public void setHeader(String header) {
+		this.header = header;
+	}
+
+</pre>
+

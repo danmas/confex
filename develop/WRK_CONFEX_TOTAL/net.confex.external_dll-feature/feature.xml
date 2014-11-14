@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.confex.external_dll_feature"
+      label="External_dll_feature Feature"
+      version="0.9.18"
+      provider-name="erv">
+
+   <description url="https://sourceforge.net/projects/confex">
+      Confex external dll supprt.
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      Copyright (c) 2006-2008 Roman Eremeev and others.
+All rights reserved. This program and the accompanying materials
+are made as Free Open Source under the terms of the Eclipse
+Public License - v 1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="net.confex.external_dll"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

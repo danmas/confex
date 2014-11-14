@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="net.confex.customxml" modificationStamp="5" version="1.2">
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;com.sun.opengl.impl.packrect"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.image"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.loaders.lw3d"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;com.sun.opengl.impl.registry"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.loaders"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.picking"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/simple-xml-1.1.1.jar&lt;simple.xml.filter"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.pickfast"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/joal-demos.jar&lt;demos.devmaster.lesson5"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;com.sun.opengl.impl"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;com.sun.opengl.impl.glue"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;com.sun.opengl.impl.nurbs"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.behaviors.keyboard"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/joal-demos.jar&lt;demos.devmaster.lesson3"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/joal-demos.jar&lt;demos.devmaster.lesson1"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/joal-demos.jar&lt;demos.devmaster.lesson2"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.behaviors.sensor"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/src&lt;net.confex.customxml.java3D"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/simple-xml-1.1.1.jar&lt;simple.xml"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/joal.jar&lt;net.java.games.joal.impl"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.audioengines.javasound"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;com.sun.opengl.impl.tessellator"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/joal.jar&lt;net.java.games.sound3d"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.audioengines"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;com.sun.opengl.impl.windows"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;com.sun.opengl.impl.error"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.shader"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/src&lt;net.confex.customxml.jogl"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/simple-xml-1.1.1.jar&lt;simple.xml.stream"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;com.sun.opengl.impl.mipmap"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.picking.behaviors"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/src&lt;net.confex.customxml.translations"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.audio"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.loaders.objectfile"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.internal"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;com.sun.opengl.util"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.pickfast.behaviors"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.applet"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.geometry"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.timer"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.scenegraph.io.state.com.sun.j3d.utils.geometry"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/simple-xml-1.1.1.jar&lt;simple.xml.util"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.scenegraph.io.retained"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dcore.jar&lt;javax"/>
+        <fragment handle="=net.confex.customxml/lib\/vecmath.jar&lt;javax"/>
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;javax"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;com.sun.opengl.cg"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.exp.swing"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;com.sun.opengl.util.j2d"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;com.sun.opengl.impl.x11"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.scenegraph.io.state.com.sun.j3d.utils.behaviors.interpolators"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.scenegraph.io.state.com.sun.j3d.utils.universe"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/joal.jar&lt;net.java.games.joal"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.scenegraph.io"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.scenegraph.transparency"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.geometry.compression"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.compression"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.behaviors.vp"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;javax.media.opengl.glu"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/vecmath.jar&lt;javax.vecmath"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.behaviors.mouse"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.scenegraph.io.state.javax.media.j3d"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/joal.jar&lt;net.java.games.joal.eax"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/simple-xml-1.1.1.jar&lt;simple.xml.load"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/joal.jar&lt;net.java.games.joal.util"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;com.sun.opengl.util.texture.spi"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.behaviors.picking"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/gluegen-rt.jar&lt;com.sun.gluegen.runtime"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;com.sun.opengl.util.texture"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;javax.media.opengl"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.behaviors.interpolators"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.scenegraph.io.state.com.sun.j3d.utils.behaviors.mouse"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib_jogl\/jogl.jar&lt;com.sun.opengl.impl.macosx"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.scenegraph.io.state.com.sun.j3d.utils.image"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.utils.universe"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dutils.jar&lt;com.sun.j3d.exp.swing.impl"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/lib\/j3dcore.jar&lt;javax.media.j3d"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.customxml/src&lt;net.confex.customxml"/>
+    </package>
+</component>

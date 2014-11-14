@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Extension1 Plug-in
+Bundle-SymbolicName: net.confex.extension1;singleton:=true
+Bundle-Version: 0.9.10
+Bundle-Activator: net.confex.extension1.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ net.confex
+Eclipse-LazyStart: true
+Bundle-Vendor: erv

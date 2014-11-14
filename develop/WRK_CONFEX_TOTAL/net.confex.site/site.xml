@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/net.confex.extension1_feature_0.9.16.jar" id="net.confex.extension1_feature" version="0.9.16">
+      <category name="Confex Extensions 1"/>
+   </feature>
+   <feature url="features/net.confex.db_feature_0.9.16.jar" id="net.confex.db_feature" version="0.9.16">
+      <category name="Confex Db"/>
+   </feature>
+   <feature url="features/net.confex.db.mysql_feature_0.9.16.jar" id="net.confex.db.mysql_feature" version="0.9.16">
+      <category name="Confex Db"/>
+   </feature>
+   <feature url="features/net.confex.db.ora_feature_0.9.16.jar" id="net.confex.db.ora_feature" version="0.9.16">
+      <category name="Confex Db"/>
+   </feature>
+   <feature url="features/net.confex.sqlexplorer_feature_0.9.16.jar" id="net.confex.sqlexplorer_feature" version="0.9.16">
+      <category name="Confex Db"/>
+   </feature>
+   <feature url="features/net.confex.editor_feature_0.9.16.jar" id="net.confex.editor_feature" version="0.9.16">
+      <category name="Confex Editor"/>
+   </feature>
+   <feature url="features/net.confex.external_dll_feature_0.9.18.jar" id="net.confex.external_dll_feature" version="0.9.18">
+      <category name="Confex External dll"/>
+   </feature>
+   <feature url="features/net.confex.groovy_feature_0.9.18.jar" id="net.confex.groovy_feature" version="0.9.18">
+      <category name="Confex Groovy"/>
+   </feature>
+   <feature url="features/net.confex_feature_0.9.17.jar" id="net.confex_feature" version="0.9.17">
+      <category name="net.confex"/>
+   </feature>
+   <category-def name="net.confex" label="Confex Base">
+      <description>
+         Core confex
+      </description>
+   </category-def>
+   <category-def name="Confex Extensions 1" label="Confex Extensions 1">
+      <description>
+         The Confex Extensions includes some experimental IfNode (Experimental)
+      </description>
+   </category-def>
+   <category-def name="Confex Groovy" label="Confex Groovy">
+      <description>
+         Confex Plugin for working with Groovy scripts.
+      </description>
+   </category-def>
+   <category-def name="Confex Db" label="Confex Db">
+      <description>
+         Confex data base part.  Include Oracle9i and MySql  support.
+      </description>
+   </category-def>
+   <category-def name="Confex Editor" label="Confex Editor (Java,Groovy)">
+      <description>
+         The Confex Java Editor is the standart JDT editor
+      </description>
+   </category-def>
+   <category-def name="Confex External dll" label="Confex Externall dll support"/>
+</site>

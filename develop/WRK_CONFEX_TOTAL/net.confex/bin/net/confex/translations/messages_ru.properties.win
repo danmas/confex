@@ -1,0 +1,189 @@
+﻿GeneralPreferencePage.CONFEX_PREFS=Настройки Конфекса
+GeneralPreferencePage.EDIT_MODE=Доступен режим редактирования приложения
+
+NavigationView.USER_MODE=Пользовательский режим
+
+MENU_FILE=Файл
+SaveAction.MENU_SAVE=Сохранить
+SaveAsAction.MENU_SAVE_AS=Сохранить как…
+MENU_EXIT=Выход
+MENU_PREFERENCES=Настройки
+MENU_ABOUT=О программе
+MENU_LICENSE=Лицензия
+MENU_UPDATE=Проверить обновление
+MENU_WELCOME=Добро пожаловать
+MENU_EDIT=Редактировать
+MENU_EDIT_COPY=Копировать
+MENU_EDIT_CopyWithoutChildAction=Копировать без дочерних
+MENU_EDIT_COPY_FILE=Копировать в файл
+MENU_EDIT_PASTE=Вставить
+MENU_EDIT_PASTE_FILE=Вставить из файла
+MENU_EDIT_SELECT_ALL=Выбрать Все
+MENU_EDIT_DELETE=Удалить
+MENU_EDIT_CUT=Вырезать
+MENU_EDIT_RENAME=Переименовать
+MENU_WINDOW=Инструменты
+MENU_HELP=&Помощь
+   
+// Browser 
+BROWSER_BACK=Назад
+BROWSER_FORWARD=Вперед
+BROWSER_STOP=Остановить
+    
+en=Английский
+de=Немецкий
+fr=Французский
+es=Испанский
+gl=Галисийский
+da=Датский
+it=Итальянский
+nl=Голландский
+el=Греческий
+ru=Русский
+pt=Португальский (Бразилия)
+bg=Болгарский
+no=Норвежский
+zhcn=Китайский
+zhtw=Традиционный Китайский
+ja=Японский
+ko=Корейский
+pl=Польский
+sv=Шведский
+bn=Бангладешский(Бенгали)
+fi=Финский
+uk=Українська
+cs=Чешский
+sl=Словенский
+tr=Турецкий
+hu=Венгерский
+th=Тайська
+
+ABOUT_TREE_NODE=Это Узел дерева, базовый класс.
+
+ABOUT_URLTREEOBJECT=URL адресс.
+ABOUT_HTMLTREENODE=HTML текст выводится в браузере.
+ABOUT_HTMLWITHCONTENT=HTML с динамическим контентом.
+
+ABOUT_UNKNOWNTREENODE=Класс узла не был опознан.
+
+ABOUT_RUNTREEOBJECT=Класс для выполнения внешней команды\n
+операционной системы. Команда выполняется в заданном каталоге.
+
+ABOUT_JAVA2HTMLNODE=Java текст переводит в Html текст.
+ABOUT_JavaNode=Java класс который может быть запущен 
+
+ABOUT_FOLDERNODE=Каталог на диске
+ABOUT_VarsNode=Набор переменных
+
+LABEL_TITLE=Название:
+LABEL_USERNAME=Логин:
+LABEL_PASSWORD=Пароль:
+LABEL_PROXY_HOST=Хост:
+LABEL_PROXY_PORT=Порт:
+LABEL_URL_PATH=URL/Путь:
+LABEL_URL=URL:
+LABEL_HTMLTEXT=Html текст:
+LABEL_DIR=Каталог:
+LABEL_COMMAND=Команда:
+LABEL_ARGS=Аргументы:
+
+LABEL_TEST=Тест
+LABEL_CANCEL=Отменить
+LABEL_OK=Принять
+LABEL_SAVE_PROPERTIES=Сохранить
+
+LABEL_TOOLTIP=Подсказка:
+LABEL_ICON=Иконка:
+LABEL_LOCKED=Блокировано
+LABEL_NOT_RUN_IN_BATCH=Не используется
+LABEL_NOT_VIS_IN_USER_MODE=Не показывать в пользовательском режиме
+
+LABEL_VARIABLES=Переменные
+LABEL_JAVA=Java текст:
+
+// Popup Menu 
+POP_NEW=Добавить
+POP_PROPERTIES=Свойства
+
+PROPERTIES=Свойства
+LANG_PROPERTIES=Выбор языка
+
+// Messagebox / Dialogs 
+MESSAGEBOX_TITLE_ERROR=Ошибка
+MESSAGEBOX_TITLE_ATTENTION=Внимание!
+MESSAGEBOX_TITLE_INFORMATION=Уведомление
+MESSAGEBOX_TITLE_SAVE_FILE=Сохранение файла
+MESSAGEBOX_TITLE_DELETE=Удаление
+MESSAGEBOX_TITLE_COPYFILES=Копирование файлов
+MESSAGE_BOX_TITLE_OVERWRITE=Файл существует
+MESSAGEBOX_TITLE_DROP=Буфер обмена
+DISABLED_IN_USER_MODE=Операция невозможна в пользовательском режиме
+
+DILAOG_TITLE_NEW_CONFEXFILE=Введите имя нового конфекс файла
+DILAOG_TITLE_OPEN_CONFEXFILE=Выберите конфекс файл для загрузки
+
+QUEST_DELETE_SELECTED=Удалить выделенные элементы?  
+QUEST_SAVE_FILE_WITH_ERROR=Конфигурационный файл содержит ошибки, сохранить в другой?
+QUEST_SAVE_FILE=Сохранить файл?
+QUEST_COPY_N_FILES=Копировать файлы
+QUEST_OVERWRITE_FILE=Файл уже существует. Преписать его?
+QUEST_SAVE_CHANGES=Сохранить изменения?
+QUEST_OVERWRITE_FILE=Презаписать существующий файл?
+
+MESSAGE_DONE=Выполнено
+MESSAGE_CANT_DEFINE_FILE_TYPE=Не могу определить тип файла
+MESSAGE_CANT_FIND_PROGRAM=Не могу найти программу
+MESSAGE_FOLDER_NOT_EXIST=Каталог не существует
+MESSAGE_OPEN_FILE_FOR_EDITING=Открываем файл для редактирования...
+
+MESSAGE_ERR_OPEN_VIEW=Ошибка при открытии вида: 
+MSG_FILE_SAVED=Файл сохранен    
+MSG_FILE_ALREADY_OPEN=Файл уже открыт
+
+MSG_SELECT_VIEW_FIRST=Сначала выберите вид
+MSG_CANT_DO_SELECT_ONE=Не могу выполнить операцию! Должен быть выделен один элемент.
+MSG_CANT_DO_SELECT_AT_LEAST_ONE=Не могу выполнить операцию! Должен быть выделен хотя бы один элемент.
+MSG_TREE_WITH_ERR_CANT_BE_SAVED=Дерево имеет ошибки и не может быть сохранено!
+MSG_CONFIG_TREE_HAS_ERROR=Конфигурационнй файл содержат ошибки!
+MSG_CANT_DELETE_FILE=Не удалось удалить файл!
+MSG_ERROR_ON_PASTE=Во время вствки произошла ошибка!
+MSG_PROP_NOT_INSTANCEOF=Прототип не является классом типа 
+MSG_ERR_NOTINSTANCEOF_ITREENODE=Класс не реализует интерфейс ITreeNode
+MSG_ERR_UNKNOWN_TAG_IN_DOC=Неизвестный тэг в документе!
+MSG_ERR_FILE_NOT_SELECTED=Файл не выбран!
+MSG_ERR_FILE_NOT_FOUND=Файл не найден!
+MSG_ERR_ON_SAVING_FILE=Ошибка во время сохранения файла!
+MSG_ERR_CANTUNLOCK_PARENTLOCKED=Не могу разблокировать т.к. заблокирован узел верхнего уровня. \n\nРодительский узел: 
+MSG_VIEWNOTEDITABLE_LOCKED=Нельзя редактировать! Неизмененяемая часть.
+
+MSG_RUNNIG_IN_BACKGROUND=Выполняется в фоновом режиме...
+
+ACTION_RUN=Выполнить
+ACTION_RUN_ASINC=Выполнить в фоновом режиме
+ACTION_RUN_BATCH=Выполнить пакетом
+ACTION_RUN_ASINC_BATCH=Выполнить пакетом в фоновом режиме
+
+ACTION_ADD_NEW_FOLDER=Добавить Каталог
+
+ACTION_ADD_FOLDERVIEWNODE=Добавить Вид Каталог
+ACTION_ADD_FORMVIEWNODE=Добавить Вид Формы
+ACTION_ADD_HTMLCOMPOSITENODE=Добавить Составной Html документ
+ACTION_ADD_HTMLTEXTNODE=Добавить Html текст
+ACTION_ADD_JAVA2HTMLTNODE=Добавить Java2Html конвертор
+ACTION_ADD_TREENODE=Добавить Узел дерева 
+ACTION_ADD_URLTREENODE=Добавить URL узел
+ACTION_ADD_JAVANODE=Добавить Java узел
+
+ABOUT_FORMVIEWNODE=Запуск Вида Формы
+
+ACTION_ADD_EXECTREENODE=Добавить Команду исполнения
+
+ACTION_OPEN_NAVIGATIONVIEW=Открыть новый Вид Навигатора
+ACTION_NEW_CONFEXFILE=Создать новый конфекс файл		
+
+ACTION_ADD_CONFEXVIEWNODE=Добавить ссылку на конфекс файл
+ABOUT_CONFEXNODE=Внешний конфекс файл
+LABEL_CONFEX_FILENAME=Confex файл:
+
+ACTION_ADD_VARSNODE=Добавить набор переменных
+ABOUT_VarsNode=Набор переменных. !!!Нельзя добавлять одинаковые переменные

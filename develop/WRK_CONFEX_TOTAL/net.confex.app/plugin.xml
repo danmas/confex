@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="net.confex.app.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="Confexing"
+            class="net.confex.app.perspectives.Perspective"
+            id="net.confex.app.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            allowMultiple="true"
+            class="net.confex.app.views.View"
+            id="net.confex.app.view"
+            name="Explorer">
+      </view>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="net.confex.app.application"
+            name="ConFex">
+         <property
+               name="windowImages"
+               value="icons/alt_window_16.gif,icons/alt_window_32.gif">
+         </property>
+         <property
+               name="appName"
+               value="ConFex">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="net.confex.app.confexCategory"
+            name="Confex">
+      </category>
+      <wizard
+            canFinishEarly="false"
+            category="net.confex.app.confexCategory"
+            class="net.confex.app.wizards.TreeWizard"
+            finalPerspective="net.confex.app.perspective"
+            hasPages="true"
+            icon="icons/alt_window_16.gif"
+            id="net.confex.app.confexProjectWizard"
+            name="Tree"
+            project="true">
+         <description>
+            Create a Confex Project
+         </description>
+      </wizard>
+   </extension>
+
+</plugin>

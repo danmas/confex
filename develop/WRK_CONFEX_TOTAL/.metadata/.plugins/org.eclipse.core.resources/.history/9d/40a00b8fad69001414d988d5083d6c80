@@ -1,0 +1,24 @@
+source.. = src/
+output.. = bin/
+bin.includes = plugin.xml,\
+               META-INF/,\
+               .,\
+               icons/,\
+               plugin.properties,\
+               product_lg.gif,\
+               .classpath,\
+               plugin_ru.properties,\
+               schema/,\
+               splash.bmp,\
+               plugin_customization.ini,\
+               jars/
+src.includes = icons/,\
+               META-INF/,\
+               plugin_ru.properties,\
+               plugin.properties,\
+               src/net/confex/translations/messages_ru.properties,\
+               src/net/confex/translations/messages.properties
+bin.excludes = icons/non_eclipse/Thumbs.db,\
+               icons/Thumbs.db
+additional.bundles = 
+               

@@ -1,0 +1,13 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.wst.dtd.ui,1.0.301.v200808072012,org.eclipse.wst.dtd.ui,1232724528212
+stopped,bundle,org.eclipse.wst.wsdl.ui,1.2.103.v200810301738,org.eclipse.wst.wsdl.ui,1232724528214
+stopped,bundle,org.eclipse.wst.wsi.ui,1.0.400.v200805140300,org.eclipse.wst.wsi.ui,1232724528215
+stopped,bundle,org.eclipse.wst.jsdt.web.ui,1.0.103.v200810021840,org.eclipse.wst.jsdt.web.ui,1232724528216
+stopped,bundle,org.eclipse.wst.web.ui,1.1.200.v200805281530,org.eclipse.wst.web.ui,1232724528216
+stopped,bundle,org.eclipse.wst.html.ui,1.0.302.v200810291731,org.eclipse.wst.html.ui,1232724528217
+stopped,bundle,org.eclipse.wst.css.ui,1.0.301.v200807170605,org.eclipse.wst.css.ui,1232724528218
+stopped,bundle,org.eclipse.wst.xsl.ui,0.5.0.v20080728,org.eclipse.wst.xsl.ui,1232724528220
+stopped,bundle,org.eclipse.wst.xml.xpath.ui,0.5.0.v200807111112,org.eclipse.wst.xml.xpath.ui,1232724528221
+stopped,bundle,org.eclipse.wst.xsd.ui,1.2.104.v200810020602,org.eclipse.wst.xsd.ui,1232724528236
+stopped,bundle,org.eclipse.wst.xml.ui,1.0.420.v200810220345,org.eclipse.wst.xml.ui,1232724528237
+stopped,bundle,org.eclipse.wst.common.ui,1.1.302.v200810160107,org.eclipse.wst.common.ui,1232724528238

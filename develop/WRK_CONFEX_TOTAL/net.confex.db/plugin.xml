@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin> 
+
+   	<extension
+   		point="net.confex.treeNodeFactorys">
+         <factory
+	         class="net.confex.db.tree.NodeFactory">
+         </factory>
+   	</extension>
+	<extension
+       point="net.confex.confexMessages">
+         <messages
+	         class="net.confex.db.translations.Messages">
+         </messages>
+	</extension>
+   
+	<extension point="org.eclipse.ui.popupMenus">
+	  <viewerContribution
+	      id="net.confex.db.contributions"
+	      targetID="net.confex.view.navigationView">
+	    <action
+           class="net.confex.db.actions.AddHtpSqlTableTreeNodeAction"
+           icon="icons/eview16/table.png"
+           id="net.confex.db.actions.AddHtpSqlTableTreeNodeAction"
+           label="%AddHtpSqlTableTreeNodeAction"
+           menubarPath="AddOther/additions"
+           />
+	    <action
+           class="net.confex.db.actions.AddSqlTreeObjectAction"
+           icon="icons/eview16/sql.png"
+           id="net.confex.db.actions.AddSqlTreeObjectAction"
+           label="%AddSqlTreeObjectAction"
+           menubarPath="AddOther/additions"
+           />
+	  </viewerContribution>
+	</extension>
+
+</plugin>

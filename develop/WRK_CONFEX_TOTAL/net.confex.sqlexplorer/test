@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ConfigTree version="0.0.2">
+<TreeNode
+id="-1"
+name="U1"
+>
+<properties>
+</properties>
+<OraJdbcConnectionNode
+id="-1"
+name="GXPK COM7"
+>
+<properties>
+<user>
+com7
+</user>
+<password>
+com7
+</password>
+<url>
+jdbc:oracle:thin:@onyx.srv.rdtex.ru:1521:GXPK
+</url>
+</properties>
+<CompositeFormViewNode
+id="-1"
+name="Test SQL Table Result View"
+>
+<properties>
+</properties>
+<SqlResultCompositeNode
+id="-1"
+name="COM_CONFIG"
+>
+<properties>
+<sql>
+SELECT * FROM COM_CONFIG;
+
+SELECT * FROM TRU_TRACE_TEMP_LEVEL;
+
+</sql>
+</properties>
+</SqlResultCompositeNode>
+<HtmlComposite
+id="-1"
+name=""
+>
+<properties>
+<header>
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot;
+	content=&amp;quot;text/html; charset=&amp;quot;windows-1251&amp;quot; /&amp;gt;
+&amp;lt;meta name=&amp;quot;Content-Language&amp;quot; content=&amp;quot;russian&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;description&amp;quot;
+	content=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;keywords&amp;quot;
+  content=&amp;quot;eclipse,Rich,Client,Platform,rcp,java,книги,статьи,приложения&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;expires&amp;quot; content=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;resource-type&amp;quot; content=&amp;quot;document&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;author&amp;quot; content=&amp;quot;Автор&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;copyright&amp;quot;
+	content=&amp;quot;(C) 2006&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;robots&amp;quot; content=&amp;quot;index,all&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;revisit&amp;quot; content=&amp;quot;5 Days&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;revisit-after&amp;quot; content=&amp;quot;5 Days&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;distribution&amp;quot; content=&amp;quot;global&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;rating&amp;quot; content=&amp;quot;general&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;audience&amp;quot; content=&amp;quot;all&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;title&amp;gt;Title&amp;lt;/title&amp;gt;
+
+&amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
+&amp;lt; !-- 
+.text_my	 { 
+	color: black; 
+	font-size: 100%; 
+	table-layout: auto; 
+	font-family: serif;  
+} 
+.code { border-color: #CFDCFF; border-style: solid; border-width: 3px; 
+   color: #0000EF; background-color: #EFEFEF;  
+   margin: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
+} 
+.h_line { 
+	color: blue; 
+	font-size: 100%; font: italic; color: blue; 
+	table-layout: auto; 
+	font-family: serif; font-style: italic; 
+} 
+.output {
+   color: #FFFFFF; background: #837A67;
+} 
+.xml { border-color: #CFDCFF; border-style: solid; border-width: 3px; 
+   color: #0000EF; background-color: #EFEFEF; 
+   margin: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
+}
+-- &amp;gt;
+&amp;lt;/style&amp;gt;
+
+&amp;lt;!--  link href=&amp;quot;./bf.css&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; /--&amp;gt;
+&amp;lt;!--  link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;../im/logo.ico&amp;quot;&amp;gt;&amp;lt;/link --&amp;gt;
+
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+asd fasd fgdsa gsdf gsdf
+</header>
+<footer>
+&amp;lt;hr&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+</footer>
+</properties>
+<HtmlSqlTableTreeObject
+id="-1"
+name="COM_CONFIG"
+>
+<properties>
+<sql>
+SELECT * FROM COM_CONFIG
+</sql>
+</properties>
+</HtmlSqlTableTreeObject>
+</HtmlComposite>
+<HtmlComposite
+id="-1"
+name=""
+>
+<properties>
+<header>
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot;
+	content=&amp;quot;text/html; charset=&amp;quot;windows-1251&amp;quot; /&amp;gt;
+&amp;lt;meta name=&amp;quot;Content-Language&amp;quot; content=&amp;quot;russian&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;description&amp;quot;
+	content=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;keywords&amp;quot;
+  content=&amp;quot;eclipse,Rich,Client,Platform,rcp,java,книги,статьи,приложения&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;expires&amp;quot; content=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;resource-type&amp;quot; content=&amp;quot;document&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;author&amp;quot; content=&amp;quot;Автор&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;copyright&amp;quot;
+	content=&amp;quot;(C) 2006&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;robots&amp;quot; content=&amp;quot;index,all&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;revisit&amp;quot; content=&amp;quot;5 Days&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;revisit-after&amp;quot; content=&amp;quot;5 Days&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;distribution&amp;quot; content=&amp;quot;global&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;rating&amp;quot; content=&amp;quot;general&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;audience&amp;quot; content=&amp;quot;all&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;title&amp;gt;Title&amp;lt;/title&amp;gt;
+
+&amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
+&amp;lt; !-- 
+.text_my	 { 
+	color: black; 
+	font-size: 100%; 
+	table-layout: auto; 
+	font-family: serif;  
+} 
+.code { border-color: #CFDCFF; border-style: solid; border-width: 3px; 
+   color: #0000EF; background-color: #EFEFEF;  
+   margin: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
+} 
+.h_line { 
+	color: blue; 
+	font-size: 100%; font: italic; color: blue; 
+	table-layout: auto; 
+	font-family: serif; font-style: italic; 
+} 
+.output {
+   color: #FFFFFF; background: #837A67;
+} 
+.xml { border-color: #CFDCFF; border-style: solid; border-width: 3px; 
+   color: #0000EF; background-color: #EFEFEF; 
+   margin: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
+}
+-- &amp;gt;
+&amp;lt;/style&amp;gt;
+
+&amp;lt;!--  link href=&amp;quot;./bf.css&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; /--&amp;gt;
+&amp;lt;!--  link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;../im/logo.ico&amp;quot;&amp;gt;&amp;lt;/link --&amp;gt;
+
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+</header>
+<footer>
+&amp;lt;hr&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+</footer>
+</properties>
+<HtmlTextNode
+id="-1"
+name=""
+>
+<properties>
+<htmltext>
+dsf sdf gf 
+ dsfg sdfg ds fg
+d sfgsdf
+sd fg dfgdsfg sdfg sdg
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+</CompositeFormViewNode>
+</OraJdbcConnectionNode>
+</TreeNode>
+</ConfigTree>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.confex.groovy.java3d_feature"
+      label="Confex Groovy Java3D"
+      version="0.9.16"
+      provider-name="erv">
+
+   <description url="https://sourceforge.net/projects/confex">
+      Eclipse Plugin for working with groovy scripts.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="net.confex"/>
+   </requires>
+
+   <plugin
+         id="net.confex.groovy.java3d"
+         download-size="0"
+         install-size="0"
+         version="0.9.16"
+         unpack="false"/>
+
+</feature>

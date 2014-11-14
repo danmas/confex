@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+   <extension
+         id="net.confex.schema application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="net.confex.schema.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="Confex Diagram Perspective"
+            class="net.confex.schema.Perspective"
+            id="net.confex.schema.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="net.confex.schema.editor.ConfexDiagramEditor"
+            contributorClass="net.confex.schema.action.SchemaActionBarContributor"
+            extensions="condi"
+            icon="icons/code_mark.png"
+            id="Confex Diagram Editor"
+            name="Confex Diagram Editor"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="Confex Diagram"
+            name="Confex Diagram Wizard"
+            parentCategory="org.eclipse.ui.Examples"/>
+      <wizard
+            category="org.eclipse.ui.Examples/org.eclipse.gef.examples"
+            class="net.confex.schema.wizard.ConfexDiagramWizard"
+            icon="icons/code_mark.png"
+            id="net.confex.schema.wizard.new.file"
+            name="Confex Diagram Editor"/>
+   </extension>
+   
+
+</plugin>

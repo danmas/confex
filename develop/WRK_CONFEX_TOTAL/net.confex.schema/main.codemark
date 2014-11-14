@@ -1,0 +1,1972 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<Schema>
+  <BookmarkModelElement id="0">
+    <text>Удалить!  class ContentCreator</text>
+    <tooltip_text>Project: Yava2
+Path: /Yava2/src/ru/yava/ec/editor/ContentCreator.java
+Marker: class ContentCreator</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="1113" y="1053" height="17" width="194"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/editor/ContentCreator.java</marker_path>
+    <marker_text>class ContentCreator</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="1">
+    <text>Вызывается каждый раз при движении мыши по контейнеру.</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/policy/SimpleContainerContainerEditPolicy.java
+Marker: protected Command getCreateCommand</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="771" y="526" height="17" width="431"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/policy/SimpleContainerContainerEditPolicy.java</marker_path>
+    <marker_text>protected Command getCreateCommand</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="2">
+    <text>protected void handleChildChange</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/PropertyAwarePart.java
+Marker: protected void handleChildChange</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="854" y="351" height="17" width="271"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/PropertyAwarePart.java</marker_path>
+    <marker_text>protected void handleChildChange</marker_text>
+  </BookmarkModelElement>
+  <StickyNote id="3">
+    <text>+/-</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="1079" y="295" height="31" width="34"/>
+  </StickyNote>
+  <BookmarkModelElement id="4">
+    <text>protected List getModelSourceConnections</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/NodeElementPart.java
+Marker: protected List getModelSourceConnections</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="734" y="505" height="17" width="314"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/NodeElementPart.java</marker_path>
+    <marker_text>protected List getModelSourceConnections</marker_text>
+  </BookmarkModelElement>
+  <StateContainer id="5">
+    <text>StickyNote</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="348" y="288" height="242" width="349"/>
+    <compact_bounds x="304" y="288" height="37" width="173"/>
+    <state>COMPACT</state>
+    <children>
+  <StickyNote id="6">
+    <text>StickyNote</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 234}" />
+    <bounds x="8" y="1" height="31" width="80"/>
+  </StickyNote>
+  <BookmarkModelElement id="7">
+    <text>Figure</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/figures/StickyNoteFigure.java
+Marker: class StickyNoteFigure</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="10" y="73" height="17" width="37"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/figures/StickyNoteFigure.java</marker_path>
+    <marker_text>class StickyNoteFigure</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="8">
+    <text>StickyLabelCellEditorLocator</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/directedit/StickyLabelCellEditorLocator.java
+Marker: class StickyLabelCellEditorLocator</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="35" y="161" height="17" width="171"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/directedit/StickyLabelCellEditorLocator.java</marker_path>
+    <marker_text>class StickyLabelCellEditorLocator</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="9">
+    <text>EditPart</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/LabelElementPart.java
+Marker: class LabelElementPart</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="7" y="100" height="17" width="48"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/LabelElementPart.java</marker_path>
+    <marker_text>class LabelElementPart</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="10">
+    <text>LabelDirectEdit Policy</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/policy/LabelDirectEditPolicy.java
+Marker: class LabelDirectEditPolicy</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="153" y="138" height="17" width="129"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/policy/LabelDirectEditPolicy.java</marker_path>
+    <marker_text>class LabelDirectEditPolicy</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="11">
+    <text>DirectEditManager</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/directedit/LabelEditManager.java
+Marker: class LabelEditManager</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="34" y="121" height="17" width="111"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/directedit/LabelEditManager.java</marker_path>
+    <marker_text>class LabelEditManager</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="12">
+    <text>class StickyNote</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/StickyNote.java
+Marker: class StickyNote</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="4" y="48" height="17" width="98"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/StickyNote.java</marker_path>
+    <marker_text>class StickyNote</marker_text>
+  </BookmarkModelElement>
+    </children>
+  </StateContainer>
+  <StateContainer id="13">
+    <text>ModelElement</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="373" y="131" height="204" width="462"/>
+    <compact_bounds x="399" y="131" height="30" width="100"/>
+    <state>COMPACT</state>
+    <children>
+  <StickyNote id="14">
+    <text>ModelElement</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 234}" />
+    <bounds x="13" y="5" height="31" width="98"/>
+  </StickyNote>
+  <BookmarkModelElement id="15">
+    <text>class ModelElementPart</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/ModelElementPart.java
+Marker: class ModelElementPart</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="18" y="78" height="17" width="174"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/ModelElementPart.java</marker_path>
+    <marker_text>class ModelElementPart</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="16">
+    <text>class ModelElement</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/ModelElement.java
+Marker: class ModelElement</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="13" y="52" height="17" width="154"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/ModelElement.java</marker_path>
+    <marker_text>class ModelElement</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="17">
+    <text>class ModelElementFigure</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/figures/ModelElementFigure.java
+Marker: class ModelElementFigure</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="10" y="121" height="22" width="195"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/figures/ModelElementFigure.java</marker_path>
+    <marker_text>class ModelElementFigure</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="18">
+    <text>class ModelElementDirectEditPolicy</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/policy/ModelElementDirectEditPolicy.java
+Marker: class ModelElementDirectEditPolicy</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="137" y="88" height="28" width="269"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/policy/ModelElementDirectEditPolicy.java</marker_path>
+    <marker_text>class ModelElementDirectEditPolicy</marker_text>
+  </BookmarkModelElement>
+    </children>
+  </StateContainer>
+  <StateContainer id="19">
+    <text>Контейнер</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="702" y="394" height="515" width="691"/>
+    <compact_bounds x="691" y="394" height="38" width="208"/>
+    <state>COMPACT</state>
+    <children>
+  <StickyNote id="20">
+    <text>Контейнер</text>
+    <tooltip_text>hgjgjgjh</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 234}" />
+    <bounds x="5" y="5" height="31" width="120"/>
+  </StickyNote>
+  <BookmarkModelElement id="21">
+    <text>class SimpleContainer</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/SimpleContainer.java
+Marker: class SimpleContainer</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="8" y="46" height="17" width="154"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/SimpleContainer.java</marker_path>
+    <marker_text>class SimpleContainer</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="22">
+    <text>class SimpleContainerFigure</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/figures/SimpleContainerFigure.java
+Marker: class SimpleContainerFigure</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="5" y="77" height="17" width="194"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/figures/SimpleContainerFigure.java</marker_path>
+    <marker_text>class SimpleContainerFigure</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="23">
+    <text>class SimpleContainerPart</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/SimpleContainerPart.java
+Marker: class SimpleContainerPart</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="7" y="108" height="17" width="188"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/SimpleContainerPart.java</marker_path>
+    <marker_text>class SimpleContainerPart</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="24">
+    <text>class ChildrenFigure</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/figures/ChildrenFigure.java
+Marker: class ChildrenFigure</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="166" y="91" height="17" width="147"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/figures/ChildrenFigure.java</marker_path>
+    <marker_text>class ChildrenFigure</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="25">
+    <text>class SimpleContainerContainerEditPolicy</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/policy/SimpleContainerContainerEditPolicy.java
+Marker: class SimpleContainerContainerEditPolicy</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="129" y="126" height="17" width="290"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/policy/SimpleContainerContainerEditPolicy.java</marker_path>
+    <marker_text>class SimpleContainerContainerEditPolicy</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="26">
+    <text>protected void createEditPolicies()</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/SimpleContainerPart.java
+Marker: protected void createEditPolicies()</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="350" y="98" height="22" width="216"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/SimpleContainerPart.java</marker_path>
+    <marker_text>protected void createEditPolicies()</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="27">
+    <text>class ContainerElementCreateCommand</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/command/ContainerElementCreateCommand.java
+Marker: class ContainerElementCreateCommand</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="348" y="170" height="17" width="244"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/command/ContainerElementCreateCommand.java</marker_path>
+    <marker_text>class ContainerElementCreateCommand</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="28">
+    <text>getCreateCommand</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/policy/SimpleContainerContainerEditPolicy.java
+Marker: protected Command getCreateCommand</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="282" y="147" height="17" width="124"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/policy/SimpleContainerContainerEditPolicy.java</marker_path>
+    <marker_text>protected Command getCreateCommand</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="29">
+    <text>class SchemaXYLayoutPolicy</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/policy/SchemaXYLayoutPolicy.java
+Marker: class SchemaXYLayoutPolicy</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="128" y="191" height="17" width="175"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/policy/SchemaXYLayoutPolicy.java</marker_path>
+    <marker_text>class SchemaXYLayoutPolicy</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="30">
+    <text>protected Command createAddCommand</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/policy/SchemaXYLayoutPolicy.java
+Marker: protected Command createAddCommand</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="288" y="213" height="17" width="258"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/policy/SchemaXYLayoutPolicy.java</marker_path>
+    <marker_text>protected Command createAddCommand</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="31">
+    <text>class ModelElementTransferCommand</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/command/ModelElementTransferCommand.java
+Marker: class ModelElementTransferCommand</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="350" y="233" height="17" width="230"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/command/ModelElementTransferCommand.java</marker_path>
+    <marker_text>class ModelElementTransferCommand</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="32">
+    <text>class ModelElementMoveCommand</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/command/ModelElementMoveCommand.java
+Marker: class ModelElementMoveCommand</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="353" y="252" height="17" width="213"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/command/ModelElementMoveCommand.java</marker_path>
+    <marker_text>class ModelElementMoveCommand</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="33">
+    <text>class SimpleContainerEditPolicy</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/policy/SimpleContainerEditPolicy.java
+Marker: class SimpleContainerEditPolicy</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="126" y="274" height="17" width="188"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/policy/SimpleContainerEditPolicy.java</marker_path>
+    <marker_text>class SimpleContainerEditPolicy</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="34">
+    <text>class DeleteSimpleContainerCommand</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/command/DeleteSimpleContainerCommand.java
+Marker: class DeleteSimpleContainerCommand</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="291" y="291" height="17" width="232"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/command/DeleteSimpleContainerCommand.java</marker_path>
+    <marker_text>class DeleteSimpleContainerCommand</marker_text>
+  </BookmarkModelElement>
+  <StickyNote id="35">
+    <text>Вызывызывается когда  в контейнере
+происходят изменения</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 234}" />
+    <bounds x="322" y="372" height="65" width="179"/>
+  </StickyNote>
+  <BookmarkModelElement id="36">
+    <text>public void setLayoutConstraint</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/SimpleContainerPart.java
+Marker: public void setLayoutConstraint</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="43" y="467" height="17" width="193"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/SimpleContainerPart.java</marker_path>
+    <marker_text>public void setLayoutConstraint</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="37">
+    <text>StateContainer</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/StateContainer.java
+Marker: public class StateContainer</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="173" y="48" height="17" width="158"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/StateContainer.java</marker_path>
+    <marker_text>public class StateContainer</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="38">
+    <text>Изменение состояния</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/StateContainer.java
+Marker: public boolean modifyState(String state)</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="130" y="433" height="24" width="165"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/StateContainer.java</marker_path>
+    <marker_text>public boolean modifyState(String state)</marker_text>
+  </BookmarkModelElement>
+    </children>
+  </StateContainer>
+  <StateContainer id="39">
+    <text>Контекстное меню</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="40" y="519" height="447" width="725"/>
+    <compact_bounds x="40" y="519" height="30" width="145"/>
+    <state>COMPACT</state>
+    <children>
+  <BookmarkModelElement id="40">
+    <text>SchemaContextMenuProvider</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/action/SchemaContextMenuProvider.java
+Marker: class SchemaContextMenuProvider</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="21" y="194" height="17" width="213"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/action/SchemaContextMenuProvider.java</marker_path>
+    <marker_text>class SchemaContextMenuProvider</marker_text>
+  </BookmarkModelElement>
+  <StickyNote id="41">
+    <text>Контекстное меню</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 234}" />
+    <bounds x="7" y="11" height="31" width="137"/>
+  </StickyNote>
+  <BookmarkModelElement id="42">
+    <text>добавляем свое действие в реестр дейстрий редактора</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/editor/SchemaDiagramEditor.java
+Marker: protected void createActions</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="99" y="258" height="17" width="389"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/editor/SchemaDiagramEditor.java</marker_path>
+    <marker_text>protected void createActions</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="43">
+    <text>Действия контекстного меню</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/action/MenuActions.java
+Marker: public class MenuActions</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="367" y="18" height="17" width="232"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/action/MenuActions.java</marker_path>
+    <marker_text>public class MenuActions</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="44">
+    <text>Вставляем  действие в меню SchemaContextMenuProvider.buildContextMenu()</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/action/SchemaContextMenuProvider.java
+Marker: public void buildContextMenu</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="80" y="236" height="17" width="498"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/action/SchemaContextMenuProvider.java</marker_path>
+    <marker_text>public void buildContextMenu</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="45">
+    <text>class AddCodeMarkMenuActions</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/action/MenuActions.java
+Marker: class AddCodeMarkMenuActions</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="413" y="42" height="17" width="194"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/action/MenuActions.java</marker_path>
+    <marker_text>class AddCodeMarkMenuActions</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="46">
+    <text>Вставляем  действие в меню DefaultContextMenuProvider.buildContextMenu()</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/editor/DefaultContextMenuProvider.java
+Marker: public void buildContextMenu</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="80" y="219" height="17" width="492"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/editor/DefaultContextMenuProvider.java</marker_path>
+    <marker_text>public void buildContextMenu</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="47">
+    <text>class AddLabelActions</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/action/MenuActions.java
+Marker: class AddLabelActions</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="414" y="59" height="17" width="203"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/action/MenuActions.java</marker_path>
+    <marker_text>class AddLabelActions</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="48">
+    <text>class StandartStateActions</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/action/MenuActions.java
+Marker: class StandartStateActions</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="417" y="78" height="19" width="197"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/action/MenuActions.java</marker_path>
+    <marker_text>class StandartStateActions</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="49">
+    <text>class CompactStateActions</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/action/MenuActions.java
+Marker: class CompactStateActions</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="418" y="100" height="20" width="199"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/action/MenuActions.java</marker_path>
+    <marker_text>class CompactStateActions</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="50">
+    <text>class StateActions</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/action/MenuActions.java
+Marker: class StateActions</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="418" y="122" height="19" width="200"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/action/MenuActions.java</marker_path>
+    <marker_text>class StateActions</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="51">
+    <text>class PasteActions</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/action/MenuActions.java
+Marker: static class PasteActions</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="417" y="145" height="22" width="156"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/action/MenuActions.java</marker_path>
+    <marker_text>static class PasteActions</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="52">
+    <text>class AntStandaloneTargetActions</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/action/MenuActions.java
+Marker: class AntStandaloneTargetActions</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="412" y="167" height="20" width="216"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/action/MenuActions.java</marker_path>
+    <marker_text>class AntStandaloneTargetActions</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="53">
+    <text>class BrowserUrlBookmarkActions</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/action/MenuActions.java
+Marker: class BrowserUrlBookmarkActions</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="411" y="188" height="21" width="220"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/action/MenuActions.java</marker_path>
+    <marker_text>class BrowserUrlBookmarkActions</marker_text>
+  </BookmarkModelElement>
+    </children>
+  </StateContainer>
+  <StateContainer id="54">
+    <text>Схема</text>
+    <tooltip_text>dfsf
+sdfsd
+sdfsdf</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="218" y="131" height="383" width="450"/>
+    <compact_bounds x="218" y="131" height="35" width="114"/>
+    <state>COMPACT</state>
+    <children>
+  <BookmarkModelElement id="55">
+    <text>class SchemaFigure</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/figures/SchemaFigure.java
+Marker: class SchemaFigure</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="7" y="81" height="17" width="173"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/figures/SchemaFigure.java</marker_path>
+    <marker_text>class SchemaFigure</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="56">
+    <text>class AddShapeCommand</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/command/AddShapeCommand.java
+Marker: class AddShapeCommand</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="115" y="162" height="17" width="204"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/command/AddShapeCommand.java</marker_path>
+    <marker_text>class AddShapeCommand</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="57">
+    <text>class SchemaXYLayoutPolicy</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/policy/SchemaXYLayoutPolicy.java
+Marker: class SchemaXYLayoutPolicy</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="50" y="223" height="17" width="175"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/policy/SchemaXYLayoutPolicy.java</marker_path>
+    <marker_text>class SchemaXYLayoutPolicy</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="58">
+    <text>class Schema</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/Schema.java
+Marker: class Schema</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="7" y="56" height="17" width="154"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/Schema.java</marker_path>
+    <marker_text>class Schema</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="59">
+    <text>createChangeConstraintCommand()</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/policy/SchemaXYLayoutPolicy.java
+Marker: Command createChangeConstraintCommand</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="114" y="262" height="17" width="222"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/policy/SchemaXYLayoutPolicy.java</marker_path>
+    <marker_text>Command createChangeConstraintCommand</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="60">
+    <text>Command createAddCommand</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/policy/SchemaXYLayoutPolicy.java
+Marker: Command createAddCommand</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="195" y="283" height="17" width="194"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/policy/SchemaXYLayoutPolicy.java</marker_path>
+    <marker_text>Command createAddCommand</marker_text>
+  </BookmarkModelElement>
+  <StickyNote id="61">
+    <text>Схема</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 234}" />
+    <bounds x="5" y="7" height="31" width="81"/>
+  </StickyNote>
+  <BookmarkModelElement id="62">
+    <text>class TableMoveCommand</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/command/TableMoveCommand.java
+Marker: class TableMoveCommand</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="194" y="243" height="17" width="161"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/command/TableMoveCommand.java</marker_path>
+    <marker_text>class TableMoveCommand</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="63">
+    <text>class SchemaDiagramPart</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/SchemaDiagramPart.java
+Marker: class SchemaDiagramPart</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="7" y="110" height="17" width="207"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/SchemaDiagramPart.java</marker_path>
+    <marker_text>class SchemaDiagramPart</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="64">
+    <text>class SchemaContainerEditPolicy</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/policy/SchemaContainerEditPolicy.java
+Marker: class SchemaContainerEditPolicy</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="47" y="137" height="17" width="237"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/policy/SchemaContainerEditPolicy.java</marker_path>
+    <marker_text>class SchemaContainerEditPolicy</marker_text>
+  </BookmarkModelElement>
+  <StickyNote id="65">
+    <text>TEXT!</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {50, 50, 255}" back_color="RGB {255, 255, 234}" />
+    <bounds x="266" y="57" height="36" width="88"/>
+  </StickyNote>
+    </children>
+  </StateContainer>
+  <StateContainer id="66">
+    <text>Table</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="511" y="131" height="168" width="235"/>
+    <compact_bounds x="511" y="131" height="30" width="100"/>
+    <state>COMPACT</state>
+    <children>
+  <BookmarkModelElement id="67">
+    <text>class TableLayoutEditPolicy</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/policy/TableLayoutEditPolicy.java
+Marker: class TableLayoutEditPolicy</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="57" y="121" height="17" width="165"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/policy/TableLayoutEditPolicy.java</marker_path>
+    <marker_text>class TableLayoutEditPolicy</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="68">
+    <text>class Table</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/Table.java
+Marker: class Table</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="7" y="49" height="17" width="140"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/Table.java</marker_path>
+    <marker_text>class Table</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="69">
+    <text>class TableFigure</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/figures/TableFigure.java
+Marker: class TableFigure</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="6" y="71" height="17" width="151"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/figures/TableFigure.java</marker_path>
+    <marker_text>class TableFigure</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="70">
+    <text>class TablePart</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/TablePart.java
+Marker: class TablePart</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="6" y="101" height="17" width="145"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/TablePart.java</marker_path>
+    <marker_text>class TablePart</marker_text>
+  </BookmarkModelElement>
+  <StickyNote id="71">
+    <text>Table</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 234}" />
+    <bounds x="7" y="5" height="31" width="46"/>
+  </StickyNote>
+    </children>
+  </StateContainer>
+  <StateContainer id="72">
+    <text>PropertyAwareObject</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="376" y="38" height="127" width="268"/>
+    <compact_bounds x="383" y="35" height="30" width="150"/>
+    <state>COMPACT</state>
+    <children>
+  <BookmarkModelElement id="73">
+    <text>class PropertyAwareObject</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/PropertyAwareObject.java
+Marker: public abstract class PropertyAwareObject</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="14" y="6" height="25" width="164"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/PropertyAwareObject.java</marker_path>
+    <marker_text>public abstract class PropertyAwareObject</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="74">
+    <text>class PropertyAwarePart</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/PropertyAwarePart.java
+Marker: class PropertyAwarePart</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="12" y="35" height="24" width="159"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/PropertyAwarePart.java</marker_path>
+    <marker_text>class PropertyAwarePart</marker_text>
+  </BookmarkModelElement>
+    </children>
+  </StateContainer>
+  <StateContainer id="75">
+    <text>Коннекция</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="543" y="203" height="182" width="503"/>
+    <compact_bounds x="543" y="203" height="30" width="100"/>
+    <state>COMPACT</state>
+    <children>
+  <BookmarkModelElement id="76">
+    <text>protected IFigure createFigure()</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/ModelConnectionPart.java
+Marker: protected IFigure createFigure()</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="185" y="110" height="17" width="194"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/ModelConnectionPart.java</marker_path>
+    <marker_text>protected IFigure createFigure()</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="77">
+    <text>class ModelConnection</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/ModelConnection.java
+Marker: class ModelConnection</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="11" y="45" height="17" width="137"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/ModelConnection.java</marker_path>
+    <marker_text>class ModelConnection</marker_text>
+  </BookmarkModelElement>
+  <StickyNote id="78">
+    <text>Коннекция</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 234}" />
+    <bounds x="7" y="6" height="31" width="83"/>
+  </StickyNote>
+  <BookmarkModelElement id="79">
+    <text>class ModelConnectionPart</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/ModelConnectionPart.java
+Marker: class ModelConnectionPart</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="9" y="96" height="17" width="162"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/ModelConnectionPart.java</marker_path>
+    <marker_text>class ModelConnectionPart</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="80">
+    <text>Комманда создания коннекции  ConnectionCreateCommand</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/command/ConnectionCreateCommand.java
+Marker: class ConnectionCreateCommand</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="104" y="70" height="17" width="382"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/command/ConnectionCreateCommand.java</marker_path>
+    <marker_text>class ConnectionCreateCommand</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="81">
+    <text>class ModelConnectionFigure</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/figures/ModelConnectionFigure.java
+Marker: public class ModelConnectionFigure</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="9" y="124" height="22" width="182"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/figures/ModelConnectionFigure.java</marker_path>
+    <marker_text>public class ModelConnectionFigure</marker_text>
+  </BookmarkModelElement>
+    </children>
+  </StateContainer>
+  <StateContainer id="82">
+    <text>NodeElement</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {255, 255, 0}" back_color="RGB {0, 255, 0}" />
+    <bounds x="317" y="197" height="310" width="406"/>
+    <compact_bounds x="317" y="197" height="30" width="144"/>
+    <state>COMPACT</state>
+    <children>
+  <BookmarkModelElement id="83">
+    <text>class NodeElement</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/NodeElement.java
+Marker: class NodeElement</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="8" y="52" height="17" width="160"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/NodeElement.java</marker_path>
+    <marker_text>class NodeElement</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="84">
+    <text>class NodeElementFigure</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/figures/ModelElementFigure.java
+Marker: class NodeElementFigure</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="9" y="82" height="17" width="222"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/figures/NodeElementFigure.java</marker_path>
+    <marker_text>class NodeElementFigure</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="85">
+    <text>protected void createEditPolicies()</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/NodeElementPart.java
+Marker: protected void createEditPolicies()</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="36" y="131" height="17" width="207"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/NodeElementPart.java</marker_path>
+    <marker_text>protected void createEditPolicies()</marker_text>
+  </BookmarkModelElement>
+  <StickyNote id="86">
+    <text>NodeElement</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 234}" />
+    <bounds x="7" y="8" height="31" width="95"/>
+  </StickyNote>
+  <BookmarkModelElement id="87">
+    <text>class NodeElementPart</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/NodeElementPart.java
+Marker: class NodeElementPart</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="10" y="108" height="17" width="193"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/NodeElementPart.java</marker_path>
+    <marker_text>class NodeElementPart</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="88">
+    <text>class ModelElementDirectEditPolicy</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/policy/ModelElementDirectEditPolicy.java
+Marker: class ModelElementDirectEditPolicy</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="48" y="192" height="17" width="210"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/policy/ModelElementDirectEditPolicy.java</marker_path>
+    <marker_text>class ModelElementDirectEditPolicy</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="89">
+    <text>class ModelNodeEditPolicy</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/policy/ModelNodeEditPolicy.java
+Marker: class ModelNodeEditPolicy</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="48" y="173" height="17" width="157"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/policy/ModelNodeEditPolicy.java</marker_path>
+    <marker_text>class ModelNodeEditPolicy</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="90">
+    <text>class NodeComponentEditPolicy</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/policy/NodeComponentEditPolicy.java
+Marker: class NodeComponentEditPolicy</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="47" y="155" height="16" width="168"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/policy/NodeComponentEditPolicy.java</marker_path>
+    <marker_text>class NodeComponentEditPolicy</marker_text>
+  </BookmarkModelElement>
+    </children>
+  </StateContainer>
+  <StateContainer id="91">
+    <text>Раскрывающийся контейнер</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="397" y="444" height="187" width="413"/>
+    <compact_bounds x="693" y="451" height="42" width="208"/>
+    <state>COMPACT</state>
+    <children>
+  <BookmarkModelElement id="92">
+    <text>public class SimpleContainerPart</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/SimpleContainerPart.java
+Marker: public class SimpleContainerPart</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="16" y="66" height="18" width="204"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/SimpleContainerPart.java</marker_path>
+    <marker_text>public class SimpleContainerPart</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="93">
+    <text>class StateContainer</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/StateContainer.java
+Marker: class StateContainer</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="14" y="21" height="23" width="205"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/StateContainer.java</marker_path>
+    <marker_text>class StateContainer</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="94">
+    <text>lass SimpleContainerFigure</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/figures/SimpleContainerFigure.java
+Marker: lass SimpleContainerFigure</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="14" y="94" height="25" width="202"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/figures/SimpleContainerFigure.java</marker_path>
+    <marker_text>lass SimpleContainerFigure</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="95">
+    <text>Здесь устанавливается layout </text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/figures/SimpleContainerFigure.java
+Marker: public SimpleContainerFigure</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="202" y="96" height="26" width="202"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/figures/SimpleContainerFigure.java</marker_path>
+    <marker_text>public SimpleContainerFigure</marker_text>
+  </BookmarkModelElement>
+    </children>
+  </StateContainer>
+  <StateContainer id="96">
+    <text>Layout</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="42" y="641" height="267" width="412"/>
+    <compact_bounds x="42" y="641" height="30" width="100"/>
+    <state>COMPACT</state>
+    <children>
+  <BookmarkModelElement id="97">
+    <text>class DelegatingLayoutManager</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/layout/DelegatingLayoutManager.java
+Marker: class DelegatingLayoutManager</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="15" y="17" height="24" width="216"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/layout/DelegatingLayoutManager.java</marker_path>
+    <marker_text>class DelegatingLayoutManager</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="98">
+    <text>class GraphLayoutManager</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/layout/GraphLayoutManager.java
+Marker: class GraphLayoutManager</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="75" y="50" height="25" width="220"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/layout/GraphLayoutManager.java</marker_path>
+    <marker_text>class GraphLayoutManager</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="99">
+    <text>class GraphXYLayout</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/layout/GraphXYLayout.java
+Marker: class GraphXYLayout</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="70" y="94" height="19" width="167"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/layout/GraphXYLayout.java</marker_path>
+    <marker_text>class GraphXYLayout</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="100">
+    <text>class SimpleContainerLayout</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/layout/SimpleContainerLayout.java
+Marker: class SimpleContainerLayout</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="76" y="122" height="22" width="197"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/layout/SimpleContainerLayout.java</marker_path>
+    <marker_text>class SimpleContainerLayout</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="101">
+    <text>Минимализация размеров</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/ModelElementPart.java
+Marker: protected void refreshVisuals()</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="73" y="171" height="34" width="242"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/ModelElementPart.java</marker_path>
+    <marker_text>protected void refreshVisuals()</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="102">
+    <text>public Object getConstraint</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/layout/GraphXYLayout.java
+Marker: public Object getConstraint</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="73" y="208" height="17" width="198"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/layout/GraphXYLayout.java</marker_path>
+    <marker_text>public Object getConstraint</marker_text>
+  </BookmarkModelElement>
+    </children>
+  </StateContainer>
+  <StateContainer id="103">
+    <text>ActiveElement</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="451" y="285" height="159" width="422"/>
+    <compact_bounds x="520" y="286" height="30" width="112"/>
+    <state>COMPACT</state>
+    <children>
+  <BookmarkModelElement id="104">
+    <text>class ActiveElement</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/ActiveElement.java
+Marker: class ActiveElement</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="19" y="14" height="22" width="136"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/ActiveElement.java</marker_path>
+    <marker_text>class ActiveElement</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="105">
+    <text>class ActiveElementFigure</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/figures/ActiveElementFigure.java
+Marker: class ActiveElementFigure</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="16" y="51" height="25" width="179"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/figures/ActiveElementFigure.java</marker_path>
+    <marker_text>class ActiveElementFigure</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="106">
+    <text>class ActiveElementPart</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/ActiveElementPart.java
+Marker: class ActiveElementPart</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="18" y="95" height="24" width="163"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/ActiveElementPart.java</marker_path>
+    <marker_text>class ActiveElementPart</marker_text>
+  </BookmarkModelElement>
+  <StickyNote id="107">
+    <text>Элемент который может быть в разных состояниях активности</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="196" y="6" height="67" width="207"/>
+  </StickyNote>
+    </children>
+  </StateContainer>
+  <StateContainer id="108">
+    <text>AntStandaloneTarget</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="291" y="394" height="143" width="398"/>
+    <compact_bounds x="302" y="393" height="39" width="190"/>
+    <state>COMPACT</state>
+    <children>
+  <BookmarkModelElement id="109">
+    <text>class AntStandaloneTarget</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/AntStandaloneTarget.java
+Marker: class AntStandaloneTarget</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="14" y="20" height="23" width="186"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/AntStandaloneTarget.java</marker_path>
+    <marker_text>class AntStandaloneTarget</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="110">
+    <text>class AntStandaloneTargetPropertyDialog</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/directedit/AntStandaloneTargetPropertyDialog.java
+Marker: class AntStandaloneTargetPropertyDialog</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="10" y="52" height="23" width="288"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/directedit/AntStandaloneTargetPropertyDialog.java</marker_path>
+    <marker_text>class AntStandaloneTargetPropertyDialog</marker_text>
+  </BookmarkModelElement>
+    </children>
+  </StateContainer>
+  <StateContainer id="111">
+    <text>Добавление новогоэлемента</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="39" y="581" height="453" width="777"/>
+    <compact_bounds x="39" y="581" height="30" width="219"/>
+    <state>COMPACT</state>
+    <children>
+  <BookmarkModelElement id="112">
+    <text>Schema Factory</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/factory/SchemaEditPartFactory.java
+Marker: class SchemaEditPartFactory</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="253" y="32" height="17" width="150"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/factory/SchemaEditPartFactory.java</marker_path>
+    <marker_text>class SchemaEditPartFactory</marker_text>
+  </BookmarkModelElement>
+  <StickyNote id="113">
+    <text>После добавления нового класса элементов в схему не забудь добавить его в фабрике элементов!!!</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 234}" />
+    <bounds x="25" y="28" height="91" width="197"/>
+  </StickyNote>
+  <StickyNote id="114">
+    <text>Контейнеры должны загружать ваш вновь добавленный элемент</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="25" y="135" height="65" width="194"/>
+  </StickyNote>
+  <BookmarkModelElement id="115">
+    <text>SimpleContainer.loadChildrenFromXml</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/SimpleContainer.java
+Marker: void loadChildrenFromXml</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="369" y="150" height="27" width="241"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/SimpleContainer.java</marker_path>
+    <marker_text>void loadChildrenFromXml</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="116">
+    <text>Schema.loadAsXml</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/Schema.java
+Marker: void loadAsXml</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="368" y="175" height="28" width="229"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/Schema.java</marker_path>
+    <marker_text>void loadAsXml</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="117">
+    <text>компановка Palette</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/editor/PaletteViewerCreator.java
+Marker: public PaletteRoot createPaletteRoot</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="255" y="214" height="17" width="158"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/editor/PaletteViewerCreator.java</marker_path>
+    <marker_text>public PaletteRoot createPaletteRoot</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="118">
+    <text>Schema.parseXml</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/Schema.java
+Marker: public static void parseXml</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="265" y="124" height="24" width="131"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/Schema.java</marker_path>
+    <marker_text>public static void parseXml</marker_text>
+  </BookmarkModelElement>
+  <StickyNote id="119">
+    <text>Если новый элемент будет использовать свой редактор свойств то нужно добавить его вызов, примерно такой:
+
+		NodeElement new_element = new NodeElement();
+		new_element.setPropertyLike(element);
+		property_dialog.setNodeElement(new_element);
+</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {50, 50, 255}" back_color="RGB {255, 255, 234}" />
+    <bounds x="22" y="247" height="131" width="410"/>
+  </StickyNote>
+    </children>
+  </StateContainer>
+  <StateContainer id="120">
+    <text>BookmarkModelElement</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="17" y="231" height="150" width="273"/>
+    <compact_bounds x="110" y="285" height="30" width="183"/>
+    <state>COMPACT</state>
+    <children>
+  <BookmarkModelElement id="121">
+    <text>class BookmarkModelElement</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/BookmarkModelElement.java
+Marker: class BookmarkModelElement</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="8" y="18" height="24" width="237"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/BookmarkModelElement.java</marker_path>
+    <marker_text>class BookmarkModelElement</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="122">
+    <text>class BookmarkModelElementPart</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/BookmarkModelElementPart.java
+Marker: class BookmarkModelElementPart</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="10" y="52" height="26" width="222"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/BookmarkModelElementPart.java</marker_path>
+    <marker_text>class BookmarkModelElementPart</marker_text>
+  </BookmarkModelElement>
+  <StateContainer id="123">
+    <text>TEXT!</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="123" y="24" height="0" width="0"/>
+    <compact_bounds x="20" y="20" height="30" width="100"/>
+    <state>STANDART</state>
+    <children>
+    </children>
+  </StateContainer>
+    </children>
+  </StateContainer>
+  <StateContainer id="124">
+    <text>Буфер обмена</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="40" y="446" height="247" width="549"/>
+    <compact_bounds x="40" y="446" height="30" width="111"/>
+    <state>COMPACT</state>
+    <children>
+  <BookmarkModelElement id="125">
+    <text>class SchemaClipboard</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/editor/SchemaClipboard.java
+Marker: class SchemaClipboard</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="36" y="16" height="24" width="163"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/editor/SchemaClipboard.java</marker_path>
+    <marker_text>class SchemaClipboard</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="126">
+    <text>class CopyAction</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/action/CopyAction.java
+Marker: class CopyAction</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="38" y="45" height="14" width="148"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/action/CopyAction.java</marker_path>
+    <marker_text>class CopyAction</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="127">
+    <text>class SchemaDiagramEditor</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/editor/SchemaDiagramEditor.java
+Marker: class SchemaDiagramEditor</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="36" y="165" height="20" width="190"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/editor/SchemaDiagramEditor.java</marker_path>
+    <marker_text>class SchemaDiagramEditor</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="128">
+    <text>void createActions()</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/editor/SchemaDiagramEditor.java
+Marker: void createActions()</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="91" y="184" height="24" width="166"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/editor/SchemaDiagramEditor.java</marker_path>
+    <marker_text>void createActions()</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="129">
+    <text>class PasteCommand</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/command/PasteCommand.java
+Marker: class PasteCommand</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="67" y="89" height="22" width="177"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/command/PasteCommand.java</marker_path>
+    <marker_text>class PasteCommand</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="130">
+    <text>Command getCreateCommand</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/policy/SchemaContainerEditPolicy.java
+Marker: protected Command getCreateCommand</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="212" y="68" height="25" width="273"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/policy/SchemaContainerEditPolicy.java</marker_path>
+    <marker_text>protected Command getCreateCommand</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="131">
+    <text>class PasteActions в меню</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/action/MenuActions.java
+Marker: static class PasteActions</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="243" y="163" height="30" width="196"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/action/MenuActions.java</marker_path>
+    <marker_text>static class PasteActions</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="132">
+    <text>class PasteActions</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/action/MenuActions.java
+Marker: static class PasteActions</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="37" y="65" height="23" width="156"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/action/MenuActions.java</marker_path>
+    <marker_text>static class PasteActions</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="133">
+    <text>void pasteAsXml</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/Schema.java
+Marker: void pasteAsXml</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="119" y="112" height="24" width="134"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/Schema.java</marker_path>
+    <marker_text>void pasteAsXml</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="134">
+    <text>void parseXml</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/Schema.java
+Marker: void parseXml</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="210" y="136" height="20" width="116"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/Schema.java</marker_path>
+    <marker_text>void parseXml</marker_text>
+  </BookmarkModelElement>
+    </children>
+  </StateContainer>
+  <StateContainer id="135">
+    <text>Zoom</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="39" y="754" height="77" width="231"/>
+    <compact_bounds x="39" y="754" height="30" width="100"/>
+    <state>COMPACT</state>
+    <children>
+  <BookmarkModelElement id="136">
+    <text>class LabelEditManager</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/directedit/LabelEditManager.java
+Marker: class LabelEditManager</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="13" y="14" height="24" width="189"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/directedit/LabelEditManager.java</marker_path>
+    <marker_text>class LabelEditManager</marker_text>
+  </BookmarkModelElement>
+    </children>
+  </StateContainer>
+  <StateContainer id="137">
+    <text>DirectEdit</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="39" y="701" height="521" width="1260"/>
+    <compact_bounds x="39" y="701" height="30" width="131"/>
+    <state>COMPACT</state>
+    <children>
+  <BookmarkModelElement id="138">
+    <text>void performDirectEdit()</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/ActiveElementPart.java
+Marker: void performDirectEdit()</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="23" y="28" height="23" width="193"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/ActiveElementPart.java</marker_path>
+    <marker_text>void performDirectEdit()</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="139">
+    <text>class ActiveElementDirectEditCommand</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/command/ActiveElementDirectEditCommand.java
+Marker: class ActiveElementDirectEditCommand</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="79" y="200" height="27" width="254"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/command/ActiveElementDirectEditCommand.java</marker_path>
+    <marker_text>class ActiveElementDirectEditCommand</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="140">
+    <text>class ActiveElementPropertyDialog</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/directedit/ActiveElementPropertyDialog.java
+Marker: class ActiveElementPropertyDialog</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="59" y="59" height="23" width="227"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/directedit/ActiveElementPropertyDialog.java</marker_path>
+    <marker_text>class ActiveElementPropertyDialog</marker_text>
+  </BookmarkModelElement>
+  <StickyNote id="141">
+    <text>В  методе performDirectEdit() открываем диалог свойств (ActiveElementPropertyDialog) и в случае возврата Ок создаем комманду (ActiveElementDirectEditCommand) в getDirectEditCommand() и запускаем ее на выполнение через стэк команд.
+ </text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {50, 50, 255}" back_color="RGB {255, 255, 234}" />
+    <bounds x="345" y="25" height="109" width="380"/>
+  </StickyNote>
+  <BookmarkModelElement id="142">
+    <text>Command getDirectEditCommand()</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/ActiveElementPart.java
+Marker: Command getDirectEditCommand(</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="56" y="129" height="28" width="245"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/ActiveElementPart.java</marker_path>
+    <marker_text>Command getDirectEditCommand(</marker_text>
+  </BookmarkModelElement>
+  <StickyNote id="143">
+    <text>ActiveElementPropertyDialog 
+В диалоге мы редактируем свойства копии элемента. После окончания редактирования вызывается метод CommitDirectEditChanges класса EditPart, в котором создается команда изменения свойств.</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {50, 50, 255}" back_color="RGB {255, 255, 234}" />
+    <bounds x="347" y="163" height="120" width="378"/>
+  </StickyNote>
+  <BookmarkModelElement id="144">
+    <text>public void CommitDirectEditChanges</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/part/ActiveElementPart.java
+Marker: public void CommitDirectEditChanges</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="94" y="260" height="31" width="245"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/part/ActiveElementPart.java</marker_path>
+    <marker_text>public void CommitDirectEditChanges</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="145">
+    <text>class NodeElementPropertyDialog</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/directedit/NodeElementPropertyDialog.java
+Marker: class NodeElementPropertyDialog</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="56" y="82" height="27" width="225"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/directedit/NodeElementPropertyDialog.java</marker_path>
+    <marker_text>class NodeElementPropertyDialog</marker_text>
+  </BookmarkModelElement>
+    </children>
+  </StateContainer>
+  <StateContainer id="146">
+    <text>BrowserUrlBookmark</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="505" y="393" height="174" width="423"/>
+    <compact_bounds x="505" y="393" height="40" width="174"/>
+    <state>COMPACT</state>
+    <children>
+  <BookmarkModelElement id="147">
+    <text>class BrowserUrlBookmark</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/model/BrowserUrlBookmark.java
+Marker: class BrowserUrlBookmark</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="19" y="10" height="24" width="197"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/model/BrowserUrlBookmark.java</marker_path>
+    <marker_text>class BrowserUrlBookmark</marker_text>
+  </BookmarkModelElement>
+  <BookmarkModelElement id="148">
+    <text>class BrowserUrlBookmarkPropertyDialog</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/directedit/BrowserUrlBookmarkPropertyDialog.java
+Marker: class BrowserUrlBookmarkPropertyDialog</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="18" y="47" height="22" width="258"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/directedit/BrowserUrlBookmarkPropertyDialog.java</marker_path>
+    <marker_text>class BrowserUrlBookmarkPropertyDialog</marker_text>
+  </BookmarkModelElement>
+    </children>
+  </StateContainer>
+  <StateContainer id="149">
+    <text>Интернет ссылки</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="608" y="554" height="359" width="608"/>
+    <compact_bounds x="608" y="554" height="44" width="165"/>
+    <state>COMPACT</state>
+    <children>
+  <StateContainer id="150">
+    <text>Перекодировки</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="20" y="12" height="151" width="275"/>
+    <compact_bounds x="20" y="12" height="30" width="172"/>
+    <state>COMPACT</state>
+    <children>
+  <BrowserUrlBookmark id="151">
+    <text>Java: Русские буквы и не только... </text>
+    <tooltip_text>Сергей Астахов
+sergeya@comita.spb.ru 
+
+Введение
+
+Некоторые проблемы настолько сложны, что нужно быть очень умным и очень хорошо
+ информированным, чтобы не быть уверенным в их решении.
+
+
+Лоренс Дж. Питер
+Peter's Almanac
+Кодировки
+
+Когда я только начинал программировать на языке C, первой моей программой (не считая 
+HelloWorld) была программа перекодировки текстовых файлов из основной кодировки ГОСТ-а 
+(помните такую? :-) в альтернативную. Было это в далёком 1
+</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="14" y="12" height="20" width="244"/>
+    <params url="http://www.getinfo.ru/article296.html"/>
+  </BrowserUrlBookmark>
+  <BrowserUrlBookmark id="152">
+    <text>Перекодировка в юникод</text>
+    <tooltip_text>Автор: Сергей Бердачук
+
+
+Java Cyrillic
+
+
+Перед большинством java-программистов рано или поздно встает проблема локализации созданных продуктов. И, несмотря на то, что методика локализации достаточно хорошо описана, например можно обратиться к руководству по адресу http://java.sun.com/docs/books/tutorial/i18n/index.html, существует проблема непосредственно перекодировки строк в юникод.
+</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="14" y="42" height="20" width="200"/>
+    <params url="http://lib.juga.ru/article/articleview/205/1/5"/>
+  </BrowserUrlBookmark>
+    </children>
+  </StateContainer>
+  <StateContainer id="153">
+    <text>J2EE</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="26" y="70" height="115" width="344"/>
+    <compact_bounds x="26" y="70" height="30" width="100"/>
+    <state>COMPACT</state>
+    <children>
+  <BrowserUrlBookmark id="154">
+    <text>Пример использования XPFE/J2EE и SOAP</text>
+    <tooltip_text>Пример использования XPFE/J2EE и SOAP для построения распределенных приложений
+	
+
+Автор: Прокопьев Евгений
+	
+
+</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="24" y="8" height="20" width="294"/>
+    <params url="http://lib.juga.ru/article/articleview/222/1/0"/>
+  </BrowserUrlBookmark>
+    </children>
+  </StateContainer>
+  <BrowserUrlBookmark id="155">
+    <text>проблема &lt;xml version="1.0" encoding="UTF-8"&gt;</text>
+    <tooltip_text>Создаю XML вот таким способом
+
+DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+DocumentBuilder builder = factory.newDocumentBuilder();
+doc = builder.newDocument();
+// и т.д.
+
+по умолчанию он ставит кодироку UTF-8(?xml version="1.0" encoding="UTF-8"?) как туда свою кодировку засандалить?
+
+
+А&gt;DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+А&gt;DocumentBuilder builder = factory.newDocumentBuilder();
+А&gt;Document doc = builder.newDocument();
+
+А&gt;Transformer transformer = TransformerFactory.newInstance().newTransformer();
+А&gt;transformer.setOutputProperty(OutputKeys.ENCODING, "ANSI");
+
+А&gt;transformer.transform(new DOMSource(doc), new StreamResult(new FileOutputStream("my.xml")));
+</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="368" y="36" height="20" width="200"/>
+    <params url="http://www.rsdn.ru/Forum/?mid=807091"/>
+  </BrowserUrlBookmark>
+  <BrowserUrlBookmark id="156">
+    <text>Страница Сергея Бердачука.</text>
+    <tooltip_text>    *  Добавлено описание добавления панели (View) 2006.05.21
+    * Для оперативного общения по проекту "File Arranger" и сводки новостей создана группа рассылки 2006.05.12
+    * Добавлена глава "Действия (Actions) системного меню" 2006.05.12
+    * Добавлена глава "Аранжировщик файлов. Hello, world" 2006.05.04New
+    * Добавлена глава "RCP На примерах. Проект за пять минут." 2006.04.18
+    * Добавлен список литературы по технологиям платформы eclipse. 2006.04.18
+    * Добавлен черновик высокоуровнего дизайна в HTML формате 2006.04.18
+    * Добавлен форум, так что приглашаем всех 2006.04.14
+    * Выложен на обсуждение черновик дизайна интерфейса пользователя версия 0.1. 2006.04.09
+    * Добавлена диаграмма использования файлового менеджера 2006.03.30
+    * Стартовал open source проект по созданию файлового менеджера (File Arranger) с использованием технологии Eclipse RCP 2006.02.28
+
+Книги
+
+    * Создание Web приложений в среде Eclipse WTP 2006.02.05
+    * Новая книга о технологии SWT и JFace (в стадии создания)
+
+</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="373" y="95" height="20" width="200"/>
+    <params url="http://www.forjava.dev.juga.ru/"/>
+  </BrowserUrlBookmark>
+  <StateContainer id="157">
+    <text>Рабочие ссылки</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="28" y="128" height="175" width="405"/>
+    <compact_bounds x="28" y="128" height="30" width="164"/>
+    <state>COMPACT</state>
+    <children>
+  <BrowserUrlBookmark id="158">
+    <text>main ODU_DATA   ETA из РДТЕХа</text>
+    <tooltip_text>COM4 / COM4</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="26" y="23" height="20" width="259"/>
+    <params url="http://onyx.srv.rdtex.ru:7777/pls/COM_GXPK_ETA/com_ODU_DATA.main_upload"/>
+  </BrowserUrlBookmark>
+  <BrowserUrlBookmark id="159">
+    <text>config  ODU_DATA  ETA из РДТЕХа</text>
+    <tooltip_text>COM4/COM4</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="26" y="57" height="20" width="253"/>
+    <params url="http://onyx.srv.rdtex.ru:7777/pls/COM_GXPK_ETA/com_odu.config"/>
+  </BrowserUrlBookmark>
+    </children>
+  </StateContainer>
+  <StateContainer id="160">
+    <text>Java</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="37" y="208" height="87" width="238"/>
+    <compact_bounds x="20" y="20" height="30" width="100"/>
+    <state>STANDART</state>
+    <children>
+  <BrowserUrlBookmark id="161">
+    <text>thumbnail for a given image</text>
+    <tooltip_text>  import java.awt.Graphics;
+    import java.awt.Image;
+    import java.awt.image.BufferedImage;
+    import java.io.File;
+    import java.io.IOException;
+    import javax.imageio.ImageIO;
+    import javax.swing.ImageIcon;
+    
+    public class CreateThumbnail 
+    { 
+    
+        public static final int VERTICAL = 0;
+        public static final int HORIZONTAL = 1;
+    
+        public static final String IMAGE_JPEG = "jpeg";
+        public static final String IMAGE_JPG = "jpg";
+        public static final String IMAGE_PNG = "png";
+    
+        private ImageIcon image;
+        private ImageIcon thumb;
+    
+        public CreateThumbnail(Image image)
+        {
+            this.image = new ImageIcon(image); 
+        }
+        
+        public CreateThumbnail(String fileName)
+        {
+            image = new ImageIcon(fileName);
+        }
+        
+        public Image getThumbnail(int size, int dir)
+        {
+            if (dir == HORIZONTAL)
+            {
+                thumb = new ImageIcon(
+                    image.getImage().getScaledInstance(
+                        size, -1, Image.SCALE_SMOOTH)
+                );
+            }
+            else
+            {
+                thumb = new ImageIcon(
+                    image.getImage().getScaledInstance(
+                        -1, size, Image.SCALE_SMOOTH)
+                );
+            }
+            return thumb.getImage();
+        }
+        
+        public Image getThumbnail(int size, int dir, int scale)
+        {
+            if (dir == HORIZONTAL)
+            {
+                thumb = new ImageIcon(
+                    image.getImage().getScaledInstance(size, -1, scale)
+                );
+            }
+            else
+            {
+                thumb = new ImageIcon(
+                    image.getImage().getScaledInstance(-1, size, scale)
+                );
+            }
+            return thumb.getImage();
+        }
+        
+        public void saveThumbnail(File file, String imageType)
+        {
+            if (thumb != null)
+            {
+                BufferedImage bi = new BufferedImage(
+                    thumb.getIconWidth(), 
+                    thumb.getIconHeight(), 
+                    BufferedImage.TYPE_INT_RGB
+                );
+                Graphics g = bi.getGraphics();
+                g.drawImage(thumb.getImage(), 0, 0, null);
+                try
+                {
+                    ImageIO.write(bi, imageType, file);
+                }
+                catch (IOException ioe)
+                {
+                    System.out.println("Error occured saving thumbnail");
+                }
+            }
+            else
+            {
+                System.out.println("Thumbnail has not yet been created");
+            }
+        }
+        
+        public static void main(String [] args)
+        {
+            CreateThumbnail ct = new CreateThumbnail("image.jpg");
+            ct.getThumbnail(100, CreateThumbnail.HORIZONTAL);
+            ct.saveThumbnail(new File("thumb.jpg"), CreateThumbnail.IMAGE_JPEG);
+        }
+    
+    }       </tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="7" y="9" height="20" width="200"/>
+    <params url="http://jcsnippets.atspace.com/java/gui-graphics/create-thumbnail.html"/>
+  </BrowserUrlBookmark>
+    </children>
+  </StateContainer>
+    </children>
+  </StateContainer>
+  <StateContainer id="162">
+    <text>Иконки   Images</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="39" y="815" height="110" width="213"/>
+    <compact_bounds x="39" y="815" height="30" width="150"/>
+    <state>COMPACT</state>
+    <children>
+  <BookmarkModelElement id="163">
+    <text>class SchemaImages</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/editor/SchemaImages.java
+Marker: class SchemaImages</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="25" y="10" height="28" width="171"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/editor/SchemaImages.java</marker_path>
+    <marker_text>class SchemaImages</marker_text>
+  </BookmarkModelElement>
+    </children>
+  </StateContainer>
+  <AntStandaloneTarget id="164">
+    <text>Ant Standalone Target</text>
+    <tooltip_text>Ant build file: c:\temp\build.xml
+Target: init</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="357" y="579" height="24" width="190"/>
+    <params build_file="c:\temp\build.xml" target_name="init" ant_properties=""/>
+  </AntStandaloneTarget>
+  <BrowserUrlBookmark id="165">
+    <text>BrowserUrlBookmark</text>
+    <tooltip_text>Url: http://info.rdtex.ru/</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="346" y="754" height="25" width="183"/>
+    <params url="http://info.rdtex.ru/"/>
+  </BrowserUrlBookmark>
+  <AntStandaloneTarget id="166">
+    <text>Ant Standalone Target</text>
+    <tooltip_text>Ant build file: c:\temp\build.xml
+Target: init</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="346" y="783" height="24" width="182"/>
+    <params build_file="c:\temp\build.xml" target_name="init" ant_properties=""/>
+  </AntStandaloneTarget>
+  <AntStandaloneTarget id="167">
+    <text>Ant Standalone Target</text>
+    <tooltip_text>Ant build file: c:\temp\build.xml
+Target: init</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="357" y="549" height="27" width="190"/>
+    <params build_file="c:\temp\build.xml" target_name="clean" ant_properties=""/>
+  </AntStandaloneTarget>
+  <StateContainer id="168">
+    <text>Аспекты</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="39" y="868" height="175" width="336"/>
+    <compact_bounds x="39" y="868" height="30" width="100"/>
+    <state>COMPACT</state>
+    <children>
+    </children>
+  </StateContainer>
+  <StateContainer id="169">
+    <text>MenuBar</text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="257" y="858" height="143" width="327"/>
+    <compact_bounds x="386" y="885" height="30" width="100"/>
+    <state>STANDART</state>
+    <children>
+  <BookmarkModelElement id="170">
+    <text>void buildChangeLayoutAction</text>
+    <tooltip_text>Project: org.yava.codemark
+Path: /org.yava.codemark/src/org/yava/codemark/action/SchemaActionBarContributor.java
+Marker: void buildChangeLayoutAction</tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <bounds x="19" y="9" height="24" width="211"/>
+    <project_name>org.yava.codemark</project_name>
+    <marker_path>/org.yava.codemark/src/org/yava/codemark/action/SchemaActionBarContributor.java</marker_path>
+    <marker_text>void buildChangeLayoutAction</marker_text>
+  </BookmarkModelElement>
+    </children>
+  </StateContainer>
+  <ModelConnection id="171" id_out="5" id_in="82">
+    <text></text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <connection_type>DEFAULT</connection_type>
+  </ModelConnection>
+  <ModelConnection id="172" id_out="13" id_in="72">
+    <text></text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <connection_type>DEFAULT</connection_type>
+  </ModelConnection>
+  <ModelConnection id="173" id_out="19" id_in="103">
+    <text></text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <connection_type>DEFAULT</connection_type>
+  </ModelConnection>
+  <ModelConnection id="174" id_out="54" id_in="72">
+    <text></text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <connection_type>DEFAULT</connection_type>
+  </ModelConnection>
+  <ModelConnection id="175" id_out="66" id_in="72">
+    <text></text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <connection_type>DEFAULT</connection_type>
+  </ModelConnection>
+  <ModelConnection id="176" id_out="75" id_in="13">
+    <text></text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <connection_type>DEFAULT</connection_type>
+  </ModelConnection>
+  <ModelConnection id="177" id_out="82" id_in="13">
+    <text></text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <connection_type>DEFAULT</connection_type>
+  </ModelConnection>
+  <ModelConnection id="178" id_out="91" id_in="19">
+    <text></text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <connection_type>DEFAULT</connection_type>
+  </ModelConnection>
+  <ModelConnection id="179" id_out="103" id_in="82">
+    <text></text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <connection_type>DEFAULT</connection_type>
+  </ModelConnection>
+  <ModelConnection id="180" id_out="108" id_in="103">
+    <text></text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <connection_type>DEFAULT</connection_type>
+  </ModelConnection>
+  <ModelConnection id="181" id_out="120" id_in="82">
+    <text></text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <connection_type>DEFAULT</connection_type>
+  </ModelConnection>
+  <ModelConnection id="182" id_out="146" id_in="103">
+    <text></text>
+    <tooltip_text></tooltip_text>
+    <colors fore_color="RGB {0, 0, 255}" back_color="RGB {255, 255, 255}" />
+    <connection_type>DEFAULT</connection_type>
+  </ModelConnection>
+</Schema>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ConfigTree version="0.0.2">
+<TreeNode
+id="-1"
+name="sqlexplorer"
+>
+<properties>
+</properties>
+<BookmarkNode
+id="-1"
+name="table element for a resultset  - (DataSetTable)"
+>
+<properties>
+<resource>
+DataSetTable.java
+</resource>
+<path>
+sqlexplorer/src/net/sourceforge/sqlexplorer/dataset
+</path>
+<location>
+52
+</location>
+<selection>
+public class DataSetTable
+</selection>
+</properties>
+</BookmarkNode>
+<BookmarkNode
+id="-1"
+name="class SQLDriverManager"
+>
+<properties>
+<resource>
+SQLDriverManager.java
+</resource>
+<path>
+sqlexplorer/src/net/sourceforge/sqlexplorer
+</path>
+<location>
+39
+</location>
+<selection>
+public class SQLDriverManager
+</selection>
+</properties>
+<BookmarkNode
+id="-1"
+name="getConnection()"
+>
+<properties>
+<resource>
+SQLDriverManager.java
+</resource>
+<path>
+sqlexplorer/src/net/sourceforge/sqlexplorer
+</path>
+<location>
+79
+</location>
+<selection>
+public SQLConnection getConnection
+</selection>
+</properties>
+</BookmarkNode>
+<Java2HtmlNode
+id="-1"
+name="Создать коннекцию можно так:"
+>
+<properties>
+<header>
+Создать коннекцию можно так:
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+new SQLConnection(jdbcConn, null);
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+</BookmarkNode>
+<BookmarkNode
+id="-1"
+name="class SQLExecution"
+>
+<properties>
+<resource>
+SQLExecution.java
+</resource>
+<path>
+sqlexplorer/src/net/sourceforge/sqlexplorer/sqlpanel
+</path>
+<location>
+37
+</location>
+<selection>
+public class SQLExecution
+</selection>
+</properties>
+<BookmarkNode
+id="-1"
+name="AbstractSQLExecution"
+>
+<properties>
+<resource>
+AbstractSQLExecution.java
+</resource>
+<path>
+sqlexplorer/src/net/sourceforge/sqlexplorer/sqlpanel
+</path>
+<location>
+40
+</location>
+<selection>
+public abstract class AbstractSQLExecution
+</selection>
+</properties>
+</BookmarkNode>
+</BookmarkNode>
+<BookmarkNode
+id="-1"
+name="class SessionTreeNode"
+>
+<properties>
+<resource>
+SessionTreeNode.java
+</resource>
+<path>
+sqlexplorer/src/net/sourceforge/sqlexplorer/sessiontree/model
+</path>
+<location>
+52
+</location>
+<selection>
+public class SessionTreeNode
+</selection>
+</properties>
+</BookmarkNode>
+<BookmarkNode
+id="-1"
+name="class OpenConnectionJob"
+>
+<properties>
+<resource>
+OpenConnectionJob.java
+</resource>
+<path>
+sqlexplorer/src/net/sourceforge/sqlexplorer/connections
+</path>
+<location>
+40
+</location>
+<selection>
+public class OpenConnectionJob
+</selection>
+</properties>
+</BookmarkNode>
+</TreeNode>
+</ConfigTree>

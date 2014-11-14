@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ora Confex Plug-in
+Bundle-SymbolicName: net.confex.db.ora;singleton:=true
+Bundle-Version: 0.9.16
+Require-Bundle: net.confex.db,
+ net.confex,
+ org.eclipse.swt,
+ org.eclipse.ui,
+ org.eclipse.core.runtime
+Eclipse-LazyStart: true
+Bundle-Vendor: erv
+Bundle-Activator: net.confex.db.ora.Activator
+Export-Package: net.confex.db.ora
+Bundle-ClassPath: lib/classes12.jar,
+ .

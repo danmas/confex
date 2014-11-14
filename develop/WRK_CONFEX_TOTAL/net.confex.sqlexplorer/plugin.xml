@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   	<extension
+   		point="net.confex.treeNodeFactorys">
+         <factory
+	         class="net.confex.sqlexplorer.model.NodeFactory">
+         </factory>
+   	</extension>
+	<extension
+       point="net.confex.confexMessages">
+         <messages
+	         class="net.confex.sqlexplorer.translations.Messages">
+         </messages>
+	</extension>
+
+	<extension point="org.eclipse.ui.popupMenus">
+	  <viewerContribution
+	      id="net.confex.sqlexplorer.contributions"
+	      targetID="net.confex.view.navigationView">
+	    <action
+           class="net.confex.sqlexplorer.actions.AddSqlResultCompositeAction"
+           icon="icons/dbexplorer16x16x32.png"
+           id="net.confex.sqlexplorer.actions.AddSqlResultCompositeAction"
+           label="Sql Result " 
+           menubarPath="AddOther/additions"
+           />
+	  </viewerContribution>
+	</extension>
+	
+ <extension
+       point="org.eclipse.ui.views">
+      <category
+            id="net.confex"
+            name="Confex">
+      </category>
+
+      <view
+            category="net.confex"
+            name="Confex Sql Result Table"
+            allowMultiple="true"
+            icon="icons/dbexplorer16x16x32.png"
+            class="net.confex.sqlexplorer.model.SqlResultsViewMy"
+            id="net.confex.sqlexplorer.model.SqlResultsViewMy">
+      </view>
+ </extension>
+
+</plugin>

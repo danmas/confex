@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   	<extension
+   		point="net.confex.treeNodeFactorys">
+         <factory
+	         class="net.confex.customxml.NodeFactory">
+         </factory>
+   	</extension>
+	<extension
+       point="net.confex.confexMessages">
+         <messages
+	         class="net.confex.customxml.translations.Messages">
+         </messages>
+	</extension>
+	<extension point="org.eclipse.ui.popupMenus">
+	  <viewerContribution
+	      id="net.confex.customxml.contributions"
+	      targetID="net.confex.view.navigationView">
+	    <action
+           class="net.confex.customxml.java3D.AddCustomXmlJava3DNodeAction"
+           enablesFor="?"
+           icon="icons/custom_xml_node.gif"
+           id="net.confex.customxml.java3D.AddCustomXmlJava3DNodeAction"
+           label="Add Custom Xml Java3D"
+           menubarPath="AddOther/additions"/>
+	  </viewerContribution>
+	</extension>
+	<extension point="org.eclipse.ui.popupMenus">
+	  <viewerContribution
+	      id="net.confex.customxml.contributions"
+	      targetID="net.confex.view.navigationView">
+	    <action
+           class="net.confex.customxml.jogl.AddCustomXmlJoglNodeAction"
+           enablesFor="?"
+           icon="icons/custom_xml_node.gif"
+           id="net.confex.customxml.jogl.AddCustomXmlJoglNodeAction"
+           label="Add Custom Xml Jogl (OpenGL)"
+           menubarPath="AddOther/additions"/>
+	  </viewerContribution>
+	</extension>
+ <extension
+       id="product"
+       point="org.eclipse.core.runtime.products">
+    <product
+          application="net.confex.application"
+          name="Grace 3D">
+       <property
+             name="windowImages"
+             value="icons/sample.gif">
+       </property>
+       <property
+             name="aboutText"
+             value="%aboutText">
+       </property>
+       <property
+             name="aboutImage"
+             value="product_lg.gif">
+       </property>
+       <property
+             name="startupForegroundColor"
+             value="FFFF00">
+       </property>
+       <property
+             name="startupProgressRect"
+             value="5,283,403,15">
+       </property>
+       <property
+             name="startupMessageRect"
+             value="7,267,445,20">
+       </property>
+       <property
+             name="appName"
+             value="Grace 3D">
+       </property>
+       <property
+             name="preferenceCustomization"
+             value="plugin_customization.ini">
+       </property>
+    </product>
+ </extension>
+</plugin>

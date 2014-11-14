@@ -1,0 +1,9 @@
+LABEL_GROOVY=Groovy:
+
+ABOUT_GroovyNode=Узел исполнения скриптового языка Groovy.
+ABOUT_GroovyClassNode=Узел класса языка Groovy.
+
+ABOUT_GroovySwtNode=SWT groovy скрипт исполняемый в конфексе
+
+ACTION_ADD_GROOVYNODE=Добавить Groovy скрипт
+ACTION_ADD_GROOVYCLASSNODE=Добавить класс Groovy

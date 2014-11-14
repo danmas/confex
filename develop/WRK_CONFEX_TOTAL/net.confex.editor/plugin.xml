@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="Sample Confex Editor"
+            extensions="confex"
+            icon="icons/sample.gif"
+            contributorClass="net.confex.editor.editors.ConfexEditorContributor"
+            class="net.confex.editor.editors.ConfexEditor"
+            id="net.confex.editor.editors.ConfexEditor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="Confex Wizards"
+            id="net.confex.editor">
+      </category>
+      <wizard
+            name="Confex  file"
+            icon="icons/sample.gif"
+            category="net.confex.editor"
+            class="net.confex.editor.wizards.SampleNewWizard"
+            id="net.confex.editor.wizards.SampleNewWizard">
+      </wizard>
+   </extension>
+
+   <extension
+         point="net.confex.treeNodeFactorys">
+         <factory
+	         class="net.confex.editor.tree.NodeFactory">
+         </factory>
+   </extension>
+
+	<extension point="org.eclipse.ui.popupMenus">
+	  <viewerContribution
+	      id="net.confex.editor.tree.contributions"
+	      targetID="net.confex.view.navigationView">
+	    <action
+           class="net.confex.editor.actions.AddJavaNodeAction"
+           enablesFor="?"
+           icon="icons/eclipse icons/java_file.gif"
+           id="net.confex.editor.actions.AddJavaNodeAction"
+           label="Add Java Node"
+           menubarPath="AddOther/additions"
+           />
+	    <action
+           class="net.confex.editor.actions.AddBookmarkNodeAction"
+           enablesFor="?"
+           icon="icons/eclipse icons/eview16/bkmrk_nav.gif"
+           id="net.confex.editor.actions.AddBookmarkNodeAction"
+           label="Add Bookmark"
+           menubarPath="AddOther/additions"/>
+	  </viewerContribution>
+	</extension>
+
+
+</plugin>

@@ -1,0 +1,12 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.gmf.runtime.diagram.ui.printing.render,1.1.2.v20080916-2008,org.eclipse.gmf.runtime.diagram.ui.printing.render,1233928621569
+stopped,bundle,org.eclipse.m2m.qvt.oml.runtime.ui,1.0.1.v20080917-1645,org.eclipse.m2m.qvt.oml.runtime.ui,1233928621570
+stopped,bundle,org.eclipse.m2m.qvt.oml.runtime,1.0.1.v20080917-1645,org.eclipse.m2m.qvt.oml.runtime,1233928621570
+stopped,bundle,org.eclipse.ui.externaltools,3.2.0.v20080514-1542,org.eclipse.ui.externaltools,1233928621570
+stopped,bundle,org.eclipse.jet.ui,0.9.0.v20080527,org.eclipse.jet.ui,1233928621570
+stopped,bundle,org.eclipse.m2m.atl.adt.editor,2.0.1.v200809170426,org.eclipse.m2m.atl.adt.editor,1233928621570
+stopped,bundle,org.eclipse.m2m.atl.engine.emfvm,2.0.1.v200809170426,org.eclipse.m2m.atl.engine.emfvm,1233928621573
+stopped,bundle,org.eclipse.m2m.atl.adt.debug,2.0.1.v200809170426,org.eclipse.m2m.atl.adt.debug,1233928621574
+stopped,bundle,org.eclipse.m2m.atl.adt.perspective,2.0.1.v200809170426,org.eclipse.m2m.atl.adt.perspective,1233928621575
+stopped,bundle,org.eclipse.m2m.qvt.oml.common.ui,1.0.1.v20080917-1645,org.eclipse.m2m.qvt.oml.common.ui,1233928621576
+stopped,bundle,org.eclipse.m2m.qvt.oml.project,1.0.1.v20080917-1645,org.eclipse.m2m.qvt.oml.project,1233928621576
