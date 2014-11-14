@@ -1,4 +1,0 @@
-INDEX VERSION 1.126+C:\YandexDisk\FLASH\WRK\DG2J\.metadata\.plugins\org.eclipse.jdt.core
-1458629415.index
-3617855988.index
-3297158048.index
