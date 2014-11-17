@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="net.confex.app" modificationStamp="270" version="1.2">
+    <package visibility="1">
+        <fragment handle="=net.confex.app/src&lt;net.confex.app.core"/>
+        <type handle="=net.confex.app/src&lt;net.confex.app.core{ITree.java[ITree" modificationStamp="1788" restrictions="0" visibility="0"/>
+        <type handle="=net.confex.app/src&lt;net.confex.app.core{IModel.java[IModel" modificationStamp="1787" restrictions="0" visibility="0"/>
+        <type handle="=net.confex.app/src&lt;net.confex.app.core{IConfexChangeListener.java[IConfexChangeListener" modificationStamp="1784" restrictions="0" visibility="0"/>
+        <type handle="=net.confex.app/src&lt;net.confex.app.core{IElement.java[IElement" modificationStamp="1786" restrictions="0" visibility="0"/>
+        <type handle="=net.confex.app/src&lt;net.confex.app.core{IConfexDelta.java[IConfexDelta" modificationStamp="1785" restrictions="0" visibility="0"/>
+        <type handle="=net.confex.app/src&lt;net.confex.app.core{IConfexChangeEvent.java[IConfexChangeEvent" modificationStamp="1783" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.app/src&lt;net.confex.app.views"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.app/src&lt;net.confex.app.wizards"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.app/src&lt;net.confex.app.workbench"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.app/src&lt;net.confex.app.perspectives"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.confex.app/src&lt;net.confex.app"/>
+    </package>
+</component>

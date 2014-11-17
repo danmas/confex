@@ -1,33 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="dependenciesView">
-	</section>
-	<section name="ProductExportWizard">
-		<item value="Generate source bundles" key="exportSourceFormat"/>
-		<item value="false" key="p2metadata"/>
-		<item value="/net.confex/net.confex.all.product" key="productConfig0"/>
-		<item value="connfex 0.9.3" key="productRoot"/>
-		<item value="/net.confex/net.confex.product" key="productConfig4"/>
-		<item value="/net.confex/test.product" key="productConfig3"/>
-		<item value="/net.confex/net.confex.java3d.product" key="productConfig2"/>
-		<item value="/net.confex/net.confex.all.product" key="productConfig1"/>
-		<item value="true" key="syncProduct"/>
-		<item value="true" key="exportSource"/>
-		<item value="/net.confex/net.confex.osgi.product" key="productConfig5"/>
-		<item value="/home/roman/WRK/CONFEX" key="destination3"/>
-		<item value="true" key="exportDirectory"/>
-		<item value="E:\ERV\CONFEX_NEW\WRK_CONFEX_TOTAL\tmp" key="destination2"/>
-		<item value="C:\YandexDisk\FLASH\CONFEX\tmp" key="destination1"/>
-		<item value="C:\YandexDisk\FLASH\CONFEX\tmp" key="destination0"/>
-		<item value="true" key="allowBinaryCycles"/>
-	</section>
 	<section name="quick_assist_proposal_size">
-	</section>
-	<section name="pde_compiler_errorwarnings_block">
-		<item value="false" key="3"/>
-		<item value="false" key="2"/>
-		<item value="false" key="1"/>
-		<item value="true" key="0"/>
-		<item value="false" key="4"/>
 	</section>
 </section>

@@ -1,344 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="29" version="2.0">
 <workbenchAdvisor/>
-<window height="780" maximized="true" width="1036" x="5" y="24">
+<window height="728" width="1024" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="126" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="net.confex.editor.editors.ConfexEditor" itemType="typePlaceholder" x="38" y="28"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="141" y="22"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="103" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="103" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xsl.ui.design.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="206" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.pde.ui.buildEditor" itemType="typePlaceholder" x="38" y="22"/>
-<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.pde.ui.productEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.pde.ui.manifestEditor" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1228637282523" focus="true" label="Workspace - Java">
+<page aggregateWorkingSetId="Aggregate for window 1416051160564" focus="true" label="Workspace - Plug-in Development">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
-<part id="9"/>
-<part id="10"/>
-<part id="11"/>
-<part id="12"/>
-<part id="13"/>
-<part id="14"/>
-<part id="15"/>
-<part id="16"/>
-<part id="17"/>
-<part id="18"/>
-<part id="19"/>
-<part id="20"/>
-<part id="21"/>
-<part id="22"/>
-<part id="23"/>
-<part id="24"/>
-<part id="25"/>
-<part id="26"/>
-<part id="27"/>
-<part id="28"/>
-<part id="29"/>
-<part id="30"/>
-<part id="31"/>
-<part id="32"/>
-<part id="33"/>
-<part id="34"/>
-<part id="35"/>
-<part id="36"/>
-<part id="37"/>
-<part id="38"/>
-<part id="39"/>
-<part id="40"/>
-<part id="41"/>
-<part id="42"/>
-<part id="43"/>
-<part id="44"/>
-<part id="45"/>
-<part id="46"/>
-<part id="47"/>
-<part id="48"/>
-<part id="49"/>
-<part id="50"/>
-<part id="51"/>
-<part id="52"/>
-<part id="53"/>
-<part id="54"/>
-<part id="55"/>
-<part id="56"/>
-<part id="57"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Constants.java" partName="Constants.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/src/net/confex/Constants.java" title="Constants.java" tooltip="net.confex/src/net/confex/Constants.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/net/confex/Constants.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="81" selectionTopPixel="37"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AddCompositeFormViewNodeAction.java" partName="AddCompositeFormViewNodeAction.java" path="/home/roman/WRK/WRK_CONFEX/net.confex/src/net/confex/action/AddCompositeFormViewNodeAction.java" title="AddCompositeFormViewNodeAction.java" tooltip="net.confex/src/net/confex/action/AddCompositeFormViewNodeAction.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/net/confex/action/AddCompositeFormViewNodeAction.java"/>
-<editorState selectionLength="0" selectionOffset="1293"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConfexPlugin.java" partName="ConfexPlugin.java" path="/home/roman/WRK/WRK_CONFEX/net.confex/src/net/confex/application/ConfexPlugin.java" title="ConfexPlugin.java" tooltip="net.confex/src/net/confex/application/ConfexPlugin.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/net/confex/application/ConfexPlugin.java"/>
-<editorState selectionLength="0" selectionOffset="81"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NavigationView.java" partName="NavigationView.java" path="E:/ERV/CONFEX_NEW/WRK_CONFEX_TOTAL/net.confex/src/net/confex/views/NavigationView.java" title="NavigationView.java" tooltip="net.confex/src/net/confex/views/NavigationView.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/net/confex/views/NavigationView.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6193" selectionTopPixel="825"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SelectionBookmarkNode.java" partName="SelectionBookmarkNode.java" path="/home/roman/WRK/WRK_CONFEX/net.confex.editor/src/net/confex/editor/tree/SelectionBookmarkNode.java" title="SelectionBookmarkNode.java" tooltip="net.confex.editor/src/net/confex/editor/tree/SelectionBookmarkNode.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.editor/src/net/confex/editor/tree/SelectionBookmarkNode.java"/>
-<editorState selectionLength="0" selectionOffset="807"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SaveAction.java" partName="SaveAction.java" path="/home/roman/WRK/WRK_CONFEX/net.confex/src/net/confex/action/SaveAction.java" title="SaveAction.java" tooltip="net.confex/src/net/confex/action/SaveAction.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/net/confex/action/SaveAction.java"/>
-<editorState selectionLength="0" selectionOffset="1579"/>
-</editor>
-<editor id="org.eclipse.pde.ui.manifestEditor" name="plugin.xml" partName="net.confex" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/plugin.xml" title="net.confex" tooltip="net.confex/plugin.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/plugin.xml"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="MANIFEST.MF" partName="MANIFEST.MF" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.groovy/META-INF/MANIFEST.MF" title="MANIFEST.MF" tooltip="net.confex.groovy/META-INF/MANIFEST.MF" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.groovy/META-INF/MANIFEST.MF"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="2548"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="MANIFEST.MF" partName="MANIFEST.MF" path="E:/ERV/CONFEX_NEW/WRK_CONFEX_TOTAL/net.confex.db.mysql/META-INF/MANIFEST.MF" title="MANIFEST.MF" tooltip="net.confex.db.mysql/META-INF/MANIFEST.MF" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.db.mysql/META-INF/MANIFEST.MF"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="MANIFEST.MF" partName="MANIFEST.MF" path="E:/ERV/CONFEX_NEW/WRK_CONFEX_TOTAL/net.confex.db/META-INF/MANIFEST.MF" title="MANIFEST.MF" tooltip="net.confex.db/META-INF/MANIFEST.MF" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.db/META-INF/MANIFEST.MF"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="MANIFEST.MF" partName="MANIFEST.MF" path="E:/ERV/CONFEX_NEW/WRK_CONFEX_TOTAL/net.confex.schema/META-INF/MANIFEST.MF" title="MANIFEST.MF" tooltip="net.confex.schema/META-INF/MANIFEST.MF" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.schema/META-INF/MANIFEST.MF"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="MANIFEST.MF" partName="MANIFEST.MF" path="E:/ERV/CONFEX_NEW/WRK_CONFEX_TOTAL/oracle9i.jdbc.driver/META-INF/MANIFEST.MF" title="MANIFEST.MF" tooltip="oracle9i.jdbc.driver/META-INF/MANIFEST.MF" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/oracle9i.jdbc.driver/META-INF/MANIFEST.MF"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="MANIFEST.MF" partName="MANIFEST.MF" path="E:/ERV/CONFEX_NEW/WRK_CONFEX_TOTAL/sqlexplorer_mysql/META-INF/MANIFEST.MF" title="MANIFEST.MF" tooltip="sqlexplorer_mysql/META-INF/MANIFEST.MF" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sqlexplorer_mysql/META-INF/MANIFEST.MF"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.pde.ui.productEditor" name="net.confex.all.product" partName="net.confex.all.product" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/net.confex.all.product" title="net.confex.all.product" tooltip="net.confex/net.confex.all.product" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/net.confex.all.product"/>
-</editor>
-<editor id="org.eclipse.pde.ui.productEditor" name="net.confex.product" partName="net.confex.product" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/net.confex.product" title="net.confex.product" tooltip="net.confex/net.confex.product" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/net.confex.product"/>
-</editor>
-<editor id="org.eclipse.pde.ui.productEditor" name="net.confex.osgi.product" partName="net.confex.osgi.product" path="E:/ERV/CONFEX_NEW/WRK_CONFEX_TOTAL/net.confex/net.confex.osgi.product" title="net.confex.osgi.product" tooltip="net.confex/net.confex.osgi.product" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/net.confex.osgi.product"/>
-</editor>
-<editor id="org.eclipse.pde.ui.productEditor" name="net.confex.java3d.product" partName="net.confex.java3d.product" path="E:/ERV/CONFEX_NEW/WRK_CONFEX_TOTAL/net.confex/net.confex.java3d.product" title="net.confex.java3d.product" tooltip="net.confex/net.confex.java3d.product" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/net.confex.java3d.product"/>
-</editor>
-<editor id="org.eclipse.pde.ui.productEditor" name="net.confex.grovy.product" partName="net.confex.grovy.product" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/net.confex.grovy.product" title="net.confex.grovy.product" tooltip="net.confex/net.confex.grovy.product" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/net.confex.grovy.product"/>
-</editor>
-<editor id="org.eclipse.pde.ui.productEditor" name="net.confex.base.product" partName="net.confex.base.product" path="E:/ERV/CONFEX_NEW/WRK_CONFEX_TOTAL/net.confex/net.confex.base.product" title="net.confex.base.product" tooltip="net.confex/net.confex.base.product" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/net.confex.base.product"/>
-</editor>
-<editor id="org.eclipse.pde.ui.productEditor" name="test.product" partName="test.product" path="E:/ERV/CONFEX_NEW/WRK_CONFEX_TOTAL/net.confex/test.product" title="test.product" tooltip="net.confex/test.product" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/test.product"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AddGroovyClassNodeAction.java" partName="AddGroovyClassNodeAction.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.groovy/src/net/confex/groovy/actions/AddGroovyClassNodeAction.java" title="AddGroovyClassNodeAction.java" tooltip="net.confex.groovy/src/net/confex/groovy/actions/AddGroovyClassNodeAction.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.groovy/src/net/confex/groovy/actions/AddGroovyClassNodeAction.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1532" selectionTopPixel="60"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AddGroovyCompositeNodeAction.java" partName="AddGroovyCompositeNodeAction.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.groovy/src/net/confex/groovy/actions/AddGroovyCompositeNodeAction.java" title="AddGroovyCompositeNodeAction.java" tooltip="net.confex.groovy/src/net/confex/groovy/actions/AddGroovyCompositeNodeAction.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.groovy/src/net/confex/groovy/actions/AddGroovyCompositeNodeAction.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="962" selectionTopPixel="1088"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AddGroovyNodeAction.java" partName="AddGroovyNodeAction.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.groovy/src/net/confex/groovy/actions/AddGroovyNodeAction.java" title="AddGroovyNodeAction.java" tooltip="net.confex.groovy/src/net/confex/groovy/actions/AddGroovyNodeAction.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.groovy/src/net/confex/groovy/actions/AddGroovyNodeAction.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="907" selectionTopPixel="788"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestAction.java" partName="TestAction.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.groovy/src/net/confex/groovy/actions/TestAction.java" title="TestAction.java" tooltip="net.confex.groovy/src/net/confex/groovy/actions/TestAction.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.groovy/src/net/confex/groovy/actions/TestAction.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1180" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GroovyClassNode.java" partName="GroovyClassNode.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.groovy/src/net/confex/groovy/model/GroovyClassNode.java" title="GroovyClassNode.java" tooltip="net.confex.groovy/src/net/confex/groovy/model/GroovyClassNode.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.groovy/src/net/confex/groovy/model/GroovyClassNode.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2341" selectionTopPixel="273"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GroovyCompositeNode.java" partName="GroovyCompositeNode.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.groovy/src/net/confex/groovy/model/GroovyCompositeNode.java" title="GroovyCompositeNode.java" tooltip="net.confex.groovy/src/net/confex/groovy/model/GroovyCompositeNode.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.groovy/src/net/confex/groovy/model/GroovyCompositeNode.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="558" selectionTopPixel="1800"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GroovyCompositePropertyDialog.java" partName="GroovyCompositePropertyDialog.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.groovy/src/net/confex/groovy/model/GroovyCompositePropertyDialog.java" title="GroovyCompositePropertyDialog.java" tooltip="net.confex.groovy/src/net/confex/groovy/model/GroovyCompositePropertyDialog.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.groovy/src/net/confex/groovy/model/GroovyCompositePropertyDialog.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="933" selectionTopPixel="2308"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GroovyNode.java" partName="GroovyNode.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.groovy/src/net/confex/groovy/model/GroovyNode.java" title="GroovyNode.java" tooltip="net.confex.groovy/src/net/confex/groovy/model/GroovyNode.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.groovy/src/net/confex/groovy/model/GroovyNode.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="527" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NodeFactory.java" partName="NodeFactory.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.groovy/src/net/confex/groovy/model/NodeFactory.java" title="NodeFactory.java" tooltip="net.confex.groovy/src/net/confex/groovy/model/NodeFactory.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.groovy/src/net/confex/groovy/model/NodeFactory.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="messages_ru.properties" partName="messages_ru.properties" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.groovy/src/net/confex/groovy/translations/messages_ru.properties" title="messages_ru.properties" tooltip="net.confex.groovy/src/net/confex/groovy/translations/messages_ru.properties" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.groovy/src/net/confex/groovy/translations/messages_ru.properties"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="messages_ru.properties.win" partName="messages_ru.properties.win" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.groovy/src/net/confex/groovy/translations/messages_ru.properties.win" title="messages_ru.properties.win" tooltip="net.confex.groovy/src/net/confex/groovy/translations/messages_ru.properties.win" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.groovy/src/net/confex/groovy/translations/messages_ru.properties.win"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="convert_plugin_ru_property.bat" partName="convert_plugin_ru_property.bat" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.groovy/src/net/confex/groovy/translations/convert_plugin_ru_property.bat" title="convert_plugin_ru_property.bat" tooltip="net.confex.groovy/src/net/confex/groovy/translations/convert_plugin_ru_property.bat" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.groovy/src/net/confex/groovy/translations/convert_plugin_ru_property.bat"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Messages.java" partName="Messages.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.groovy/src/net/confex/groovy/translations/Messages.java" title="Messages.java" tooltip="net.confex.groovy/src/net/confex/groovy/translations/Messages.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.groovy/src/net/confex/groovy/translations/Messages.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="925" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="messages_en.properties" partName="messages_en.properties" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.customxml/src/net/confex/customxml/translations/messages_en.properties" title="messages_en.properties" tooltip="net.confex.customxml/src/net/confex/customxml/translations/messages_en.properties" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.customxml/src/net/confex/customxml/translations/messages_en.properties"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="messages_en.properties" partName="messages_en.properties" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.extension1/src/net/confex/extension1/translations/messages_en.properties" title="messages_en.properties" tooltip="net.confex.extension1/src/net/confex/extension1/translations/messages_en.properties" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.extension1/src/net/confex/extension1/translations/messages_en.properties"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="22" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="messages_ru.properties.win" partName="messages_ru.properties.win" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.extension1/src/net/confex/extension1/translations/messages_ru.properties.win" title="messages_ru.properties.win" tooltip="net.confex.extension1/src/net/confex/extension1/translations/messages_ru.properties.win" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.extension1/src/net/confex/extension1/translations/messages_ru.properties.win"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="50" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="messages_ru.properties" partName="messages_ru.properties" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.extension1/src/net/confex/extension1/translations/messages_ru.properties" title="messages_ru.properties" tooltip="net.confex.extension1/src/net/confex/extension1/translations/messages_ru.properties" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.extension1/src/net/confex/extension1/translations/messages_ru.properties"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="messages_ru.properties.win" partName="messages_ru.properties.win" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/src/net/confex/translations/messages_ru.properties.win" title="messages_ru.properties.win" tooltip="net.confex/src/net/confex/translations/messages_ru.properties.win" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/net/confex/translations/messages_ru.properties.win"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="528" selectionTopPixel="3128"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="convert_plugin_ru_property.bat" partName="convert_plugin_ru_property.bat" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/src/net/confex/translations/convert_plugin_ru_property.bat" title="convert_plugin_ru_property.bat" tooltip="net.confex/src/net/confex/translations/convert_plugin_ru_property.bat" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/net/confex/translations/convert_plugin_ru_property.bat"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="250" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="messages_ru.properties" partName="messages_ru.properties" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/src/net/confex/translations/messages_ru.properties" title="messages_ru.properties" tooltip="net.confex/src/net/confex/translations/messages_ru.properties" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/net/confex/translations/messages_ru.properties"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5002" selectionTopPixel="3033"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="messages.properties" partName="messages.properties" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/src/net/confex/translations/messages.properties" title="messages.properties" tooltip="net.confex/src/net/confex/translations/messages.properties" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/net/confex/translations/messages.properties"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1020"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="convert_plugin_ru_property.bat" partName="convert_plugin_ru_property.bat" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/convert_plugin_ru_property.bat" title="convert_plugin_ru_property.bat" tooltip="net.confex/convert_plugin_ru_property.bat" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/convert_plugin_ru_property.bat"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="plugin_ru.properties" partName="plugin_ru.properties" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/plugin_ru.properties" title="plugin_ru.properties" tooltip="net.confex/plugin_ru.properties" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/plugin_ru.properties"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="plugin_ru.properties" partName="plugin_ru.properties" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/plugin_ru.properties" title="plugin_ru.properties" tooltip="net.confex/plugin_ru.properties" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/plugin_ru.properties"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="messages_en.properties" partName="messages_en.properties" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/src/net/confex/translations/messages_en.properties" title="messages_en.properties" tooltip="net.confex/src/net/confex/translations/messages_en.properties" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/net/confex/translations/messages_en.properties"/>
-<editorState selectionHorizontalPixel="0" selectionLength="5601" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JavaNode.java" partName="JavaNode.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.editor/src/net/confex/editor/tree/JavaNode.java" title="JavaNode.java" tooltip="net.confex.editor/src/net/confex/editor/tree/JavaNode.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.editor/src/net/confex/editor/tree/JavaNode.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6722" selectionTopPixel="3615"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Version.java" partName="Version.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/src/net/confex/Version.java" title="Version.java" tooltip="net.confex/src/net/confex/Version.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/net/confex/Version.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4595" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PropertyAction.java" partName="PropertyAction.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/src/net/confex/action/PropertyAction.java" title="PropertyAction.java" tooltip="net.confex/src/net/confex/action/PropertyAction.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/net/confex/action/PropertyAction.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1575" selectionTopPixel="253"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConfexNodePropertyDialog.java" partName="ConfexNodePropertyDialog.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/src/net/confex/directedit/ConfexNodePropertyDialog.java" title="ConfexNodePropertyDialog.java" tooltip="net.confex/src/net/confex/directedit/ConfexNodePropertyDialog.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/net/confex/directedit/ConfexNodePropertyDialog.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExecPropertyDialog.java" partName="ExecPropertyDialog.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/src/net/confex/directedit/ExecPropertyDialog.java" title="ExecPropertyDialog.java" tooltip="net.confex/src/net/confex/directedit/ExecPropertyDialog.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/net/confex/directedit/ExecPropertyDialog.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Activator.java" partName="Activator.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.groovy/src/net/confex/groovy/Activator.java" title="Activator.java" tooltip="net.confex.groovy/src/net/confex/groovy/Activator.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.groovy/src/net/confex/groovy/Activator.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BundleUtils.java" partName="BundleUtils.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.groovy/src/net/confex/groovy/BundleUtils.java" title="BundleUtils.java" tooltip="net.confex.groovy/src/net/confex/groovy/BundleUtils.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.groovy/src/net/confex/groovy/BundleUtils.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GroovyPropertyDialog.java" partName="GroovyPropertyDialog.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex.groovy/src/net/confex/groovy/model/GroovyPropertyDialog.java" title="GroovyPropertyDialog.java" tooltip="net.confex.groovy/src/net/confex/groovy/model/GroovyPropertyDialog.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.groovy/src/net/confex/groovy/model/GroovyPropertyDialog.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NodePropertyDialog.java" partName="NodePropertyDialog.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/src/net/confex/directedit/NodePropertyDialog.java" title="NodePropertyDialog.java" tooltip="net.confex/src/net/confex/directedit/NodePropertyDialog.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/net/confex/directedit/NodePropertyDialog.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Snippet023TreeViewerCustomTooltips.java" partName="Snippet023TreeViewerCustomTooltips.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/src/org/eclipse/jface/snippets/viewers/Snippet023TreeViewerCustomTooltips.java" title="Snippet023TreeViewerCustomTooltips.java" tooltip="net.confex/src/org/eclipse/jface/snippets/viewers/Snippet023TreeViewerCustomTooltips.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/org/eclipse/jface/snippets/viewers/Snippet023TreeViewerCustomTooltips.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2002" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Snippet042ToolTipSupportFor32API.java" partName="Snippet042ToolTipSupportFor32API.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/src/org/eclipse/jface/snippets/viewers/Snippet042ToolTipSupportFor32API.java" title="Snippet042ToolTipSupportFor32API.java" tooltip="net.confex/src/org/eclipse/jface/snippets/viewers/Snippet042ToolTipSupportFor32API.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/org/eclipse/jface/snippets/viewers/Snippet042ToolTipSupportFor32API.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="45"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TreeNode.java" partName="TreeNode.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/src/net/confex/tree/TreeNode.java" title="TreeNode.java" tooltip="net.confex/src/net/confex/tree/TreeNode.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/net/confex/tree/TreeNode.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="30599" selectionTopPixel="17955"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Utils.java" partName="Utils.java" path="C:/YandexDisk/FLASH/CONFEX/WRK_CONFEX_TOTAL/net.confex/src/net/confex/utils/Utils.java" title="Utils.java" tooltip="net.confex/src/net/confex/utils/Utils.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex/src/net/confex/utils/Utils.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="11540" selectionTopPixel="5025"/>
+<editor activePart="true" focus="true" id="org.eclipse.pde.ui.manifestEditor" name="plugin.xml" partName="net.confex.app" path="C:/ERV/WRK/confex/develop/WRK_CONFEX_TOTAL/net.confex.app/plugin.xml" title="net.confex.app" tooltip="net.confex.app/plugin.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/net.confex.app/plugin.xml"/>
 </editor>
 </editors>
 <views>
-<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Type Hierarchy">
-<viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" input="=net.confex/src&lt;net.confex.tree{TreeNode.java[TreeNode" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" selection="=net.confex.editor/src&lt;net.confex.editor.tree{JavaNode.java[JavaNode" showinherited="false" sortbydefiningtype="false" vertical_scroll="5" view="2" workingSetName=""/>
-</view>
-<view id="org.eclipse.pde.ui.DependenciesView" partName="Plug-in Dependencies">
-<viewState inputPluginId="net.confex.editor"/>
-</view>
-<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
-<viewState isPinned="false">
-<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
-<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
-</viewState>
-</view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="63" org.eclipse.ui.ide.markerType="428" org.eclipse.ui.ide.pathField="123" org.eclipse.ui.ide.resourceField="197" org.eclipse.ui.ide.severityAndDescriptionField="567"/>
+<expanded>
+<category IMemento.internal.id="Warnings (15 items)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -376,22 +81,22 @@
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
+<view id="org.eclipse.pde.runtime.LogView" partName="Error Log">
+<viewState activate="true" allSessions="true" column2="455" column3="150" column4="150" error="true" groupBy="0" info="true" limit="50" ok="true" orderType="2" orderValue="-1" show_filter_text="true" useLimit="true" warning="true"/>
 </view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.pde.ui.PluginsView" partName="Plug-ins"/>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
-<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
-<viewState/>
-</view>
-<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
-<viewState/>
-</view>
 </views>
-<perspectives activePart="org.eclipse.pde.ui.productEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
-<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
-<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.pde.ui.PDEPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.pde.internal.ui.PDEPerspective" id="org.eclipse.pde.ui.PDEPerspective" label="Plug-in Development"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
@@ -400,84 +105,59 @@
 <alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
-<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
-<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
-<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
-<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
-<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
-<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
-<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
-<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
-<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
-<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
-<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
-<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
-<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
-<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
-<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
-<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
-<show_view_action id="org.eclipse.ui.views.ProblemView"/>
-<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
-<show_view_action id="org.eclipse.ui.views.TaskList"/>
-<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_view_action id="org.eclipse.jdt.ui.PackagesView"/>
+<show_view_action id="org.eclipse.pde.ui.PluginsView"/>
 <show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
-<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
-<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
 <show_view_action id="org.eclipse.pde.runtime.LogView"/>
-<show_in_time id="org.eclipse.jdt.ui.PackageExplorer" time="1415669098675"/>
-<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.pde.ui.NewProjectWizard"/>
+<new_wizard_action id="org.eclipse.pde.ui.NewFeatureProjectWizard"/>
+<new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
+<new_wizard_action id="org.eclipse.pde.ds.ui.wizard"/>
+<new_wizard_action id="org.eclipse.pde.ui.NewProductConfigurationWizard"/>
+<new_wizard_action id="org.eclipse.pde.ui.NewProfileWizard"/>
 <new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
 <new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
 <new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
-<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
-<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
 <new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
-<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
-<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
-<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
 <new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
-<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
-<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
-<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
-<fastViewBars>
-<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.pde.ui.DependenciesView" style="1">
-<fastViews>
-<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
-<view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
-<view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
-<view id="org.eclipse.search.ui.views.SearchView" ratio="0.62543756"/>
-<view id="org.eclipse.pde.ui.DependenciesView" ratio="0.2998833"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="16384" id="left" orientation="512" selectedTabId="org.eclipse.jdt.ui.PackageExplorer" style="1">
-<fastViews>
-<view id="org.eclipse.jdt.ui.PackageExplorer" ratio="0.3448276"/>
-<view id="org.eclipse.jdt.ui.TypeHierarchy" ratio="0.2993763"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
-<fastViews>
-<view id="org.eclipse.ui.views.ContentOutline" ratio="0.2993763"/>
-</fastViews>
-</fastViewBar>
-</fastViewBars>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.pde.ui.PluginsView"/>
+<view id="org.eclipse.pde.runtime.LogView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<fastViewBars/>
 <layout>
 <mainWindow>
-<info folder="true" part="left">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
-<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<page content="net.confex.view.navigationView:_home_roman_WRK_WRK_CONFEX_net.confex_confex_codes.confex" label="LabelNotFound"/>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.pde.ui.PluginsView" label="Plug-ins"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
-<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@14b52aa" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="left">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@166b2f6" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
@@ -485,28 +165,30 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.2753623" ratioLeft="342" ratioRight="900" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.6814988" ratioLeft="582" ratioRight="272" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
-<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
-<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
-<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<page content="org.eclipse.pde.ui.DependenciesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<info part="org.eclipse.ui.editorss" ratio="0.36208627" ratioLeft="361" ratioRight="636" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.78807944" ratioLeft="476" ratioRight="128" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.pde.runtime.LogView" appearance="2" expanded="2">
+<page content="org.eclipse.pde.runtime.LogView" label="Error Log"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.74934036" ratioLeft="568" ratioRight="190" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
-<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
-<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@ccfa41" ratio="0.8474971" ratioLeft="728" ratioRight="131" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
 </folder>
 </info>
+<info part="org.eclipse.egit.ui.RepositoriesView" ratio="0.5996705" ratioLeft="364" ratioRight="243" relationship="4" relative="topLeft"/>
 </mainWindow>
 </layout>
 </perspective>
@@ -514,148 +196,29 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" path="/net.confex/plugin.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" path="/net.confex.editor/plugin.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.buildEditor" path="/net.confex.extension1/build.properties"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/net.confex.editor/META-INF/MANIFEST.MF"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.productEditor" path="/net.confex.app/net.confex.app.product"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" path="/net.confex.editor/plugin.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" path="/net.confex.groovy.java3d/META-INF/MANIFEST.MF"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.productEditor" path="/net.confex/net.confex.all.product"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" path="/net.confex/plugin.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/net.confex/net.confex.all.product"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" path="/net.confex.app/plugin.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.productEditor" path="/net.confex.app/net.confex.app.product"/>
 </editors>
-<item historyLabel="build.properties" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="net.confex.editor" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="net.confex.editor" index="1"/>
-<item historyLabel="net.confex" index="0"/>
-<item historyLabel="net.confex.editor" index="1"/>
-<item historyLabel="net.confex" index="0"/>
-<item historyLabel="net.confex.editor" index="1"/>
-<item historyLabel="build.properties" index="2"/>
-<item historyLabel="net.confex.editor" index="1"/>
-<item historyLabel="build.properties" index="2"/>
-<item historyLabel="net.confex.editor" index="1"/>
-<item historyLabel="net.confex.app.product" index="4"/>
-<item historyLabel="build.properties" index="2"/>
-<item historyLabel="net.confex.editor" index="5"/>
-<item historyLabel="net.confex.groovy.java3d" index="6"/>
-<item historyLabel="net.confex.all.product" index="7"/>
-<item historyLabel="net.confex" index="8"/>
-<item historyLabel="net.confex.editor" index="5"/>
-<item historyLabel="net.confex.all.product" index="7">
-<position info="not_deleted" x="5062" y="0"/>
-</item>
-<item historyLabel="net.confex.all.product" index="9">
-<position/>
-</item>
-<item historyLabel="net.confex.all.product" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="net.confex.all.product" index="7"/>
-<item historyLabel="net.confex" index="8"/>
-<item historyLabel="net.confex.app" index="10"/>
-<item historyLabel="build.properties" index="2"/>
-<item historyLabel="net.confex.editor" index="5"/>
-<item historyLabel="net.confex.groovy.java3d" index="6"/>
-<item historyLabel="build.properties" index="2"/>
-<item historyLabel="net.confex.editor" index="5"/>
-<item historyLabel="net.confex.groovy.java3d" index="6"/>
-<item historyLabel="build.properties" index="2"/>
-<item historyLabel="net.confex.groovy.java3d" index="6"/>
-<item historyLabel="net.confex.editor" index="5"/>
-<item historyLabel="net.confex.app" index="10"/>
-<item historyLabel="net.confex.editor" index="5"/>
-<item historyLabel="build.properties" index="2"/>
-<item historyLabel="net.confex.groovy.java3d" index="6"/>
-<item historyLabel="net.confex.app.product" index="11"/>
-<item historyLabel="net.confex.groovy.java3d" index="6"/>
-<item historyLabel="net.confex.app" index="10"/>
-<item historyLabel="net.confex.groovy.java3d" index="6"/>
-<item historyLabel="net.confex.all.product" index="7"/>
-<item historyLabel="build.properties" index="2"/>
-<item historyLabel="net.confex.groovy.java3d" index="6"/>
-<item historyLabel="build.properties" index="2"/>
-<item historyLabel="net.confex.all.product" index="7"/>
-<item historyLabel="net.confex.editor" index="5"/>
-<item historyLabel="net.confex.all.product" index="7"/>
-<item historyLabel="net.confex" index="8"/>
-<item active="true" historyLabel="net.confex.all.product" index="7"/>
+<item active="true" historyLabel="net.confex.app" index="0"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="right"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
-<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
 </trimArea>
 <trimArea IMemento.internal.id="1024">
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="net.confex.all.product" tooltip="net.confex/net.confex.all.product">
-<persistable path="/net.confex/net.confex.all.product"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" name="MANIFEST.MF" tooltip="net.confex.groovy.java3d/META-INF/MANIFEST.MF">
-<persistable path="/net.confex.groovy.java3d/META-INF/MANIFEST.MF"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.buildEditor" name="build.properties" tooltip="net.confex.extension1/build.properties">
-<persistable path="/net.confex.extension1/build.properties"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" name="plugin.xml" tooltip="net.confex.editor/plugin.xml">
-<persistable path="/net.confex.editor/plugin.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.productEditor" name="net.confex.app.product" tooltip="net.confex.app/net.confex.app.product">
-<persistable path="/net.confex.app/net.confex.app.product"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Utils.java" tooltip="net.confex/src/net/confex/utils/Utils.java">
-<persistable path="/net.confex/src/net/confex/utils/Utils.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TreeNode.java" tooltip="net.confex/src/net/confex/tree/TreeNode.java">
-<persistable path="/net.confex/src/net/confex/tree/TreeNode.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Main.class" tooltip="com.sun.tools.javac.Main">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=net.confex.editor/jars\/tools.jar&lt;com.sun.tools.javac(Main.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Snippet042ToolTipSupportFor32API.java" tooltip="net.confex/src/org/eclipse/jface/snippets/viewers/Snippet042ToolTipSupportFor32API.java">
-<persistable path="/net.confex/src/org/eclipse/jface/snippets/viewers/Snippet042ToolTipSupportFor32API.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Snippet023TreeViewerCustomTooltips.java" tooltip="net.confex/src/org/eclipse/jface/snippets/viewers/Snippet023TreeViewerCustomTooltips.java">
-<persistable path="/net.confex/src/org/eclipse/jface/snippets/viewers/Snippet023TreeViewerCustomTooltips.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Snippet015CustomTooltipsForTree.java" tooltip="net.confex/src/org/eclipse/jface/snippets/viewers/Snippet015CustomTooltipsForTree.java">
-<persistable path="/net.confex/src/org/eclipse/jface/snippets/viewers/Snippet015CustomTooltipsForTree.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NodePropertyDialog.java" tooltip="net.confex/src/net/confex/directedit/NodePropertyDialog.java">
-<persistable path="/net.confex/src/net/confex/directedit/NodePropertyDialog.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GroovyPropertyDialog.java" tooltip="net.confex.groovy/src/net/confex/groovy/model/GroovyPropertyDialog.java">
-<persistable path="/net.confex.groovy/src/net/confex/groovy/model/GroovyPropertyDialog.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BundleUtils.java" tooltip="net.confex.groovy/src/net/confex/groovy/BundleUtils.java">
-<persistable path="/net.confex.groovy/src/net/confex/groovy/BundleUtils.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Activator.java" tooltip="net.confex.groovy/src/net/confex/groovy/Activator.java">
-<persistable path="/net.confex.groovy/src/net/confex/groovy/Activator.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" name="plugin.xml" tooltip="net.confex.app/plugin.xml">
+<persistable path="/net.confex.app/plugin.xml"/>
 </file>
 </mruList>
 </workbench>

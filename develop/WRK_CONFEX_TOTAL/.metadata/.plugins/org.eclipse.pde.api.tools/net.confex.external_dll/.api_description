@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="net.confex.external_dll" modificationStamp="107" version="1.2">
+    <package visibility="1">
+        <fragment handle="=net.confex.external_dll/src&lt;"/>
+    </package>
+</component>
