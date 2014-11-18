@@ -1,0 +1,4728 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ConfigTree version="0.0.2">
+<TreeNode
+id="-1"
+name="+Examples ver 0.9.11"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="OnStartNode"
+>
+<properties>
+<groovy>
+println &amp;quot;Начинаем работать с файлом ---- Confex dir: #{CONFEX_DIR}&amp;quot;
+</groovy>
+</properties>
+</GroovyNode>
+<FolderNode
+id="-1"
+name="#{CONFEX_DIR}"
+>
+<properties>
+<path>
+#{CONFEX_DIR}
+</path>
+</properties>
+</FolderNode>
+<VarsNode
+id="-1"
+name="html vars"
+not_vis_in_user_mode="true"
+>
+<properties>
+<vars>
+<var name="html_footer">&amp;lt;hr&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;</var><var name="html_header">&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot;
+	content=&amp;quot;text/html; charset=&amp;quot;windows-1251&amp;quot; /&amp;gt;
+&amp;lt;meta name=&amp;quot;Content-Language&amp;quot; content=&amp;quot;russian&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;description&amp;quot;
+	content=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;keywords&amp;quot;
+  content=&amp;quot;eclipse,Rich,Client,Platform,rcp,java,книги,статьи,приложения&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;expires&amp;quot; content=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;resource-type&amp;quot; content=&amp;quot;document&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;author&amp;quot; content=&amp;quot;Автор&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;copyright&amp;quot;
+	content=&amp;quot;(C) 2006&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;robots&amp;quot; content=&amp;quot;index,all&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;revisit&amp;quot; content=&amp;quot;5 Days&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;revisit-after&amp;quot; content=&amp;quot;5 Days&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;distribution&amp;quot; content=&amp;quot;global&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;rating&amp;quot; content=&amp;quot;general&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;audience&amp;quot; content=&amp;quot;all&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;title&amp;gt;Title&amp;lt;/title&amp;gt;
+
+&amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
+&amp;lt; !-- 
+.text_my	 { 
+	color: black; 
+	font-size: 100%; 
+	table-layout: auto; 
+	font-family: serif;  
+} 
+.code { border-color: #CFDCFF; border-style: solid; border-width: 3px; 
+   color: #0000EF; background-color: #EFEFEF;  
+   margin: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
+} 
+.h_line { 
+	color: blue; 
+	font-size: 100%; font: italic; color: blue; 
+	table-layout: auto; 
+	font-family: serif; font-style: italic; 
+} 
+.output {
+   color: #FFFFFF; background: #837A67;
+} 
+.xml { border-color: #CFDCFF; border-style: solid; border-width: 3px; 
+   color: #0000EF; background-color: #EFEFEF; 
+   margin: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
+}
+-- &amp;gt;
+&amp;lt;/style&amp;gt;
+
+&amp;lt;!--  link href=&amp;quot;./bf.css&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; /--&amp;gt;
+&amp;lt;!--  link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;../im/logo.ico&amp;quot;&amp;gt;&amp;lt;/link --&amp;gt;
+
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;</var><var name="tmp_path">c:/temp/</var></vars>
+</properties>
+</VarsNode>
+<VarsNode
+id="-1"
+name="examples_path"
+>
+<properties>
+<vars>
+<var name="examples_path">D:/Eclipse/WRK_CONFEX/examples/ru/</var></vars>
+</properties>
+</VarsNode>
+<VarsNode
+id="-1"
+name="Настройки  Коннекции к БД (SCOTT/TIGER)"
+not_vis_in_user_mode="true"
+>
+<properties>
+<vars>
+<var name="sid">GXPK</var><var name="server_db">onyx.srv.rdtex.ru</var><var name="owner">scott</var><var name="owner_pwd">tiger</var></vars>
+</properties>
+</VarsNode>
+<TreeNode
+id="-1"
+name="О ... "
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="О конфексе"
+>
+<properties>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+</properties>
+<HtmlTextNode
+id="-1"
+name="кратко 1"
+not_vis_in_user_mode="true"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt;Практика применения приложения Конфекс&amp;lt;/h2&amp;gt;
+
+
+&amp;lt;pre&amp;gt;
+
+Приложение Конфекс разработано на основе Eclipse RCP технологии. 
+Проект создается по свободной лицензии  &amp;lt;a href=&amp;quot;http://www.eclipse.org/legal/epl-v10.html&amp;quot;&amp;gt;Eclipse Public License - v 1.0 (EPL)&amp;lt;/a&amp;gt;
+на базе решений с открытым кодом (Open Source) и сам является
+решением Open Source. 
+Исходные коды доступны по SVN 
+	https://confex.svn.sourceforge.net/svnroot/confex 
+пользователь: anonymous
+пароля нет
+
+
+Сайты используемых плагинов и проектов: 
+	&amp;lt;a href=&amp;quot;https://sourceforge.net/projects/confex&amp;quot;&amp;gt;Confex&amp;lt;/a&amp;gt;
+
+	&amp;lt;a href=&amp;quot;http://www.eclipse.org&amp;quot;/&amp;gt;Eclipse&amp;lt;/a&amp;gt;
+	&amp;lt;a href=&amp;quot;https://sourceforge.net/projects/eclipsesql&amp;quot;&amp;gt;EclipseSQL&amp;lt;/a&amp;gt;
+	&amp;lt;a href=&amp;quot;http://ant.apache.org&amp;quot;&amp;gt;Apache Ant&amp;lt;/a&amp;gt;
+	&amp;lt;a href=&amp;quot;http://www.jfree.org/jfreechart/&amp;quot;&amp;gt;JFreeChart&amp;lt;/a&amp;gt;
+	&amp;lt;a href=&amp;quot;http://www.mysql.org/&amp;quot;&amp;gt;JDBC driver MySQL&amp;lt;/a&amp;gt;
+	&amp;lt;a href=&amp;quot;http://www.oracle.com/index.html&amp;quot;&amp;gt;JDBC driver Oracle&amp;lt;/a&amp;gt;
+
+
+
+&amp;lt;h3&amp;gt;О Eclipse RPC&amp;lt;/h3&amp;gt;
+
+&amp;quot;...Основной целью проекта Eclipse является интеграция приложений для 
+разработки в рамках различных IDE (одной из этих IDE является сам Eclipse SDK).
+ В то же время, Eclipse содержит множество компонентов, которые могут быть использованы 
+приложениями самого широкого спектра, не нуждающимися, вообще говоря, в полной инфраструктуре
+Для поддержки подобных приложений было введено понятие Rich Client Platform (RCP).
+ RCP – это базовый набор компонентов Eclipse, который позволяет использующим его 
+приложениям полностью контролировать внешний вид создаваемого пользовательского 
+интерфейса (перспективы, меню, панели инструментов и т.п.). ...&amp;quot;
+
+подробнее:
+&amp;lt;a href=&amp;quot;http://www.rsdn.ru/article/devtools/eclipse.xml&amp;quot;&amp;gt;Статья &amp;quot;Проект Eclipse&amp;quot; Автор:   Askar Rahimberdiev&amp;lt;/a&amp;gt;
+
+&amp;lt;/pre&amp;gt;
+
+
+&amp;lt;pre&amp;gt;
+По-сути это пользовательские приложение открывает вид и строит в нем дерево 
+на основе конфигурационного xml файла (с расширением .confex). 
+Дерево можно редактировать: добавлять новые узлы, изменять свойства узлов, перемещать
+ветви, копирировать и извлекать части дерева в буфер обмена. 
+Так же, можно исполнять какие либо действия, определенные для класса узла. Например 
+открывать HTML страничку.
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+<TreeNode
+id="-1"
+name="Ссылки"
+>
+<properties>
+</properties>
+<UrlNode
+id="-1"
+name="Статья &amp;quot;Проект Eclipse&amp;quot; Автор:   Askar Rahimberdiev  "
+>
+<properties>
+<tooltiptext>
+Форум RSDN
+</tooltiptext>
+<url>
+http://www.rsdn.ru/article/devtools/eclipse.xml
+</url>
+</properties>
+</UrlNode>
+<UrlNode
+id="-1"
+name="Официальный сайт проекта Эклипс"
+>
+<properties>
+<url>
+http://www.eclipse.org/
+</url>
+</properties>
+</UrlNode>
+<UrlNode
+id="-1"
+name="Проекты Эклипса"
+>
+<properties>
+<tooltiptext>
+Список проектов
+</tooltiptext>
+<url>
+http://www.eclipse.org/projects/
+</url>
+</properties>
+</UrlNode>
+<UrlNode
+id="-1"
+name="Groovy Home"
+>
+<properties>
+<url>
+http://groovy.codehaus.org
+</url>
+</properties>
+</UrlNode>
+<TreeNode
+id="-1"
+name="SWT"
+>
+<properties>
+</properties>
+<UrlNode
+id="-1"
+name="Understanding Layouts in SWT"
+>
+<properties>
+<tooltiptext>
+Пример проектирования приложения SWT
+</tooltiptext>
+<url>
+http://www.eclipse.org/articles/Article-Understanding-Layouts/Understanding-Layouts.htm
+</url>
+</properties>
+</UrlNode>
+<UrlNode
+id="-1"
+name="Анимированные примеры Constructing SWT Layouts"
+>
+<properties>
+<url>
+http://www.developer.com/java/other/article.php/10936_3340621_1
+</url>
+</properties>
+</UrlNode>
+<UrlNode
+id="-1"
+name="Using the Eclipse GUI outside the Eclipse Workbench, Part"
+>
+<properties>
+<tooltiptext>
+Хорошая статья о основах SWT в частности, деревьев и таблиц
+</tooltiptext>
+<url>
+http://www-128.ibm.com/developerworks/opensource/library/os-ecgui1/
+</url>
+</properties>
+</UrlNode>
+<UrlNode
+id="-1"
+name="Rich UI for the Rich Client"
+>
+<properties>
+<url>
+http://www.eclipse.org/articles/Article-Forms/article.html
+</url>
+</properties>
+</UrlNode>
+<TreeNode
+id="-1"
+name="Примерчики"
+>
+<properties>
+</properties>
+<UrlNode
+id="-1"
+name="SWT Snippets (Список всех примерчиков)"
+>
+<properties>
+<url>
+http://www.eclipse.org/swt/snippets/
+</url>
+</properties>
+</UrlNode>
+<UrlNode
+id="-1"
+name="www.java2s.com"
+>
+<properties>
+<url>
+http://www.java2s.com/Code/JavaAPI/CatalogJavaAPI.htm
+</url>
+</properties>
+<UrlNode
+id="-1"
+name="java2s  SWT Tree"
+>
+<properties>
+<url>
+http://www.java2s.com/Code/Java/SWT-JFace-Eclipse/Tree.htm
+</url>
+</properties>
+</UrlNode>
+<UrlNode
+id="-1"
+name="Рисунки в SWT"
+>
+<properties>
+<url>
+http://www.java2s.com/Code/Java/SWT-JFace-Eclipse/FileIconUtil.htm
+</url>
+</properties>
+</UrlNode>
+<UrlNode
+id="-1"
+name="SWT Layout Example in One "
+>
+<properties>
+<url>
+http://www.java2s.com/Code/Java/SWT-JFace-Eclipse/SWTLayoutExampleinOne.htm
+</url>
+</properties>
+</UrlNode>
+</UrlNode>
+<UrlNode
+id="-1"
+name="Demonstrates TreeEditor "
+>
+<properties>
+<url>
+http://www.java2s.com/Code/Java/SWT-JFace-Eclipse/DemonstratesTreeEditor.htm
+</url>
+</properties>
+</UrlNode>
+<UrlNode
+id="-1"
+name="SWT Clipboard Example"
+>
+<properties>
+<url>
+http://ubinet.engr.uconn.edu/zhengpeng/Java/ExampleCode/SWT-JFace-Eclipse/SWTClipboardExample.htm
+</url>
+</properties>
+</UrlNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Decorations"
+>
+<properties>
+</properties>
+<UrlNode
+id="-1"
+name="Decorating resources in WebSphere"
+>
+<properties>
+<tooltiptext>
+01 Feb 2003
+</tooltiptext>
+<url>
+http://www-128.ibm.com/developerworks/ibm/library/i-wsdeco/
+</url>
+</properties>
+</UrlNode>
+</TreeNode>
+<UrlNode
+id="-1"
+name="TreeItem vs TreeNode (форум)"
+>
+<properties>
+<url>
+http://eclipsezone.com/eclipse/forums/t84404.html
+</url>
+</properties>
+</UrlNode>
+<UrlNode
+id="-1"
+name="How to use the JFace Tree Viewer"
+>
+<properties>
+<tooltiptext>
+2002
+</tooltiptext>
+<url>
+http://www.eclipse.org/articles/Article-TreeViewer/TreeViewerArticle.htm
+</url>
+</properties>
+</UrlNode>
+<TreeNode
+id="-1"
+name="Nebula Дополнительные элементы"
+>
+<properties>
+</properties>
+<UrlNode
+id="-1"
+name="http://www.eclipse.org/nebula/"
+>
+<properties>
+<url>
+http://www.eclipse.org/nebula/
+</url>
+</properties>
+</UrlNode>
+<UrlNode
+id="-1"
+name="An Eclipse Nebula widgets primer"
+>
+<properties>
+<tooltiptext>
+Большая статья с примерами!
+
+Искать 
+An Eclipse Nebula widgets primer
+</tooltiptext>
+<url>
+http://www.eclipse.org/resources/
+</url>
+</properties>
+</UrlNode>
+</TreeNode>
+<UrlNode
+id="-1"
+name="Drag and Drop in SWT"
+>
+<properties>
+<url>
+http://www.eclipse.org/articles/Article-SWT-DND/DND-in-SWT.html
+</url>
+</properties>
+</UrlNode>
+<UrlNode
+id="-1"
+name="Table Editor"
+>
+<properties>
+<url>
+http://www.eclipse.org/articles/Article-Table-viewer/table_viewer.html
+</url>
+</properties>
+</UrlNode>
+<UrlNode
+id="-1"
+name="! Customizing Eclipse RCP applications, Part 1: Techniques to use with SWT and JFace"
+>
+<properties>
+<tooltiptext>
+Искать 
+Customizing Eclipse RCP applications, Part 1: Techniques to use with SWT and JFace
+</tooltiptext>
+<url>
+http://www.eclipse.org/resources/
+</url>
+</properties>
+<FolderNode
+id="-1"
+name="Здесь в PDF формате"
+>
+<properties>
+<path>
+V:\Eclipse\Docs\
+</path>
+</properties>
+</FolderNode>
+</UrlNode>
+<TreeNode
+id="-1"
+name="SWT-Swing"
+>
+<properties>
+</properties>
+<UrlNode
+id="-1"
+name="Integrating Swing into Eclipse RCPs"
+>
+<properties>
+<url>
+http://www.eclipsezone.com/eclipse/forums/t45697.html
+</url>
+</properties>
+</UrlNode>
+</TreeNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Книги"
+>
+<properties>
+</properties>
+<UrlNode
+id="-1"
+name="Эрик Гамма, Кент Бек. Расширения Eclipse "
+>
+<properties>
+<tooltiptext>
+Сайт на английском.
+
+Contributing to Eclipse: Principles, Patterns, and Plug-Ins
+By Erich Gamma, Kent Beck.
+Published by Addison Wesley Professional.
+Series: The Eclipse Series.
+
+На этом же сайте есть исходные коды
+</tooltiptext>
+<url>
+http://www.awprofessional.com/bookstore/product.asp?isbn=0321205758&amp;rl=1
+</url>
+</properties>
+</UrlNode>
+<UrlNode
+id="-1"
+name="Eclipse Rich Client Platform: Designing, Coding, and Packaging Java™ Applications"
+>
+<properties>
+<tooltiptext>
+Книга по открытой платформе Eclipse для разработки полнофункциональных &amp;quot;Rich&amp;quot; клиентских приложений на Java и SWT.
+Авторы книги являются создателями Eclipse Foundation и преподносят Eclipse наилучшим образом в соотвествии с предназначением платформы.
+3 кита платформы Eclipse:
+OSGi Framework (специализированная платформа для разработки плагинов и расширений на Java).
+SWT/JFace (Standard Widget Toolkit) библиотека для разработке UI на Java, спроектированная аналогично Swing, но работающая на нативных библиотеках вместо AWT. SWT предоставляет RCP приложениям на базе Eclipse скорость и отзывчивость обычных приложений, написанных на C++.
+RCP Platform - набор механизмов, отличающих полнофункциональные клиентские приложения: подсистема помощи, update-механизм, и tabbed интерфейс (замена поднадоевшего MDI).
+Сообщество Eclipse:
+Русскоязычный форум по Eclipse RCP и проекту filearranger(RCP-based):
+</tooltiptext>
+<url>
+http://www.natahaus.ru/2006/10/17/eclipse.html
+</url>
+</properties>
+<UrlNode
+id="-1"
+name="Страничка с исходниками здесь"
+>
+<properties>
+<url>
+http://eclipsercp.org/book/
+</url>
+</properties>
+<UrlNode
+id="-1"
+name="А на самом деле здесь!!! ~38M"
+>
+<properties>
+<url>
+http://eclipsercp.org/book/RCP-book-CD.zip
+</url>
+</properties>
+</UrlNode>
+</UrlNode>
+</UrlNode>
+<UrlNode
+id="-1"
+name="Welcome to Eclipse (Руководство!)"
+>
+<properties>
+<url>
+http://stuff.mit.edu/afs/athena/software/eclipse-sdk_v3.1/distrib/share/org.eclipse.platform.doc.isv.3.1.pdf
+</url>
+</properties>
+</UrlNode>
+<ExecTreeNode
+id="-1"
+name="Книга  &amp;quot;Eclipse Rich Client Platform - Designing, Coding, and Packaging&amp;quot;"
+>
+<properties>
+<arguments>
+D:\Eclipse\Docs\Eclipse Rich Client Platform - Designing, Coding, and Packaging Java Applications\Eclipse Rich Client Platform - Designing, Coding, and Packaging Java Applications (Oct 2005).chm
+</arguments>
+</properties>
+</ExecTreeNode>
+<ExecTreeNode
+id="-1"
+name="Welcome to Eclipse"
+>
+<properties>
+<tooltiptext>
+Подробнейшее руководство!
+</tooltiptext>
+<arguments>
+D:\ToDVD\Distribs\Doc\org.eclipse.platform.doc.isv.3.1.pdf
+</arguments>
+</properties>
+</ExecTreeNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="1) Примеры"
+>
+<properties>
+</properties>
+<VarsNode
+id="-1"
+name="html vars"
+not_vis_in_user_mode="true"
+>
+<properties>
+<vars>
+<var name="html_footer">&amp;lt;hr&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;</var><var name="html_header">&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot;
+	content=&amp;quot;text/html; charset=&amp;quot;windows-1251&amp;quot; /&amp;gt;
+&amp;lt;meta name=&amp;quot;Content-Language&amp;quot; content=&amp;quot;russian&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;description&amp;quot;
+	content=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;keywords&amp;quot;
+  content=&amp;quot;eclipse,Rich,Client,Platform,rcp,java,книги,статьи,приложения&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;expires&amp;quot; content=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;resource-type&amp;quot; content=&amp;quot;document&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;author&amp;quot; content=&amp;quot;Автор&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;copyright&amp;quot;
+	content=&amp;quot;(C) 2006&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;robots&amp;quot; content=&amp;quot;index,all&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;revisit&amp;quot; content=&amp;quot;5 Days&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;revisit-after&amp;quot; content=&amp;quot;5 Days&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;distribution&amp;quot; content=&amp;quot;global&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;rating&amp;quot; content=&amp;quot;general&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;audience&amp;quot; content=&amp;quot;all&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;title&amp;gt;Title&amp;lt;/title&amp;gt;
+
+&amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
+&amp;lt; !-- 
+.text_my	 { 
+	color: black; 
+	font-size: 100%; 
+	table-layout: auto; 
+	font-family: serif;  
+} 
+.code { border-color: #CFDCFF; border-style: solid; border-width: 3px; 
+   color: #0000EF; background-color: #EFEFEF;  
+   margin: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
+} 
+.h_line { 
+	color: blue; 
+	font-size: 100%; font: italic; color: blue; 
+	table-layout: auto; 
+	font-family: serif; font-style: italic; 
+} 
+.output {
+   color: #FFFFFF; background: #837A67;
+} 
+.xml { border-color: #CFDCFF; border-style: solid; border-width: 3px; 
+   color: #0000EF; background-color: #EFEFEF; 
+   margin: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
+}
+-- &amp;gt;
+&amp;lt;/style&amp;gt;
+
+&amp;lt;!--  link href=&amp;quot;./bf.css&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; /--&amp;gt;
+&amp;lt;!--  link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;../im/logo.ico&amp;quot;&amp;gt;&amp;lt;/link --&amp;gt;
+
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;</var></vars>
+</properties>
+</VarsNode>
+<TreeNode
+id="-1"
+name="1.1) Запуск на выполнение приложения"
+>
+<properties>
+</properties>
+<ExecTreeNode
+id="-1"
+name="Открытие окна Explorer для каталога c:\Program Files\"
+>
+<properties>
+<command>
+EXPLORER.EXE
+</command>
+<arguments>
+c:\Program Files\
+</arguments>
+</properties>
+</ExecTreeNode>
+<ExecTreeNode
+id="-1"
+name="Пример открытия документа c:\temp\test.doc"
+>
+<properties>
+<arguments>
+c:\temp\test.doc
+</arguments>
+</properties>
+</ExecTreeNode>
+<ExecTreeNode
+id="-1"
+name="Запуск  M$ Word "
+icon="non_eclipse\winword16x16.gif"
+>
+<properties>
+<command>
+WINWORD.EXE
+</command>
+<work_dir>
+.
+</work_dir>
+</properties>
+</ExecTreeNode>
+<ExecTreeNode
+id="-1"
+name="Запуск браузера по ссылке http://www.eclipse.org/"
+>
+<properties>
+<arguments>
+http://www.eclipse.org/index.html
+</arguments>
+</properties>
+</ExecTreeNode>
+<ExecTreeNode
+id="-1"
+name="Открытие файла в notepad.exe"
+>
+<properties>
+<command>
+notepad.exe
+</command>
+<work_dir>
+.
+</work_dir>
+<arguments>
+c:\temp\ssss.txt
+</arguments>
+</properties>
+</ExecTreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="1.2) Работа с базой"
+>
+<properties>
+</properties>
+<OraJdbcConnectionNode
+id="-1"
+name="Коннекция к БД"
+>
+<properties>
+<user>
+#{owner}
+</user>
+<password>
+#{owner_pwd}
+</password>
+<url>
+jdbc:oracle:thin:@#{server_db}:1521:#{sid}
+</url>
+</properties>
+<TreeNode
+id="-1"
+name="Запросы"
+>
+<properties>
+</properties>
+<HtmlSqlTableTreeObject
+id="-1"
+name="Вывод запроса в виде HTML таблицы"
+icon="etool16\table_add.png"
+>
+<properties>
+<sql>
+SELECT * FROM dept
+</sql>
+</properties>
+</HtmlSqlTableTreeObject>
+<SqlResultCompositeNode
+id="-1"
+name="Вывод запроса в виде SQL таблицы"
+>
+<properties>
+<sql>
+SELECT * FROM dept
+</sql>
+<maxrows>
+100
+</maxrows>
+</properties>
+</SqlResultCompositeNode>
+<SqlTreeObject
+id="-1"
+name="Выполнение SQL команды"
+>
+<properties>
+<sql>
+TRUNCATE TABLE tru_trace_temp_log
+</sql>
+</properties>
+</SqlTreeObject>
+</TreeNode>
+</OraJdbcConnectionNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="1.3) Html"
+>
+<properties>
+</properties>
+<VarsNode
+id="-1"
+name="html vars"
+>
+<properties>
+<vars>
+<var name="html_footer">&amp;lt;hr&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;</var><var name="html_header">&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot;
+	content=&amp;quot;text/html; charset=&amp;quot;windows-1251&amp;quot; /&amp;gt;
+&amp;lt;meta name=&amp;quot;Content-Language&amp;quot; content=&amp;quot;russian&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;description&amp;quot;
+	content=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;keywords&amp;quot;
+  content=&amp;quot;eclipse,Rich,Client,Platform,rcp,java,книги,статьи,приложения&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;expires&amp;quot; content=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;resource-type&amp;quot; content=&amp;quot;document&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;author&amp;quot; content=&amp;quot;Автор&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;copyright&amp;quot;
+	content=&amp;quot;(C) 2006&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;robots&amp;quot; content=&amp;quot;index,all&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;revisit&amp;quot; content=&amp;quot;5 Days&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;revisit-after&amp;quot; content=&amp;quot;5 Days&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;distribution&amp;quot; content=&amp;quot;global&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;rating&amp;quot; content=&amp;quot;general&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;audience&amp;quot; content=&amp;quot;all&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;title&amp;gt;Title&amp;lt;/title&amp;gt;
+
+&amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
+&amp;lt; !-- 
+.text_my	 { 
+	color: black; 
+	font-size: 100%; 
+	table-layout: auto; 
+	font-family: serif;  
+} 
+.code { border-color: #CFDCFF; border-style: solid; border-width: 3px; 
+   color: #0000EF; background-color: #EFEFEF;  
+   margin: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
+} 
+.h_line { 
+	color: blue; 
+	font-size: 100%; font: italic; color: blue; 
+	table-layout: auto; 
+	font-family: serif; font-style: italic; 
+} 
+.output {
+   color: #FFFFFF; background: #837A67;
+} 
+.xml { border-color: #CFDCFF; border-style: solid; border-width: 3px; 
+   color: #0000EF; background-color: #EFEFEF; 
+   margin: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
+}
+-- &amp;gt;
+&amp;lt;/style&amp;gt;
+
+&amp;lt;!--  link href=&amp;quot;./bf.css&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; /--&amp;gt;
+&amp;lt;!--  link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;../im/logo.ico&amp;quot;&amp;gt;&amp;lt;/link --&amp;gt;
+
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;</var></vars>
+</properties>
+</VarsNode>
+<HtmlComposite
+id="-1"
+name="Пример составного HTML документа"
+>
+<properties>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+</properties>
+<HtmlTextNode
+id="-1"
+name="Часть 1"
+>
+<properties>
+<htmltext>
+&amp;lt;h1&amp;gt;Заголовок&amp;lt;/h1&amp;gt;
+
+&amp;lt;h2&amp;gt;Часть 1&amp;lt;/h2&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+<HtmlTextNode
+id="-1"
+name="Часть 2 "
+>
+<properties>
+<htmltext>
+&amp;lt;p&amp;gt;
+&amp;lt;h2&amp;gt;Часть 2&amp;lt;/h2&amp;gt;
+
+Текст составного html документа собирается из собирается из вложенных
+частей.
+
+&amp;lt;/p&amp;gt;
+</htmltext>
+</properties>
+<HtmlTextNode
+id="-1"
+name="Часть 3"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt;Часть 3&amp;lt;/h2&amp;gt;
+
+Вложенные части сами могут быть вложенными
+</htmltext>
+</properties>
+</HtmlTextNode>
+<OraJdbcConnectionNode
+id="-1"
+name="Коннекция к БД"
+>
+<properties>
+<user>
+#{owner}
+</user>
+<password>
+#{owner_pwd}
+</password>
+<url>
+jdbc:oracle:thin:@#{server_db}:1521:#{sid}
+</url>
+</properties>
+<HtmlTextNode
+id="-1"
+name="А это кусок выводит запрос в виде таблицы"
+>
+<properties>
+<htmltext>
+&amp;lt;h3&amp;gt;Отделы&amp;lt;/h3&amp;gt;
+</htmltext>
+</properties>
+<VarsNode
+id="-1"
+name="variable is here"
+>
+<properties>
+<vars>
+<var name="var1">20</var></vars>
+</properties>
+</VarsNode>
+<HtmlSqlTableTreeObject
+id="-1"
+name="Вывод запроса в виде HTML таблицы"
+icon="etool16\table_add.png"
+>
+<properties>
+<sql>
+SELECT * FROM dept where deptno = #{var1}
+</sql>
+</properties>
+</HtmlSqlTableTreeObject>
+</HtmlTextNode>
+</OraJdbcConnectionNode>
+</HtmlTextNode>
+</HtmlComposite>
+<TreeNode
+id="-1"
+name="Пример HTML документа с выводом запроса к БД"
+>
+<properties>
+</properties>
+<OraJdbcConnectionNode
+id="-1"
+name="Коннекция к БД"
+>
+<properties>
+<user>
+#{owner}
+</user>
+<password>
+#{owner_pwd}
+</password>
+<url>
+jdbc:oracle:thin:@#{server_db}:1521:#{sid}
+</url>
+</properties>
+<HtmlComposite
+id="-1"
+name="Опять составной HTML документ"
+>
+<properties>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+</properties>
+<HtmlTextNode
+id="-1"
+name="А это кусок выводит запрос в виде таблицы"
+>
+<properties>
+<htmltext>
+&amp;lt;h3&amp;gt;Отделы&amp;lt;/h3&amp;gt;
+</htmltext>
+</properties>
+<HtmlSqlTableTreeObject
+id="-1"
+name="Вывод запроса в виде HTML таблицы"
+icon="etool16\table_add.png"
+>
+<properties>
+<sql>
+SELECT * FROM dept
+</sql>
+</properties>
+</HtmlSqlTableTreeObject>
+</HtmlTextNode>
+</HtmlComposite>
+</OraJdbcConnectionNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="1.4) Использование Groovy скрипта"
+>
+<properties>
+</properties>
+<UrlNode
+id="-1"
+name="Groovy Home"
+>
+<properties>
+<url>
+http://groovy.codehaus.org
+</url>
+</properties>
+</UrlNode>
+<TreeNode
+id="-1"
+name="1.4.1) Работа с Конфекс деревом из groovy"
+>
+<properties>
+</properties>
+<TreeNode
+id="-1"
+name="Связь скрипта с конфекс деревом"
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="Краткое описание"
+>
+<properties>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+</properties>
+<HtmlTextNode
+id="-1"
+name="Часть 1"
+>
+<properties>
+<htmltext>
+&amp;lt;h1&amp;gt;Пример1: Связь скрипта с конфекс средой&amp;lt;/h1&amp;gt;
+
+В этом примере описывается как связать  груви скрипт с java-объектами 
+классов конфекс.
+
+Для более подробного объяснения нужно открыть груви файл в редакторе
+</htmltext>
+</properties>
+</HtmlTextNode>
+<Java2HtmlNode
+id="-1"
+name="Объявление класса"
+>
+<properties>
+<header>
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+//-- Создается тестовый класс и связыввается со внешними переменными
+Example1 form = new Example1(parent,thisGroovyNode,runViewPart,monitor);
+//-- запускается на выполнение метод run() 
+form.run();
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+<Java2HtmlNode
+id="-1"
+name="переменные для связи "
+>
+<properties>
+<header>
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+/**
+*    Определение класса
+*/
+class Example1 {
+	//-- переменные для связи груви скрипта с конфексным деревом
+	//   и средой выполнения
+	def Composite parent         //-- родительский композит
+	def ITreeNode thisGroovyNode //-- этот узел в дереве
+	def ViewPart  runViewPart    //-- Вид в котором выполняется форма
+	def IProgressMonitor monitor //-- Монитор выполнения
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<selected_words>
+parent,thisGroovyNode,runViewPart,monitor
+</selected_words>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+<Java2HtmlNode
+id="-1"
+name="создаем построитель SWT "
+>
+<properties>
+<header>
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+//-- создаем построитель SWT 	
+	def swt = new SwtBuilder()
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+<Java2HtmlNode
+id="-1"
+name="Создаем конструктор в котором инициируются переменные"
+>
+<properties>
+<header>
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+// Конструктор в котором инициируются переменные
+	Example1(Composite p_parent
+			, ITreeNode p_thisGroovyNode
+			, ViewPart p_runViewPart
+			,IProgressMonitor p_monitor
+			) {
+		parent = p_parent
+		thisGroovyNode = p_thisGroovyNode
+		runViewPart = p_runViewPart
+		monitor = p_monitor
+		
+		//-- включаем swt построитель в родительский композит
+		swt.setCurrent(parent);
+	}
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+<Java2HtmlNode
+id="-1"
+name=" Процедура для запуска формы"
+>
+<properties>
+<header>
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+// Процедура для запуска формы
+	public void run() {
+		try {
+			swt.composite {	
+				//-- задаем тип планировщика
+			    gridLayout(numColumns:2)         //-- колонок 2 
+				gridData( style:&amp;quot;fill_both&amp;quot; )    //-- растягивать во все стороны
+				//-- задаем надпись
+				label( style:&amp;quot;none&amp;quot;, text:&amp;quot;Пример ---: &amp;quot; )
+				text( style:&amp;quot;border&amp;quot;,text:'Текст')
+			} //-- swt.composite
+		} catch( Exception e) {
+			System.err.println(&amp;quot; &amp;quot;+e.getMessage())
+		}
+	} //-- run()
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+</HtmlComposite>
+<CompositeFormViewNode
+id="-1"
+name="Пример1: "
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="/groovy/Example1.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/Example1.groovy
+</src_file_name>
+</properties>
+</GroovyNode>
+</CompositeFormViewNode>
+<CompositeFormViewNode
+id="-1"
+name="Пример 666 1: "
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="/groovy/Example1.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/Example1.groovy
+</src_file_name>
+</properties>
+</GroovyNode>
+</CompositeFormViewNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Navigation on the confex tree"
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="Description"
+>
+<properties>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+</properties>
+<Java2HtmlNode
+id="-1"
+name="Get root node"
+>
+<properties>
+<header>
+Get root node, the topmost hidden node of tree
+
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+...
+def root = thisGroovyNode.getRoot()
+...
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<selected_words>
+getRoot
+</selected_words>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+<Java2HtmlNode
+id="-1"
+name="Get children list"
+>
+<properties>
+<header>
+Get children list
+
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+...
+def children = node.getChildren()
+
+for( i in 0..children.length-1) {
+	println children[i].name
+}
+...
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<selected_words>
+getChildren
+</selected_words>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+<Java2HtmlNode
+id="-1"
+name="Get child with given name"
+>
+<properties>
+<header>
+Get child with given name
+
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+...
+def node = thisGroovyNode.getChildWithName(&amp;quot;vars3&amp;quot;)
+println node.name		
+...
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<selected_words>
+getChildWithName,name
+</selected_words>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+<Java2HtmlNode
+id="-1"
+name="Search node with given class type up to tree."
+>
+<properties>
+<header>
+Search node with given class type up to tree.
+
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+p = TreeUtils.searchNodeUp(thisGroovyNode,JdbcConnectionNode.class);
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<selected_words>
+searchNodeUp
+</selected_words>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+</HtmlComposite>
+<VarsNode
+id="-1"
+name="vars1"
+>
+<properties>
+<vars>
+</vars>
+</properties>
+</VarsNode>
+<GroovyNode
+id="-1"
+name="/groovy/BuildChildList.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/BuildChildList.groovy
+</src_file_name>
+</properties>
+<VarsNode
+id="-1"
+name="vars3"
+>
+<properties>
+<vars>
+</vars>
+</properties>
+</VarsNode>
+</GroovyNode>
+<VarsNode
+id="-1"
+name="vars2"
+>
+<properties>
+<vars>
+</vars>
+</properties>
+</VarsNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Использование конфекс-переменных"
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="Краткое описание"
+>
+<properties>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+</properties>
+<HtmlTextNode
+id="-1"
+name="Часть 1"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt; Пример: Использование конфекс-переменных &amp;lt;/h2&amp;gt;
+
+В этом примере показано как можно прочитать конфекс-переменную из набора и потом записать ее новое значение.
+&amp;lt;br&amp;gt;
+
+&amp;lt;h3&amp;gt;Чтение переменной&amp;lt;/h3&amp;gt;
+&amp;lt;pre&amp;gt;
+В этом примере происходит замена переменных их значениями
+&amp;lt;pre class=code&amp;gt;
+  label( style:&amp;quot;none&amp;quot;, text:&amp;quot;#{var 1}: &amp;quot; )
+  text( style:&amp;quot;border&amp;quot;,text:'#{перем 2}')
+&amp;lt;/pre&amp;gt;
+  поиск переменных &amp;quot;var 1&amp;quot; и &amp;quot;перем 2&amp;quot; производится с узла в котором
+  они используются вверх по конфекс дереву пока не будут найдены.
+  Таким образом, наборы расположенные выше по дереву скрываются.
+&amp;lt;/pre&amp;gt;
+
+
+&amp;lt;h3&amp;gt;Запись переменной&amp;lt;/h3&amp;gt;
+&amp;lt;pre&amp;gt;
+В этом примере по нажатию кнопки перезаписывается
+переменная &amp;quot;var 1&amp;quot;
+&amp;lt;pre class=code&amp;gt;
+thisGroovyNode.setVarUp(&amp;quot;var 1&amp;quot;,t.text)
+&amp;lt;/pre&amp;gt;
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+<VarsNode
+id="-1"
+name="Тестовый набор переменных"
+>
+<properties>
+<vars>
+<var name="var 1">Значение 4</var><var name="перем 2">value 2</var></vars>
+</properties>
+</VarsNode>
+<CompositeFormViewNode
+id="-1"
+name="Чтение переменной"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="/groovy/Examples_Vars_1.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/Examples_Vars_1.groovy
+</src_file_name>
+</properties>
+</GroovyNode>
+</CompositeFormViewNode>
+<CompositeFormViewNode
+id="-1"
+name="Запись переменной"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="/groovy/Examples_Vars_2.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/Examples_Vars_2.groovy
+</src_file_name>
+</properties>
+</GroovyNode>
+</CompositeFormViewNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Использование встроенных таблиц в формах"
+>
+<properties>
+</properties>
+<OraJdbcConnectionNode
+id="-1"
+name="Коннекция к БД (scott/tiger)"
+>
+<properties>
+<user>
+#{owner}
+</user>
+<password>
+#{owner_pwd}
+</password>
+<url>
+jdbc:oracle:thin:@#{server_db}:1521:#{sid}
+</url>
+</properties>
+<CompositeFormViewNode
+id="-1"
+name="Встроенная таблица"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="/groovy/ExampleEmbedTable.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/ExampleEmbedTable.groovy
+</src_file_name>
+</properties>
+<SqlResultCompositeNode
+id="-1"
+name="table1"
+>
+<properties>
+<sql>
+select * from dept
+</sql>
+<maxrows>
+100
+</maxrows>
+</properties>
+</SqlResultCompositeNode>
+</GroovyNode>
+</CompositeFormViewNode>
+<CompositeFormViewNode
+id="-1"
+name="Встроенная Цветная таблица"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="/groovy/ExampleEmbedColorTable.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/ExampleEmbedColorTable.groovy
+</src_file_name>
+</properties>
+<SqlResultCompositeNode
+id="-1"
+name="table1"
+>
+<properties>
+<sql>
+select * from emp
+</sql>
+<maxrows>
+100
+</maxrows>
+</properties>
+</SqlResultCompositeNode>
+</GroovyNode>
+</CompositeFormViewNode>
+</OraJdbcConnectionNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="1.4.2) Работа с базой"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="/groovy/ExampleDB1.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/ExampleDB1.groovy
+</src_file_name>
+</properties>
+</GroovyNode>
+<OraJdbcConnectionNode
+id="-1"
+name="DB_CONNECTION"
+>
+<properties>
+<user>
+#{owner}
+</user>
+<password>
+#{owner_pwd}
+</password>
+<url>
+jdbc:oracle:thin:@#{server_db}:1521:#{sid}
+</url>
+</properties>
+<TreeNode
+id="-1"
+name="Запросы"
+>
+<properties>
+</properties>
+<HtmlSqlTableTreeObject
+id="-1"
+name="Вывод запроса в виде HTML таблицы"
+icon="etool16\table_add.png"
+>
+<properties>
+<sql>
+SELECT * FROM dept
+</sql>
+</properties>
+</HtmlSqlTableTreeObject>
+<SqlResultCompositeNode
+id="-1"
+name="Вывод запроса в виде SQL таблицы"
+>
+<properties>
+<sql>
+SELECT * FROM dept
+</sql>
+<maxrows>
+100
+</maxrows>
+</properties>
+</SqlResultCompositeNode>
+<SqlTreeObject
+id="-1"
+name="Выполнение SQL команды"
+>
+<properties>
+<sql>
+TRUNCATE TABLE tru_trace_temp_log
+</sql>
+</properties>
+</SqlTreeObject>
+<GroovyNode
+id="-1"
+name="Получаем коннекцию из DB_CONNECTION"
+>
+<properties>
+<src_file_name>
+/groovy/TestOracle.groovy
+</src_file_name>
+</properties>
+</GroovyNode>
+</TreeNode>
+</OraJdbcConnectionNode>
+<TreeNode
+id="-1"
+name="Использование внешней коннекции"
+>
+<properties>
+</properties>
+<OraJdbcConnectionNode
+id="-1"
+name="DB_CONNECTION"
+>
+<properties>
+<user>
+#{owner}
+</user>
+<password>
+#{owner_pwd}
+</password>
+<url>
+jdbc:oracle:thin:@#{server_db}:1521:#{sid}
+</url>
+</properties>
+<TreeNode
+id="-1"
+name="Запросы"
+>
+<properties>
+</properties>
+<HtmlSqlTableTreeObject
+id="-1"
+name="Вывод запроса в виде HTML таблицы"
+icon="etool16\table_add.png"
+>
+<properties>
+<sql>
+SELECT * FROM dept
+</sql>
+</properties>
+</HtmlSqlTableTreeObject>
+<GroovyNode
+id="-1"
+name="/groovy/TestOracle.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/TestOracle.groovy
+</src_file_name>
+</properties>
+</GroovyNode>
+</TreeNode>
+</OraJdbcConnectionNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="1.4.3) Использование ANT"
+>
+<properties>
+</properties>
+<TreeNode
+id="-1"
+name="FTP, Telnet, Files, Mail"
+>
+<properties>
+</properties>
+<TreeNode
+id="-1"
+name="FTP"
+>
+<properties>
+</properties>
+<UrlNode
+id="-1"
+name="Ant Ftp Task"
+>
+<properties>
+<url>
+http://ant.apache.org/manual/OptionalTasks/ftp.html
+</url>
+</properties>
+</UrlNode>
+<VarsNode
+id="-1"
+name="ftp переменные"
+>
+<properties>
+<vars>
+<var name="local_dir">.</var><var name="ftp_pwd">uu4cn2</var><var name="file_extension">.xml</var><var name="ftp_server">ftp.rdtex.ru</var><var name="ftp_dir">/ERV/IN/</var><var name="ftp_user">smng</var></vars>
+</properties>
+</VarsNode>
+<GroovyNode
+id="-1"
+name="ftp Получение файлов с ФТП сервера"
+>
+<properties>
+<groovy>
+ant = new AntBuilder()
+ant.ftp( action:&amp;quot;get&amp;quot;, 
+	server:&amp;quot;#{ftp_server}&amp;quot;,
+    userid:&amp;quot;#{ftp_user}&amp;quot;,
+    password:&amp;quot;#{ftp_pwd}&amp;quot;,
+    passive:&amp;quot;yes&amp;quot;,
+    verbose:&amp;quot;yes&amp;quot;,
+    remotedir:&amp;quot;#{ftp_dir}&amp;quot;,
+    binary:&amp;quot;yes&amp;quot; ) {
+        fileset( dir:&amp;quot;#{local_dir}&amp;quot; ) {
+            include( name:&amp;quot;**/*#{file_extension}*&amp;quot; )
+        }
+    }
+</groovy>
+</properties>
+</GroovyNode>
+<GroovyNode
+id="-1"
+name="ftp Отправка файлов на ФТП сервер"
+>
+<properties>
+<groovy>
+ant = new AntBuilder()
+ant.ftp( server:&amp;quot;#{ftp_server}&amp;quot;,
+    userid:&amp;quot;#{ftp_user}&amp;quot;,
+    password:&amp;quot;#{ftp_pwd}&amp;quot;,
+    passive:&amp;quot;yes&amp;quot;,
+    verbose:&amp;quot;yes&amp;quot;,
+    remotedir:&amp;quot;#{ftp_dir}&amp;quot;,
+    binary:&amp;quot;yes&amp;quot;) {
+        fileset( dir:&amp;quot;#{local_dir}&amp;quot; ) {
+            include( name:&amp;quot;**/*#{file_extension}&amp;quot; )
+        }
+    }
+</groovy>
+</properties>
+</GroovyNode>
+<GroovyNode
+id="-1"
+name="ftp Удаление файлов на ФТП сервере"
+>
+<properties>
+<groovy>
+ant = new AntBuilder()
+ant.ftp( action:&amp;quot;del&amp;quot;,
+	server:&amp;quot;#{ftp_server}&amp;quot;,
+    userid:&amp;quot;#{ftp_user}&amp;quot;,
+    password:&amp;quot;#{ftp_pwd}&amp;quot;	) {
+        fileset( dir:&amp;quot;#{ftp_dir}&amp;quot; ) {
+            include( name:&amp;quot;**/*#{file_extension}&amp;quot; )
+        }
+    }
+</groovy>
+</properties>
+</GroovyNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Telnet"
+>
+<properties>
+</properties>
+<UrlNode
+id="-1"
+name="Ant Telnet Task"
+>
+<properties>
+<url>
+http://ant.apache.org/manual/OptionalTasks/telnet.html
+</url>
+</properties>
+</UrlNode>
+<VarsNode
+id="-1"
+name="Telnet переменные"
+>
+<properties>
+<vars>
+<var name="telnet_server">onyx.srv.rdtex.ru</var><var name="telnet_pwd">ius2804</var><var name="telnet_user">gius</var></vars>
+</properties>
+</VarsNode>
+<GroovyNode
+id="-1"
+name="telnet  ls /gis_data/in"
+>
+<properties>
+<groovy>
+ant = new AntBuilder()
+ant.telnet( server:&amp;quot;#{telnet_server}&amp;quot;,
+    userid:&amp;quot;#{telnet_user}&amp;quot;,
+    password:&amp;quot;#{telnet_pwd}&amp;quot;,
+    timeout:&amp;quot;7&amp;quot;	
+    ) {
+        read( string:&amp;quot;\$&amp;quot; )
+	  write( string:&amp;quot;cd /u00/app/com/gis_data/in/&amp;quot;)	
+        read( string:&amp;quot;\$&amp;quot; )
+	  write( string:&amp;quot;ls&amp;quot;)
+        read( string:&amp;quot;\$&amp;quot; )
+    }
+</groovy>
+</properties>
+</GroovyNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Работа с файлами"
+>
+<properties>
+</properties>
+<UrlNode
+id="-1"
+name="См.  Задачи ANT  File Tasks"
+>
+<properties>
+<url>
+http://ant.apache.org/manual/
+</url>
+</properties>
+</UrlNode>
+<UrlNode
+id="-1"
+name="Большой пример использования ant+groovy"
+>
+<properties>
+<url>
+http://groovy.codehaus.org/Gants_Build_Script
+</url>
+</properties>
+</UrlNode>
+<VarsNode
+id="-1"
+name="Настройки"
+>
+<properties>
+<vars>
+<var name="build_dir">d:/tmp/test/</var><var name="from_dir">d:/tmp/1/</var></vars>
+</properties>
+</VarsNode>
+<FolderNode
+id="-1"
+name="#{from_dir}"
+>
+<properties>
+<path>
+#{from_dir}
+</path>
+</properties>
+</FolderNode>
+<FolderNode
+id="-1"
+name="#{build_dir}"
+>
+<properties>
+<path>
+#{build_dir}
+</path>
+</properties>
+</FolderNode>
+<GroovyNode
+id="-1"
+name="Создаем каталог и копируем файлы"
+>
+<properties>
+<groovy>
+ant = new AntBuilder()
+
+ant.sequential {
+            echo(&amp;quot;inside sequential&amp;quot;)
+            
+            myDir = &amp;quot;#{build_dir}&amp;quot;
+            
+            mkdir(dir:myDir) 
+            copy(todir:myDir) {
+                fileset(dir:&amp;quot;#{from_dir}&amp;quot;) {
+                    include(name:&amp;quot;**/*.*&amp;quot;)
+                }
+            }
+            
+            echo(&amp;quot;done&amp;quot;)
+        }
+</groovy>
+</properties>
+</GroovyNode>
+<GroovyNode
+id="-1"
+name="Сканер файлов"
+>
+<properties>
+<groovy>
+def ant = new AntBuilder()
+        
+        // lets create a scanner of filesets
+        scanner = ant.fileScanner {
+            fileset(dir:&amp;quot;#{build_dir}&amp;quot;) {
+                include(name:&amp;quot;**/*.xml&amp;quot;)
+            }
+        }
+        
+        // now lets iterate over 
+        def found = false
+        for (f in scanner)  {
+            println(&amp;quot;Found file ${f}&amp;quot;)
+            
+            found = true
+            
+           // assert f instanceof File
+           // assert f.name.endsWith(&amp;quot;.groovy&amp;quot;)
+        }
+        //assert found
+</groovy>
+</properties>
+</GroovyNode>
+</TreeNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="1.4.4) Пользовательские формы SWT"
+>
+<properties>
+</properties>
+<CompositeFormViewNode
+id="-1"
+name="Форма без groovy-swt связь по &amp;quot;parent&amp;quot;"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="groovy swt in forms"
+>
+<properties>
+<groovy>
+import org.eclipse.swt.SWT
+import org.eclipse.swt.widgets.*
+import org.eclipse.swt.layout.RowLayout as Layout
+import org.eclipse.swt.layout.GridLayout
+import org.eclipse.swt.layout.GridData
+import org.eclipse.swt.layout.FillLayout
+
+def composite = new Composite(parent , SWT.FILL)
+
+composite.layout = new Layout( SWT.FILL);
+
+def label0 = new Label(composite, SWT.NONE)
+label0.text = 'Simple demo of Groovy and SWT'
+
+def button = new Button(composite, SWT.PUSH)
+button.text = 'Push me'
+
+def group = new Group(composite, SWT.NONE)
+group.text = &amp;quot;Person&amp;quot;
+def layout = new GridLayout();
+layout.numColumns=2;
+group.layout = layout;
+
+def label = new Label(group, SWT.NONE)
+label.text = 'Simple demo of Groovy and SWT'
+
+new Label(group, SWT.NONE).setText(&amp;quot;Phone Type&amp;quot;);
+def phoneType = new Combo (group, SWT.READ_ONLY);
+phoneType.items = [&amp;quot;Fax&amp;quot;, &amp;quot;Business&amp;quot;, &amp;quot;Cell&amp;quot;, &amp;quot;Home&amp;quot;];
+phoneType.text = &amp;quot;Home&amp;quot;;
+</groovy>
+</properties>
+</GroovyNode>
+</CompositeFormViewNode>
+<CompositeFormViewNode
+id="-1"
+name="примеры закладок (TabItem и cTabItem)"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="/groovy/TabExamples.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/TabExamples.groovy
+</src_file_name>
+<groovy>
+
+</groovy>
+</properties>
+</GroovyNode>
+</CompositeFormViewNode>
+<CompositeFormViewNode
+id="-1"
+name="&amp;quot;Простая форма с вкладками&amp;quot;"
+>
+<properties>
+</properties>
+<VarsNode
+id="-1"
+name="Localisation RUS"
+not_vis_in_user_mode="true"
+>
+<properties>
+<vars>
+<var name="&amp;lt;name&amp;gt;">&amp;lt;value&amp;gt;</var></vars>
+</properties>
+</VarsNode>
+<GroovyNode
+id="-1"
+name="/groovy/easy_form.groovy"
+not_vis_in_user_mode="true"
+>
+<properties>
+<src_file_name>
+/groovy/easy_form.groovy
+</src_file_name>
+<groovy>
+
+</groovy>
+</properties>
+</GroovyNode>
+</CompositeFormViewNode>
+<CompositeFormViewNode
+id="-1"
+name="&amp;quot;Улучшенная форма с вкладками&amp;quot;"
+>
+<properties>
+</properties>
+<VarsNode
+id="-1"
+name="Localisation RUS"
+not_vis_in_user_mode="true"
+>
+<properties>
+<vars>
+<var name="&amp;lt;name&amp;gt;">&amp;lt;value&amp;gt;</var></vars>
+</properties>
+</VarsNode>
+<GroovyNode
+id="-1"
+name="/groovy/improved_form.groovy"
+not_vis_in_user_mode="true"
+>
+<properties>
+<src_file_name>
+/groovy/improved_form.groovy
+</src_file_name>
+<groovy>
+
+</groovy>
+</properties>
+<SqlResultCompositeNode
+id="-1"
+name="com_temp_mail"
+>
+<properties>
+<sql>
+select id,v1 as N, v2 as Reseived, v3 as Fromaddr, v4 as Subj from com_temp order by id
+</sql>
+<maxrows>
+1000
+</maxrows>
+</properties>
+</SqlResultCompositeNode>
+</GroovyNode>
+</CompositeFormViewNode>
+<CompositeFormViewNode
+id="-1"
+name="SWT Древо"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="layout_form.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/layout_form.groovy
+</src_file_name>
+<groovy>
+
+</groovy>
+</properties>
+</GroovyNode>
+</CompositeFormViewNode>
+<TreeNode
+id="-1"
+name="Modal window"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="пример Модальное окно"
+>
+<properties>
+<src_file_name>
+/groovy/ex_modal_dialog.groovy
+</src_file_name>
+<groovy>
+
+</groovy>
+</properties>
+</GroovyNode>
+</TreeNode>
+<CompositeFormViewNode
+id="-1"
+name="&amp;quot;Пример динамического композита свойств&amp;quot;"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="DynamicComosites.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/DynamicComosites.groovy
+</src_file_name>
+</properties>
+</GroovyNode>
+</CompositeFormViewNode>
+<CompositeFormViewNode
+id="-1"
+name="Пример1:  Динамическое встраивание в панель вида"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="/groovyDynamicActionBarExample.groovy"
+icon="/icons/sample.gif"
+>
+<properties>
+<src_file_name>
+/groovy/DynamicActionBarExample.groovy
+</src_file_name>
+</properties>
+</GroovyNode>
+</CompositeFormViewNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="1.4.5) Составные groovy документы"
+>
+<properties>
+</properties>
+<GroovyCompositeNode
+id="-1"
+name="Prepared form"
+>
+<properties>
+<header>
+import groovy.swt.SwtBuilder
+import org.eclipse.swt.layout.FormAttachment
+import org.eclipse.swt.graphics.Rectangle
+
+builder = new SwtBuilder()
+        
+shell = builder.shell ( text:'The Form Demo', location:[100,100], size:[500,400] ) {
+	fillLayout()
+</header>
+<footer>
+}		
+shell.open()
+	
+while(! shell.isDisposed()) { 
+	if (! shell.display.readAndDispatch()) {
+		shell.display.sleep();
+	}
+}
+</footer>
+</properties>
+</GroovyCompositeNode>
+<GroovyCompositeNode
+id="-1"
+name="Complex Sash form"
+>
+<properties>
+<header>
+import groovy.swt.SwtBuilder
+import org.eclipse.swt.layout.FormAttachment
+import org.eclipse.swt.graphics.Rectangle
+
+builder = new SwtBuilder()
+        
+shell = builder.shell ( text:'The SashForm Demo', location:[100,100], size:[500,400] )  {
+    	fillLayout()
+        
+	sashForm1 = sashForm( style:&amp;quot;horizontal&amp;quot; )  {
+		fillLayout()
+</header>
+<footer>
+} //-- end sashForm1
+sashForm1.weights = [10,40,30]
+}	//-- end shell
+
+shell.open()
+	
+while(! shell.isDisposed()) { 
+	if (! shell.display.readAndDispatch()) {
+		shell.display.sleep();
+	}
+}
+</footer>
+</properties>
+<GroovyNode
+id="-1"
+name="1) composite with label"
+>
+<properties>
+<groovy>
+composite( style:&amp;quot;none&amp;quot; ) {
+	       			fillLayout()
+	       			label( text:&amp;quot;Label in pane 1&amp;quot; )
+       			}
+</groovy>
+</properties>
+</GroovyNode>
+<GroovyNode
+id="-1"
+name="2) composite with button"
+>
+<properties>
+<groovy>
+composite( style:&amp;quot;none&amp;quot; ) {
+	       			fillLayout()
+	       			button( text:&amp;quot;Button in pane2&amp;quot;, style:&amp;quot;push&amp;quot; )
+       			}
+</groovy>
+</properties>
+</GroovyNode>
+<GroovyNode
+id="-1"
+name="3) composite with label"
+>
+<properties>
+<groovy>
+composite( style:&amp;quot;none&amp;quot; ) {
+       				fillLayout()
+	       			label( text:&amp;quot;Label in pane3&amp;quot; )
+       			}
+</groovy>
+</properties>
+</GroovyNode>
+</GroovyCompositeNode>
+<GroovyCompositeNode
+id="-1"
+name="Complex form with TabFolder"
+>
+<properties>
+<header>
+import groovy.swt.SwtBuilder
+import org.eclipse.swt.layout.FormAttachment
+import org.eclipse.swt.graphics.Rectangle
+
+builder = new SwtBuilder()
+        
+shell = builder.shell ( text:'The Tab Form Demo', location:[100,100], size:[300,200] ) {
+	fillLayout()
+
+	def tab = tabFolder( style:&amp;quot;none&amp;quot; ) {
+		gridData( style:&amp;quot;fill_horizontal&amp;quot; )
+</header>
+<footer>
+} //-- tab
+} //-- shell		
+shell.open()
+	
+while(! shell.isDisposed()) { 
+	if (! shell.display.readAndDispatch()) {
+		shell.display.sleep();
+	}
+}
+</footer>
+</properties>
+<VarsNode
+id="-1"
+name="ITEM_NAME"
+>
+<properties>
+<vars>
+<var name="ITEM_NAME">Item 1</var></vars>
+</properties>
+</VarsNode>
+<GroovyNode
+id="-1"
+name="first tabItem"
+>
+<properties>
+<groovy>
+tabItem( style:&amp;quot;none&amp;quot;, text:&amp;quot;#{ITEM_NAME}&amp;quot; ) {
+	composite {
+		gridData( style:&amp;quot;fill_both&amp;quot; )
+		gridLayout(numColumns:3) 
+ 		label( style:&amp;quot;none&amp;quot;, text:&amp;quot;Field #{ITEM_NAME}: &amp;quot; )
+		def v_testVar11 = text( style:&amp;quot;border&amp;quot; ) {  
+		    	gridData( style:&amp;quot;fill_horizontal&amp;quot;, grabExcessHorizontalSpace:true )
+		}
+		text( editable:false, enabled:true, style:&amp;quot;none&amp;quot;, text:&amp;quot;Just a text&amp;quot; )
+	} //-- composite
+} //-- tabItem
+</groovy>
+</properties>
+</GroovyNode>
+<VarsNode
+id="-1"
+name="ITEM_NAME"
+>
+<properties>
+<vars>
+<var name="ITEM_NAME">The Tab Item 2</var></vars>
+</properties>
+</VarsNode>
+<GroovyNode
+id="-1"
+name="second tabItem"
+not_run_in_batch="true"
+>
+<properties>
+<groovy>
+tabItem( style:&amp;quot;none&amp;quot;, text:&amp;quot;#{ITEM_NAME}&amp;quot; ) {
+	 composite {
+		gridData( style:&amp;quot;fill_both&amp;quot; )
+		gridLayout(numColumns:1) 
+        	label( style:&amp;quot;none&amp;quot;, text:&amp;quot;Field #{ITEM_NAME}:&amp;quot; )
+	}
+}
+</groovy>
+</properties>
+</GroovyNode>
+<VarsNode
+id="-1"
+name="ITEM_NAME"
+>
+<properties>
+<vars>
+<var name="ITEM_NAME">Other Item</var></vars>
+</properties>
+</VarsNode>
+<GroovyNode
+id="-1"
+name="third tabItem"
+>
+<properties>
+<groovy>
+tabItem( style:&amp;quot;none&amp;quot;, text:&amp;quot;#{ITEM_NAME}&amp;quot; ) {
+	composite {
+		gridData( style:&amp;quot;fill_both&amp;quot; )
+		gridLayout(numColumns:3) 
+ 		label( style:&amp;quot;none&amp;quot;, text:&amp;quot;Field #{ITEM_NAME}:&amp;quot; )
+		def v_testVar11 = text( style:&amp;quot;border&amp;quot; ) {  
+			gridData( style:&amp;quot;fill_horizontal&amp;quot;, grabExcessHorizontalSpace:true )
+		}
+		text( editable:false, enabled:true, style:&amp;quot;none&amp;quot;, text:&amp;quot;Another text.&amp;quot; )
+	} //-- composite
+} //-- tabItem
+</groovy>
+</properties>
+</GroovyNode>
+</GroovyCompositeNode>
+<GroovyCompositeNode
+id="-1"
+name="Composite inside composite"
+>
+<properties>
+<header>
+import groovy.swt.SwtBuilder
+import org.eclipse.swt.layout.FormAttachment
+import org.eclipse.swt.graphics.Rectangle
+
+builder = new SwtBuilder()
+        
+shell = builder.shell ( text:'The Composite Form Demo', location:[100,100], size:[500,400] ) {
+	fillLayout()
+</header>
+<footer>
+} //-- shell		
+shell.open()
+	
+while(! shell.isDisposed()) { 
+	if (! shell.display.readAndDispatch()) {
+		shell.display.sleep();
+	}
+}
+</footer>
+</properties>
+<GroovyCompositeNode
+id="-1"
+name=""
+>
+<properties>
+<header>
+//-- header
+</header>
+<footer>
+//-- footer
+</footer>
+</properties>
+<GroovyNode
+id="-1"
+name=""
+>
+<properties>
+<groovy>
+composite {
+		gridData( style:&amp;quot;fill_both&amp;quot; )
+		gridLayout(numColumns:1) 
+        	label( style:&amp;quot;none&amp;quot;, text:&amp;quot;Field&amp;quot; )
+	}
+</groovy>
+</properties>
+</GroovyNode>
+</GroovyCompositeNode>
+</GroovyCompositeNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="1.5) JFreeChart"
+>
+<properties>
+</properties>
+<UrlNode
+id="-1"
+name="Plotting+graphs+with+JFreeChart"
+>
+<properties>
+<url>
+http://groovy.codehaus.org/Plotting+graphs+with+JFreeChart
+</url>
+</properties>
+</UrlNode>
+<VarsNode
+id="-1"
+name="report_path"
+>
+<properties>
+<vars>
+<var name="report_path">#{CONFEX_DIR}</var></vars>
+</properties>
+</VarsNode>
+<GroovyNode
+id="-1"
+name="Two Lines (RunMe)"
+>
+<properties>
+<groovy>
+//require(groupId:'jfree', artifactId:'jfreechart', version:'1.0.5')
+//require(groupId:'jfree', artifactId:'jcommon', version:'1.0.9')
+import org.jfree.chart.ChartFactory
+import org.jfree.chart.ChartPanel
+import org.jfree.data.category.DefaultCategoryDataset
+import org.jfree.chart.plot.PlotOrientation as Orientation
+import groovy.swing.SwingBuilder
+import javax.swing.WindowConstants as WC
+
+def dataset = new DefaultCategoryDataset()
+dataset.addValue 150, &amp;quot;no.1&amp;quot;, &amp;quot;Jan&amp;quot;
+dataset.addValue 210, &amp;quot;no.1&amp;quot;, &amp;quot;Feb&amp;quot;
+dataset.addValue 390, &amp;quot;no.1&amp;quot;, &amp;quot;Mar&amp;quot;
+dataset.addValue 300, &amp;quot;no.2&amp;quot;, &amp;quot;Jan&amp;quot;
+dataset.addValue 400, &amp;quot;no.2&amp;quot;, &amp;quot;Feb&amp;quot;
+dataset.addValue 200, &amp;quot;no.2&amp;quot;, &amp;quot;Mar&amp;quot;
+
+def labels = [&amp;quot;Bugs&amp;quot;, &amp;quot;Month&amp;quot;, &amp;quot;Count&amp;quot;]
+def options = [true, true, true]
+def chart = ChartFactory.createLineChart(*labels, dataset,
+                Orientation.VERTICAL, *options)
+def swing = new SwingBuilder()
+def frame = swing.frame(title:'Groovy LineChart'/*,
+        defaultCloseOperation:WC.EXIT_ON_CLOSE*/) {
+    panel(id:'canvas') { widget(new ChartPanel(chart)) }
+}
+frame.pack()
+frame.show()
+</groovy>
+</properties>
+</GroovyNode>
+<GroovyNode
+id="-1"
+name="Pie Chart (RunMe)"
+>
+<properties>
+<groovy>
+//require(groupId:'jfree', artifactId:'jfreechart', version:'1.0.5')
+//require(groupId:'jfree', artifactId:'jcommon', version:'1.0.9')
+import org.jfree.chart.ChartFactory
+import org.jfree.chart.ChartPanel
+import org.jfree.data.general.DefaultPieDataset
+import groovy.swing.SwingBuilder
+import java.awt.*
+import javax.swing.WindowConstants as WC
+
+def piedataset = new DefaultPieDataset();
+piedataset.setValue &amp;quot;Apr&amp;quot;, 10
+piedataset.setValue &amp;quot;May&amp;quot;, 30
+piedataset.setValue &amp;quot;June&amp;quot;, 40
+
+def options = [true, true, true]
+def chart = ChartFactory.createPieChart(&amp;quot;Pie Chart Sample&amp;quot;,
+    piedataset, *options)
+chart.backgroundPaint = Color.white
+def swing = new SwingBuilder()
+def frame = swing.frame(title:'Groovy PieChart'/*,
+        defaultCloseOperation:WC.EXIT_ON_CLOSE*/) {
+    panel(id:'canvas') { widget(new ChartPanel(chart)) }
+}
+frame.pack()
+frame.show()
+</groovy>
+</properties>
+</GroovyNode>
+<CompositeFormViewNode
+id="-1"
+name="Test Jchart in View (RunMe)"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="TestJchartView.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/TestJchartView.groovy
+</src_file_name>
+</properties>
+</GroovyNode>
+</CompositeFormViewNode>
+<HtmlComposite
+id="-1"
+name="Пример документа с графиком (RunMe)"
+>
+<properties>
+<header>
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot;
+	content=&amp;quot;text/html; charset=&amp;quot;windows-1251&amp;quot; /&amp;gt;
+&amp;lt;meta name=&amp;quot;Content-Language&amp;quot; content=&amp;quot;russian&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;description&amp;quot;
+	content=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;keywords&amp;quot;
+  content=&amp;quot;eclipse,Rich,Client,Platform,rcp,java,книги,статьи,приложения&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;expires&amp;quot; content=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;resource-type&amp;quot; content=&amp;quot;document&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;author&amp;quot; content=&amp;quot;Автор&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;copyright&amp;quot;
+	content=&amp;quot;(C) 2006&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;robots&amp;quot; content=&amp;quot;index,all&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;revisit&amp;quot; content=&amp;quot;5 Days&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;revisit-after&amp;quot; content=&amp;quot;5 Days&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;distribution&amp;quot; content=&amp;quot;global&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;rating&amp;quot; content=&amp;quot;general&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;audience&amp;quot; content=&amp;quot;all&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;title&amp;gt;Title&amp;lt;/title&amp;gt;
+
+&amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
+&amp;lt; !-- 
+.text_my	 { 
+	color: black; 
+	font-size: 100%; 
+	table-layout: auto; 
+	font-family: serif;  
+} 
+.code { border-color: #CFDCFF; border-style: solid; border-width: 3px; 
+   color: #0000EF; background-color: #EFEFEF;  
+   margin: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
+} 
+.h_line { 
+	color: blue; 
+	font-size: 100%; font: italic; color: blue; 
+	table-layout: auto; 
+	font-family: serif; font-style: italic; 
+} 
+.output {
+   color: #FFFFFF; background: #837A67;
+} 
+.xml { border-color: #CFDCFF; border-style: solid; border-width: 3px; 
+   color: #0000EF; background-color: #EFEFEF; 
+   margin: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
+}
+-- &amp;gt;
+&amp;lt;/style&amp;gt;
+
+&amp;lt;!--  link href=&amp;quot;./bf.css&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; /--&amp;gt;
+&amp;lt;!--  link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;../im/logo.ico&amp;quot;&amp;gt;&amp;lt;/link --&amp;gt;
+
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+</header>
+<footer>
+&amp;lt;hr&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+</footer>
+</properties>
+<FolderNode
+id="-1"
+name="#{report_path}"
+>
+<properties>
+<path>
+#{report_path}
+</path>
+</properties>
+</FolderNode>
+<HtmlTextNode
+id="-1"
+name="Часть 1"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt;Часть 1&amp;lt;/h2&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+<HtmlTextNode
+id="-1"
+name="график здесь"
+>
+<properties>
+<htmltext>
+график здесь
+
+&amp;lt;IMG src=&amp;quot;#{report_path}MyTestChart.png&amp;quot;&amp;gt;&amp;lt;/IMG&amp;gt;
+</htmltext>
+</properties>
+<CompositeFormViewNode
+id="-1"
+name="Test Jchart in View"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="TestJchartView.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/TestJchartView.groovy
+</src_file_name>
+</properties>
+</GroovyNode>
+</CompositeFormViewNode>
+</HtmlTextNode>
+</HtmlComposite>
+</TreeNode>
+<TreeNode
+id="-1"
+name="New features"
+>
+<properties>
+</properties>
+<VarsNode
+id="-1"
+name="RU"
+not_vis_in_user_mode="true"
+>
+<properties>
+<vars>
+<var name="Description">Описание</var><var name="Disadvantages">Недостатки</var></vars>
+</properties>
+</VarsNode>
+<VarsNode
+id="-1"
+name="EN"
+not_vis_in_user_mode="true"
+>
+<properties>
+<vars>
+<var name="disadvantages">disadvantages</var><var name="description">description</var></vars>
+</properties>
+</VarsNode>
+<TreeNode
+id="-1"
+name="+ Запуск узла на выполнение из groovy скрипта"
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="Doc"
+>
+<properties>
+<src_file_name>
+#{report_path}rep.html
+</src_file_name>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+<file_name>
+#{report_path}rep.html
+</file_name>
+</properties>
+<HtmlTextNode
+id="-1"
+name="Описание"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt;Запуск узла на выполнение из groovy скрипта&amp;lt;/h2&amp;gt;
+&amp;lt;pre&amp;gt;
+
+Для того чтобы запустить узел на выполнение из груви скрипта 
+нужно найти узел по имени а затем выполнить его метод run()
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+<Java2HtmlNode
+id="-1"
+name="Пример"
+>
+<properties>
+<header>
+&amp;lt;pre&amp;gt;
+Пример класс TestRunNode:
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+void run() {
+		//-- связываем переменную с дочерним узлом     		
+		def node = thisGroovyNode.getChildWithName(&amp;quot;run_test_node&amp;quot;);
+	
+		if(node==null) {
+			System.err.println(&amp;quot;Не могу найти узел  'run_test_node' &amp;quot;)
+			return
+		}
+		//-- run is here!
+		node.run(runViewPart);
+	}
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<selected_words>
+getChildWithName,node.run
+</selected_words>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+<HtmlTextNode
+id="-1"
+name="Ограничения"
+>
+<properties>
+<htmltext>
+&amp;lt;h3&amp;gt;Ограничения&amp;lt;/h3&amp;gt;
+&amp;lt;pre&amp;gt;
+
+Пока не знаю как запускать выполнение в фоновом режиме
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+<HtmlTextNode
+id="-1"
+name="Недостатки"
+>
+<properties>
+<htmltext>
+&amp;lt;h3&amp;gt;Недостатки&amp;lt;/h3&amp;gt;
+&amp;lt;pre&amp;gt;
+
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+<TreeNode
+id="-1"
+name="Пример:"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="Запуск дочернего htmlText узла"
+>
+<properties>
+<src_file_name>
+/groovy/TestRunNode.groovy
+</src_file_name>
+</properties>
+<HtmlTextNode
+id="-1"
+name="run_test_node"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt; This is  run_test_node start!!! &amp;lt;/h2&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+</GroovyNode>
+<GroovyNode
+id="-1"
+name="Запуск Ворда из дочернего узла"
+>
+<properties>
+<src_file_name>
+/groovy/TestRunExe.groovy
+</src_file_name>
+</properties>
+<ExecTreeNode
+id="-1"
+name="run MS Word"
+icon="non_eclipse\winword16x16.gif"
+>
+<properties>
+<command>
+WINWORD.EXE
+</command>
+<work_dir>
+.
+</work_dir>
+</properties>
+</ExecTreeNode>
+</GroovyNode>
+<GroovyNode
+id="-1"
+name="Тест запуска формы из кода"
+>
+<properties>
+<groovy>
+class TestRunExe  {
+
+	//-- переменные для связи груви скрипта с конфексным деревом
+	//   и средой выполнения
+	def parent         //-- родительский композит
+	def thisGroovyNode //-- этот узел в дереве
+	def runViewPart    //-- Вид в котором выполняется форма
+	def monitor //-- Монитор выполнения
+ 
+	void run() {
+		//...
+		//-- используем переменную     		
+		def node = thisGroovyNode.getChildWithName(&amp;quot;Test form for launching from code&amp;quot;);
+		if(node==null) {
+			System.err.println(&amp;quot;Не могу найти узел  'Test form for launching from code'&amp;quot;)
+			return
+		}
+		println &amp;quot;Узел найден!&amp;quot;
+		//-- run is here!
+		node.run(runViewPart);
+		//...		
+	}
+	
+	
+
+}
+</groovy>
+</properties>
+<CompositeFormViewNode
+id="-1"
+name="Test form for launching from code"
+>
+<properties>
+</properties>
+</CompositeFormViewNode>
+</GroovyNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="+ получение HTML текста из груви скрипта"
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="Пример HTML документа c генерацие html из groovy скрипта"
+>
+<properties>
+<src_file_name>
+#{report_path}rep.html
+</src_file_name>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+<file_name>
+#{report_path}rep.html
+</file_name>
+</properties>
+<VarsNode
+id="-1"
+name="var"
+>
+<properties>
+<vars>
+<var name="var1">Value of var1</var></vars>
+</properties>
+</VarsNode>
+<HtmlTextNode
+id="-1"
+name="Описание"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt;Получение HTML текста из груви скрипта&amp;lt;/h2&amp;gt;
+&amp;lt;pre&amp;gt;
+
+Для того чтобы использовать груви скрипт для генерации html он 
+должен содержать метод  String getHtmlText()
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+<Java2HtmlNode
+id="-1"
+name="Пример"
+>
+<properties>
+<header>
+&amp;lt;pre&amp;gt;
+Пример:
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+class TestGetHtmlText  {
+
+	String getHtmlText() {
+		return &amp;quot;&amp;lt;h3&amp;gt;Это текст из груви скрипта!&amp;lt;/h3&amp;gt;&amp;quot;
+	}
+
+}
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<selected_words>
+getHtmlText()
+</selected_words>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+<GroovyNode
+id="-1"
+name="TestGetHtmlText()"
+>
+<properties>
+<groovy>
+class TestGetHtmlText  {
+
+	void run() {}
+
+	String getHtmlText() {
+		def s = &amp;quot;&amp;quot;&amp;quot;
+&amp;lt;h3&amp;gt;Это текст из груви скрипта!&amp;lt;/h3&amp;gt;
+А это переменная var1 = #{var1}
+&amp;quot;&amp;quot;&amp;quot;
+		return s
+
+	}
+
+}
+</groovy>
+</properties>
+<HtmlTextNode
+id="-1"
+name="Addition text"
+>
+<properties>
+<htmltext>
+&amp;lt;pre&amp;gt;
+
+Addition text
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+</GroovyNode>
+</Java2HtmlNode>
+<HtmlTextNode
+id="-1"
+name="Ограничения"
+>
+<properties>
+<htmltext>
+&amp;lt;h3&amp;gt;Ограничения&amp;lt;/h3&amp;gt;
+&amp;lt;pre&amp;gt;
+
+Для узла груви класса GroovyClassNode не вызывавется getHtmlText(),
+т.е. можно генерить html можно только из скрипта.
+
+Из всех параметров привязки к дереву конфекса устанавливается только указатель на узел
+&amp;lt;b&amp;gt;thisGroovyNode&amp;lt;/b&amp;gt; остальные параметры  &amp;lt;b&amp;gt;parent&amp;lt;/b&amp;gt;,&amp;lt;b&amp;gt;runViewPart&amp;lt;/b&amp;gt;,&amp;lt;b&amp;gt;monitor&amp;lt;/b&amp;gt;
+  не устанавливаются  
+
+
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+<HtmlTextNode
+id="-1"
+name="Недостатки"
+>
+<properties>
+<htmltext>
+&amp;lt;h3&amp;gt;Недостатки&amp;lt;/h3&amp;gt;
+&amp;lt;pre&amp;gt;
+
+Если груви скрипт является дочерним у композитного HTML документа
+то каждый раз при сборке композита будет производиться попытка вызова
+метода getHtmlText() этого скрипта
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+</TreeNode>
+<TreeNode
+id="-1"
+name="+ работа с классами"
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="Работа с классами"
+>
+<properties>
+<src_file_name>
+#{report_path}rep.html
+</src_file_name>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+<file_name>
+#{report_path}rep.html
+</file_name>
+</properties>
+<HtmlTextNode
+id="-1"
+name="Описание"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt; Работа с классами и библиотеками&amp;lt;/h2&amp;gt;
+&amp;lt;pre&amp;gt;
+
+Начиная с ver 0.9.5 становится возможным создавать откомпилированные классы (.class)
+из исходных Groovy узлов. Для этого создан новый тип узла GroovyClassNode 
+исходный текст которого компилируется в в java класс по пути (Каталог конфекс файла)/classes
+
+В дальнейшем эти классы используются при исполнении Groovy скриптов 
+(каталог /classes включается в classpath во время исполнения).
+
+Также появилась возможность использования внешних java 
+библиотек. Для этого библиотека в виде jar файла должна находится в каталоге
+(Каталог конфекс файла)/lib 
+
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+<HtmlTextNode
+id="-1"
+name="Недостатки"
+>
+<properties>
+<htmltext>
+&amp;lt;h3&amp;gt;Недостатки&amp;lt;/h3&amp;gt;
+&amp;lt;pre&amp;gt;
+
+Сейчас все groovy скрипты и groovy классы должны лежать 
+в /groovy каталоге!
+
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+<TreeNode
+id="-1"
+name="Пример здесь:"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="/groovy/TestClasses.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/TestClasses.groovy
+</src_file_name>
+</properties>
+</GroovyNode>
+<GroovyClassNode
+id="-1"
+name="/groovy/A.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/A.groovy
+</src_file_name>
+</properties>
+</GroovyClassNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="+  Поиск узла по имени вверх"
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name=" Поиск узла по имени вверх"
+>
+<properties>
+<src_file_name>
+#{report_path}rep.html
+</src_file_name>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+<file_name>
+#{report_path}rep.html
+</file_name>
+</properties>
+<HtmlTextNode
+id="-1"
+name="Описание"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt; Поиск узла по имени вверх&amp;lt;/h2&amp;gt;
+&amp;lt;pre&amp;gt;
+
+Метод &amp;lt;b&amp;gt;searchNodeUp(String node_name)&amp;lt;/b&amp;gt; интерфейса ITreeNode ищет
+узел с именем node_name.
+
+Сначала поиск производится в текущей ветке а затем вверх по дереву
+
+
+Используя метод &amp;lt;b&amp;gt;getChildWithName()&amp;lt;/b&amp;gt; интерфейса ITreeNode можно осуществлять поиск по дереву
+в произвольном направлении. В примере показано как это делать.
+
+
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+<HtmlTextNode
+id="-1"
+name="Недостатки"
+>
+<properties>
+<htmltext>
+&amp;lt;h3&amp;gt;Недостатки&amp;lt;/h3&amp;gt;
+&amp;lt;pre&amp;gt;
+Возможно стоит создать метод для поиска узла по заданному пути
+
+Типа  seachNodeWithPath(String path) 
+
+node = seachNodeWithPath(&amp;quot;../../Node 02/Node 022&amp;quot;)
+
+../ - переход на уровень вверх от текущего узла
+
+
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+<TreeNode
+id="-1"
+name="Пример здесь:"
+>
+<properties>
+</properties>
+<TreeNode
+id="-1"
+name="Node 0"
+>
+<properties>
+</properties>
+<TreeNode
+id="-1"
+name="Node 1"
+>
+<properties>
+</properties>
+<TreeNode
+id="-1"
+name="Node 2"
+>
+<properties>
+</properties>
+</TreeNode>
+<GroovyNode
+id="-1"
+name="Run me!"
+>
+<properties>
+<src_file_name>
+/groovy/TestSearchNode.groovy
+</src_file_name>
+<groovy>
+
+</groovy>
+</properties>
+</GroovyNode>
+<TreeNode
+id="-1"
+name="Node 3"
+>
+<properties>
+</properties>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Node 4"
+>
+<properties>
+</properties>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Node 02"
+>
+<properties>
+</properties>
+<TreeNode
+id="-1"
+name="Node 021"
+>
+<properties>
+</properties>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Node 022"
+>
+<properties>
+</properties>
+</TreeNode>
+</TreeNode>
+</TreeNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="+  Нормальные имена форм в закладках"
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="Имена форм в закладках"
+>
+<properties>
+<src_file_name>
+#{report_path}rep.html
+</src_file_name>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+<file_name>
+#{report_path}rep.html
+</file_name>
+</properties>
+<HtmlTextNode
+id="-1"
+name="Описание"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt;Нормальные имена форм в закладках&amp;lt;/h2&amp;gt;
+&amp;lt;pre&amp;gt;
+
+Теперь в закладках для форм	 во всех режимах отображается текст
+с учетом значений конфекс-переменных.
+
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+<TreeNode
+id="-1"
+name="Пример здесь:"
+>
+<properties>
+</properties>
+<VarsNode
+id="-1"
+name="test_form"
+>
+<properties>
+<vars>
+<var name="test_form">Просто форма</var></vars>
+</properties>
+</VarsNode>
+<CompositeFormViewNode
+id="-1"
+name="#{test_form}"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="groovy swt in forms"
+>
+<properties>
+<groovy>
+import org.eclipse.swt.SWT
+import org.eclipse.swt.widgets.*
+import org.eclipse.swt.layout.RowLayout as Layout
+import org.eclipse.swt.layout.GridLayout
+import org.eclipse.swt.layout.GridData
+import org.eclipse.swt.layout.FillLayout
+
+def composite = new Composite(parent , SWT.FILL)
+
+composite.layout = new Layout( SWT.FILL);
+
+def label0 = new Label(composite, SWT.NONE)
+label0.text = 'Simple demo of Groovy and SWT'
+
+def button = new Button(composite, SWT.PUSH)
+button.text = 'Push me'
+</groovy>
+</properties>
+</GroovyNode>
+</CompositeFormViewNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="+ Компиляция зависимых Groovy классов и их использование"
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="Doc"
+>
+<properties>
+<src_file_name>
+#{report_path}rep.html
+</src_file_name>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+<file_name>
+#{report_path}rep.html
+</file_name>
+</properties>
+<HtmlTextNode
+id="-1"
+name="Описание"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt;Компиляция зависимых классов и их использование&amp;lt;/h2&amp;gt;
+&amp;lt;pre&amp;gt;
+
+Теперь при компиляции так же компилируются классы от котоорых зависит данный
+
+При запуске скрипта сначала проверяется есть ли откомпилированный класс в /class 
+и если естьто используется он, если нет то используется исходный класс из 
+/groovy каталога 
+
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+<TreeNode
+id="-1"
+name="Пример:"
+>
+<properties>
+</properties>
+<FolderNode
+id="-1"
+name="\classes"
+>
+<properties>
+<path>
+#{CONFEX_DIR}classes
+</path>
+</properties>
+</FolderNode>
+<GroovyClassNode
+id="-1"
+name="class A_tmp"
+>
+<properties>
+<src_file_name>
+/groovy/A_tmp.groovy
+</src_file_name>
+</properties>
+</GroovyClassNode>
+<GroovyClassNode
+id="-1"
+name="class B_tmp"
+>
+<properties>
+<src_file_name>
+/groovy/B_tmp.groovy
+</src_file_name>
+</properties>
+</GroovyClassNode>
+<GroovyNode
+id="-1"
+name="script:  new B_tmp().run()"
+>
+<properties>
+<groovy>
+new B_tmp().run()
+</groovy>
+</properties>
+</GroovyNode>
+<GroovyNode
+id="-1"
+name="class Тest_AB.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/Test_AB.groovy
+</src_file_name>
+</properties>
+</GroovyNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="+ Внутренние конфекс-переменные"
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="Doc"
+>
+<properties>
+<src_file_name>
+#{report_path}rep.html
+</src_file_name>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+<file_name>
+#{report_path}rep.html
+</file_name>
+</properties>
+<HtmlTextNode
+id="-1"
+name="Описание"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt;Внутренние конфекс-переменные&amp;lt;/h2&amp;gt;
+&amp;lt;pre&amp;gt;
+
+Внутренние конфекс-переменные задаются в коде, они могут быть
+перезаписаны т.к. подставляются в последнюю очередь, 
+НО, ВОЗМОЖНО, БУДЕТ УДАБНЕЕ СДЕЛАТЬ ИХ НЕ ПЕРЕЗАПИСЫВАЕМЫМИ.
+
+Пока определена только одна переменная
+CONFEX_DIR - каталог текущего конфекс файла
+
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+<TreeNode
+id="-1"
+name="Пример:"
+>
+<properties>
+</properties>
+<FolderNode
+id="-1"
+name="Каталог CONFEX_DIR"
+>
+<properties>
+<path>
+#{CONFEX_DIR}
+</path>
+</properties>
+</FolderNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="+  JavaNode"
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="Doc"
+>
+<properties>
+<src_file_name>
+#{report_path}rep.html
+</src_file_name>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+<file_name>
+#{report_path}rep.html
+</file_name>
+</properties>
+<HtmlTextNode
+id="-1"
+name="Описание"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt;Запуск узла на выполнение из groovy скрипта&amp;lt;/h2&amp;gt;
+&amp;lt;pre&amp;gt;
+
+Для того чтобы запустить узел на выполнение из груви скрипта 
+нужно найти узел по имени а затем выполнить его метод run()
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+<Java2HtmlNode
+id="-1"
+name="Пример"
+>
+<properties>
+<header>
+&amp;lt;pre&amp;gt;
+Пример класс TestRunNode:
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+void run() {
+		//-- связываем переменную с дочерним узлом     		
+		def node = thisGroovyNode.getChildWithName(&amp;quot;run_test_node&amp;quot;);
+	
+		if(node==null) {
+			System.err.println(&amp;quot;Не могу найти узел  'run_test_node' &amp;quot;)
+			return
+		}
+		//-- run is here!
+		node.run(runViewPart);
+	}
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<selected_words>
+getChildWithName,node.run
+</selected_words>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+<HtmlTextNode
+id="-1"
+name="Ограничения"
+>
+<properties>
+<htmltext>
+&amp;lt;h3&amp;gt;Ограничения&amp;lt;/h3&amp;gt;
+&amp;lt;pre&amp;gt;
+
+Пока не знаю как запускать выполнение в фоновом режиме
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+<HtmlTextNode
+id="-1"
+name="Недостатки"
+>
+<properties>
+<htmltext>
+&amp;lt;h3&amp;gt;Недостатки&amp;lt;/h3&amp;gt;
+&amp;lt;pre&amp;gt;
+
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+<TreeNode
+id="-1"
+name="Пример:"
+>
+<properties>
+</properties>
+<JavaNode
+id="-1"
+name="/src/JavaTest.java"
+>
+<properties>
+<src_file_name>
+/src/JavaTest.java
+</src_file_name>
+<java>
+import org.eclipse.swt.*;
+
+public class JavaTest {
+
+	public void run() {
+		System.err.println(&amp;quot; !!! Working! &amp;quot;);
+	}
+
+	public static void main(String[] args) {
+		System.err.println(&amp;quot; !!! Working main! &amp;quot;);
+	}
+}
+</java>
+</properties>
+</JavaNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="+  Status Line message common for all confex views"
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="Doc"
+>
+<properties>
+<src_file_name>
+#{report_path}rep.html
+</src_file_name>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+<file_name>
+#{report_path}rep.html
+</file_name>
+</properties>
+<HtmlTextNode
+id="-1"
+name="Description"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt;Setting up status line message common for all confex views&amp;lt;/h2&amp;gt;
+&amp;lt;pre&amp;gt;
+
+Now for all ConfexViews (NavigationView, WebBrowserView, CompositeFormView)
+one common status line message can be installed. 
+
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+<Java2HtmlNode
+id="-1"
+name="Example"
+>
+<properties>
+<header>
+&amp;lt;pre&amp;gt;
+Example:
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+import net.confex.application.ConfexPlugin
+import net.confex.views.ConfexView
+
+class OnStartLoginScript {
+	def runViewPart
+	
+	void run() {
+		if(runViewPart instanceof ConfexView) {
+			((ConfexView)runViewPart)
+				.setApplicationStatusLine(&amp;quot;New status line message!&amp;quot;) 
+		}
+		println ConfexPlugin.getDefault().getStatusLine()	
+	}
+}
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<selected_words>
+ConfexView,setApplicationStatusLine,getStatusLine,runViewPart
+</selected_words>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+<HtmlTextNode
+id="-1"
+name="Limitations"
+>
+<properties>
+<htmltext>
+&amp;lt;h3&amp;gt;Limitations&amp;lt;/h3&amp;gt;
+&amp;lt;pre&amp;gt;
+
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+<HtmlTextNode
+id="-1"
+name="Disadvantage"
+>
+<properties>
+<htmltext>
+&amp;lt;h3&amp;gt;Disadvantage&amp;lt;/h3&amp;gt;
+&amp;lt;pre&amp;gt;
+
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+<TreeNode
+id="-1"
+name="Пример:"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="/groovy/OnStartLoginScript.groovy"
+not_vis_in_user_mode="true"
+>
+<properties>
+<src_file_name>
+/groovy/OnStartLoginScript.groovy
+</src_file_name>
+</properties>
+</GroovyNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Test Async Run Node from groovy script"
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="Description"
+>
+<properties>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+</properties>
+<Java2HtmlNode
+id="-1"
+name="Method"
+>
+<properties>
+<header>
+&amp;lt;pre&amp;gt;
+There are two method  for running node as batch in async mode
+
+
+&amp;lt;/pre&amp;gt;
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+/**
+	 * Build new monitor(IProgressMonitor) and run node as batch 
+	 * in background 
+	 * @param view
+	 */
+	public void runNodeAsyncBatch(IViewPart view);
+	
+	
+	/**
+	 * Build new monitor(IProgressMonitor) and run node as batch 
+	 * in background 
+	 * @param view
+	 * @param name the name of the job.
+	 */
+	public void runNodeAsyncBatch(IViewPart view, String job_name);
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<selected_words>
+runNodeAsyncBatch
+</selected_words>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+<Java2HtmlNode
+id="-1"
+name="run from groovy"
+>
+<properties>
+<header>
+Run from groovy
+
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+...
+	node.runNodeAsyncBatch(runViewPart)
+...
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+<HtmlTextNode
+id="-1"
+name="Example"
+>
+<properties>
+<htmltext>
+Example:
+
+In TestRunAsync launch node with name &amp;quot;build test&amp;quot; in async mode from grovy script
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+<GroovyNode
+id="-1"
+name="TestRunAsync"
+>
+<properties>
+<src_file_name>
+/groovy/TestRunAsync.groovy
+</src_file_name>
+</properties>
+</GroovyNode>
+<TreeNode
+id="-1"
+name="test"
+>
+<properties>
+</properties>
+<VarsNode
+id="-1"
+name=""
+>
+<properties>
+<vars>
+<var name="install_dir">d:/temp/</var></vars>
+</properties>
+</VarsNode>
+<FolderNode
+id="-1"
+name="install_dir"
+>
+<properties>
+<path>
+#{install_dir}
+</path>
+</properties>
+</FolderNode>
+<TreeNode
+id="-1"
+name="build test"
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="build test.thml"
+>
+<properties>
+<src_file_name>
+#{install_dir}test.html
+</src_file_name>
+<header>
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+</header>
+<footer>
+&amp;lt;hr&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+</footer>
+<file_name>
+#{install_dir}test.html
+</file_name>
+</properties>
+<HtmlTextNode
+id="-1"
+name="Из под SYSTEM Создаем пользователя #{com_work}"
+>
+<properties>
+<htmltext>
+--&amp;lt;pre&amp;gt;
+
+prompt **************************************************
+prompt *     Создаем пользователя #{com_work}
+prompt **************************************************
+
+CONNECT sys/#{sys_pwd}@#{tns} AS sysdba
+/
+
+-- prompt ......  Создаем пользователя с привилегиями
+CREATE USER #{com_work} IDENTIFIED BY #{com_work_pwd}
+ DEFAULT TABLESPACE #{TABLESPACE} 
+ TEMPORARY TABLESPACE TEMP
+;
+
+   grant connect,resource to #{com_work};
+   
+   grant create any directory to #{com_work};
+   grant drop any directory to #{com_work};
+   
+   grant create public synonym to #{com_work};
+   grant drop public synonym to #{com_work};
+
+   grant debug any procedure to #{com_work};
+   grant debug connect session to #{com_work};
+
+
+
+--&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+<HtmlTextNode
+id="-1"
+name="Из под #{com_work} Создаем таблицу мэйлов"
+>
+<properties>
+<htmltext>
+--&amp;lt;pre&amp;gt;
+prompt **************************************************
+prompt *     Создаем таблицу    com_send_mails
+prompt **************************************************
+
+CONNECT #{com_work}/#{com_work_pwd}@#{tns}
+
+
+CREATE SEQUENCE com_send_mails_seq
+  INCREMENT BY 1
+  START WITH 1
+  MINVALUE 1
+  MAXVALUE 999999999999999999999999999
+  NOCYCLE
+  NOORDER
+/
+
+
+CREATE TABLE com_send_mails
+    (id                            NUMBER(38,0) NOT NULL,
+    subject                        VARCHAR2(240) ,
+    message                        VARCHAR2(4000),
+    server                         VARCHAR2(240),
+    com_task                       VARCHAR2(240),
+    journal_key                    VARCHAR2(240),
+    create_time                    DATE DEFAULT SYSDATE,
+    send_time                      DATE,
+    attachment                     BLOB)
+/
+
+
+alter table com_send_mails add constraint
+com_send_mails_pk primary key (id)
+/   
+
+
+CREATE OR REPLACE TRIGGER com_send_mails_t1
+BEFORE
+insert on com_send_mails
+for each row
+begin
+if :new.id is null then select com_send_mails_seq.nextval into :new.id from dual; end if;
+end;
+/
+--&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+<HtmlTextNode
+id="-1"
+name="создаем COM_HEADERS"
+>
+<properties>
+<htmltext>
+--&amp;lt;pre&amp;gt;
+prompt **************************************************
+prompt *     файл:     cre_COM_HEADERS.sql
+prompt **************************************************
+
+
+CREATE SEQUENCE wrk_seq
+  INCREMENT BY 1
+  START WITH 53248
+  MINVALUE 1
+  MAXVALUE 999999999999999999999999999
+  NOCYCLE
+  NOORDER
+  CACHE 20
+/
+
+
+CREATE TABLE com_headers
+    (id                             NUMBER(38,0) NOT NULL,
+    v01                            VARCHAR2(240),
+    v02                            VARCHAR2(240),
+    v03                            VARCHAR2(240),
+    v04                            VARCHAR2(240),
+    v05                            VARCHAR2(240),
+    v06                            VARCHAR2(240),
+    v07                            VARCHAR2(240),
+    v08                            VARCHAR2(240),
+    v09                            VARCHAR2(240),
+    v10                            VARCHAR2(240),
+    v11                            VARCHAR2(240),
+    v12                            VARCHAR2(240),
+    xdc_id                         NUMBER(38,0),
+    upl_name                       VARCHAR2(240),
+    send_received                  VARCHAR2(8) NOT NULL,
+    v13                            VARCHAR2(240),
+    v14                            VARCHAR2(240),
+    v15                            VARCHAR2(240),
+    v16                            VARCHAR2(240),
+    v17                            VARCHAR2(240),
+    v18                            VARCHAR2(240),
+    v19                            VARCHAR2(240),
+    v20                            VARCHAR2(240),
+    v21                            VARCHAR2(240),
+    v22                            VARCHAR2(240),
+    v23                            VARCHAR2(240),
+    v24                            VARCHAR2(240),
+    v25                            VARCHAR2(240),
+    v26                            VARCHAR2(240),
+    v27                            VARCHAR2(240),
+    v28                            VARCHAR2(240),
+    v29                            VARCHAR2(240),
+    v30                            VARCHAR2(240),
+    processing                     VARCHAR2(32))
+/
+
+-- Indexes for COM_HEADERS
+
+CREATE INDEX hdr_xdc_fk_i ON com_headers
+  (
+    xdc_id                          ASC
+  )
+/
+
+
+
+-- Constraints for COM_HEADERS
+
+ALTER TABLE com_headers
+ADD CONSTRAINT avcon_1113288490_send__000 CHECK (SEND_RECEIVED IN ('SEND', 'RECEIVED'))
+/
+
+ALTER TABLE com_headers
+ADD CONSTRAINT avcon_1120834196_proce_000 CHECK (PROCESSING IN ('TDB', 'RDB', 'ERR'))
+/
+
+ALTER TABLE com_headers
+ADD CONSTRAINT hdr_pk PRIMARY KEY (id)
+USING INDEX
+/
+
+
+
+-- Triggers for COM_HEADERS
+
+CREATE OR REPLACE TRIGGER com_hdr_bir_t
+ BEFORE
+  INSERT
+ ON com_headers
+REFERENCING NEW AS NEW OLD AS OLD
+ FOR EACH ROW
+begin
+if :new.id is null then select wrk_seq.nextval into :new.id from dual; end if;
+end;
+/
+--&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+<HtmlTextNode
+id="-1"
+name="создаем COM_LINES"
+>
+<properties>
+<htmltext>
+--&amp;lt;pre&amp;gt;
+prompt **************************************************
+prompt *     файл:     cre_COM_LINES.sql
+prompt **************************************************
+
+
+CREATE SEQUENCE lin_seq
+  INCREMENT BY 1
+  START WITH 60857
+  MINVALUE 1
+  MAXVALUE 999999999999999999999999999
+  NOCYCLE
+  NOORDER
+  CACHE 20
+/
+
+
+CREATE TABLE com_lines
+    (id                             NUMBER(38,0) NOT NULL,
+    v01                            VARCHAR2(240),
+    v02                            VARCHAR2(240),
+    v03                            VARCHAR2(240),
+    v04                            VARCHAR2(240),
+    v05                            VARCHAR2(240),
+    v06                            VARCHAR2(240),
+    v07                            VARCHAR2(240),
+    v08                            VARCHAR2(240),
+    v09                            VARCHAR2(240),
+    v10                            VARCHAR2(240),
+    v11                            VARCHAR2(240),
+    v12                            VARCHAR2(240),
+    hdr_id                         NUMBER(38,0) NOT NULL,
+    v13                            VARCHAR2(240),
+    v14                            VARCHAR2(240),
+    v15                            VARCHAR2(240),
+    v16                            VARCHAR2(240),
+    v17                            VARCHAR2(240),
+    v18                            VARCHAR2(240),
+    v19                            VARCHAR2(240),
+    v20                            VARCHAR2(240),
+    v21                            VARCHAR2(240),
+    v22                            VARCHAR2(240),
+    v23                            VARCHAR2(240),
+    v24                            VARCHAR2(240),
+    v25                            VARCHAR2(240),
+    v26                            VARCHAR2(240),
+    v27                            VARCHAR2(240),
+    v28                            VARCHAR2(240),
+    v29                            VARCHAR2(240),
+    v30                            VARCHAR2(240))
+/
+
+-- Indexes for COM_LINES
+
+CREATE INDEX lin_hdr_fk_i ON com_lines
+  (
+    hdr_id                          ASC
+  )
+/
+
+
+
+-- Constraints for COM_LINES
+
+
+ALTER TABLE com_lines
+ADD CONSTRAINT lin_pk PRIMARY KEY (id)
+USING INDEX
+/
+
+
+-- Triggers for COM_LINES
+
+CREATE OR REPLACE TRIGGER com_lin_bir_t
+ BEFORE
+  INSERT
+ ON com_lines
+REFERENCING NEW AS NEW OLD AS OLD
+ FOR EACH ROW
+begin
+if :new.id is null then select lin_seq.nextval into :new.id from dual; end if;
+end;
+/
+
+
+-- End of DDL Script for Table SCADA.COM_LINES
+
+-- Foreign Key
+ALTER TABLE com_lines
+ADD CONSTRAINT lin_hdr_fk FOREIGN KEY (hdr_id)
+REFERENCES com_headers (id) ON DELETE CASCADE
+/
+--&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+<ExecTreeNode
+id="-1"
+name="sqlplusw.exe /nolog @install_com_work_all.sql"
+>
+<properties>
+<command>
+sqlplusw.exe
+</command>
+<work_dir>
+#{install_dir}
+</work_dir>
+<arguments>
+/nolog @install_com_work_all.sql
+</arguments>
+</properties>
+</ExecTreeNode>
+</TreeNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Hot keys were add"
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="Description"
+>
+<properties>
+</properties>
+<HtmlTextNode
+id="-1"
+name=""
+>
+<properties>
+<htmltext>
+ALT+ENTER - opens the property dialog for selected node 
+CTRL+S       - save current Confex View
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Календари"
+>
+<properties>
+</properties>
+<CompositeFormViewNode
+id="-1"
+name="Календарь - диалог"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="Календарь"
+>
+<properties>
+<src_file_name>
+/groovy/CalendarDialog.groovy
+</src_file_name>
+<groovy>
+
+</groovy>
+</properties>
+</GroovyNode>
+<TreeNode
+id="-1"
+name="classes"
+>
+<properties>
+</properties>
+<GroovyClassNode
+id="-1"
+name="/groovy/Utils.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/Utils.groovy
+</src_file_name>
+</properties>
+</GroovyClassNode>
+</TreeNode>
+</CompositeFormViewNode>
+<CompositeFormViewNode
+id="-1"
+name="Календарь - комбо"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="Календарь-комбо.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/calendar_combo.groovy
+</src_file_name>
+<groovy>
+
+</groovy>
+</properties>
+</GroovyNode>
+</CompositeFormViewNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="If Node"
+>
+<properties>
+</properties>
+<VarsNode
+id="-1"
+name="test vars"
+>
+<properties>
+<vars>
+<var name="var1">vvv</var><var name="var2">part+</var></vars>
+</properties>
+</VarsNode>
+<IfNode
+id="-1" name="if(#{var1}==&quot;vvv&quot;)" >
+<properties>
+<left_value>
+
+#{var1}
+</left_value>
+<right_value>
+
+vvv
+</right_value>
+</properties>
+<GroovyNode
+id="-1"
+name=""
+>
+<properties>
+<groovy>
+println &amp;quot;TRUE!&amp;quot;
+</groovy>
+</properties>
+</GroovyNode>
+</IfNode>
+<HtmlComposite
+id="-1"
+name="Doc1"
+>
+<properties>
+<src_file_name>
+#{install_dir}install_#{task}.sql
+</src_file_name>
+</properties>
+<HtmlTextNode
+id="-1"
+name="Part 1"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt;Part 1&amp;lt;/h2&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+<IfNode
+id="-1" name="if(#{var2}==&quot;part+&quot;)" >
+<properties>
+<left_value>
+
+#{var2}
+</left_value>
+<right_value>
+
+part+
+</right_value>
+</properties>
+<HtmlTextNode
+id="-1"
+name="Part +"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt;Part +&amp;lt;/h2&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+</IfNode>
+<HtmlTextNode
+id="-1"
+name="Part 2"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt;Part 2&amp;lt;/h2&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+</TreeNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="2) Примеры использования"
+>
+<properties>
+</properties>
+<VarsNode
+id="-1"
+name="Путь к примерам пользовательских приложений"
+not_vis_in_user_mode="true"
+>
+<properties>
+<vars>
+<var name="path_at_ex_wrk">C:/EclipseGAZ/WRK_GAZ/Confex Files/</var></vars>
+</properties>
+</VarsNode>
+<TreeNode
+id="-1"
+name="2.1) Построение пользовательских интерфейсов"
+>
+<properties>
+</properties>
+<ConfexNode
+id="-1"
+name="GAZ_forms.confex"
+>
+<properties>
+<confex_filename>
+#{path_at_ex_wrk}GAZ_forms.confex
+</confex_filename>
+</properties>
+</ConfexNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="2.2) Инсталляция пользовательских приложений использующих базу данных"
+>
+<properties>
+</properties>
+<ConfexNode
+id="-1"
+name="GAZ_builder.confex"
+>
+<properties>
+<confex_filename>
+#{path_at_ex_wrk}GAZ_builder.confex
+</confex_filename>
+</properties>
+</ConfexNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="2.3) Тестирование пользовательских приложений"
+>
+<properties>
+</properties>
+<ConfexNode
+id="-1"
+name="GAZ_tests.confex"
+>
+<properties>
+<confex_filename>
+#{path_at_ex_wrk}GAZ_tests.confex
+</confex_filename>
+</properties>
+</ConfexNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="2.4) Интеграции разнородных приложений и документов "
+>
+<properties>
+</properties>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="News"
+>
+<properties>
+</properties>
+<TreeNode
+id="-1"
+name="Mozilla as internal browser"
+>
+<properties>
+</properties>
+<JavaNode
+id="-1"
+name="Snippet260"
+>
+<properties>
+<src_file_name>
+/src/Snippet260.java
+</src_file_name>
+<java>
+/*******************************************************************************
+ * Copyright (c) 2007 IBM Corporation and others.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ *
+ * Contributors:
+ *     IBM Corporation - initial API and implementation
+ *******************************************************************************/
+//package org.eclipse.swt.snippets;
+
+/*
+ * Mozilla in a Browser
+ *
+ * For a list of all SWT example snippets see
+ * http://www.eclipse.org/swt/snippets/
+ * 
+ * @since 3.3
+ */ 
+import org.eclipse.swt.*;
+import org.eclipse.swt.widgets.*;
+import org.eclipse.swt.browser.*;
+import org.eclipse.swt.layout.*;
+
+
+
+public class Snippet260 {
+
+	public static void main(String [] args) {
+		Display display = new Display();
+		Shell shell = new Shell(display);
+		shell.setLayout(new FillLayout());
+		shell.setText(&amp;quot;Mozilla&amp;quot;);
+		final Browser browser;
+		try {
+			browser = new Browser(shell, SWT.MOZILLA);
+		} catch (SWTError e) {
+			System.out.println(&amp;quot;Could not instantiate Browser: &amp;quot; + e.getMessage());
+			return;
+		}
+		shell.open();
+		browser.setUrl(&amp;quot;http://www.mozilla.org/&amp;quot;);
+		while (!shell.isDisposed()) {
+			if (!display.readAndDispatch()) display.sleep();
+		}
+		display.dispose();
+	}
+}
+</java>
+</properties>
+</JavaNode>
+</TreeNode>
+</TreeNode>
+</TreeNode>
+</ConfigTree>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ConfigTree version="0.0.2">
+<TreeNode
+id="-1"
+name="Localisation"
+>
+<properties>
+</properties>
+<VarsNode
+id="-1"
+name="html vars"
+not_vis_in_user_mode="true"
+>
+<properties>
+<vars>
+<var name="html_header">&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot;
+	content=&amp;quot;text/html; charset=&amp;quot;windows-1251&amp;quot; /&amp;gt;
+&amp;lt;meta name=&amp;quot;Content-Language&amp;quot; content=&amp;quot;russian&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;description&amp;quot;
+	content=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;keywords&amp;quot;
+  content=&amp;quot;eclipse,Rich,Client,Platform,rcp,java,книги,статьи,приложения&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;expires&amp;quot; content=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;resource-type&amp;quot; content=&amp;quot;document&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;author&amp;quot; content=&amp;quot;Автор&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;copyright&amp;quot;
+	content=&amp;quot;(C) 2006&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;robots&amp;quot; content=&amp;quot;index,all&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;revisit&amp;quot; content=&amp;quot;5 Days&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;revisit-after&amp;quot; content=&amp;quot;5 Days&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;distribution&amp;quot; content=&amp;quot;global&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;rating&amp;quot; content=&amp;quot;general&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;audience&amp;quot; content=&amp;quot;all&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;title&amp;gt;Title&amp;lt;/title&amp;gt;
+
+&amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
+&amp;lt; !-- 
+.text_my	 { 
+	color: black; 
+	font-size: 100%; 
+	table-layout: auto; 
+	font-family: serif;  
+} 
+.code { border-color: #CFDCFF; border-style: solid; border-width: 3px; 
+   color: #0000EF; background-color: #EFEFEF;  
+   margin: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
+} 
+.h_line { 
+	color: blue; 
+	font-size: 100%; font: italic; color: blue; 
+	table-layout: auto; 
+	font-family: serif; font-style: italic; 
+} 
+.output {
+   color: #FFFFFF; background: #837A67;
+} 
+.xml { border-color: #CFDCFF; border-style: solid; border-width: 3px; 
+   color: #0000EF; background-color: #EFEFEF; 
+   margin: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
+}
+-- &amp;gt;
+&amp;lt;/style&amp;gt;
+
+&amp;lt;!--  link href=&amp;quot;./bf.css&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; /--&amp;gt;
+&amp;lt;!--  link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;../im/logo.ico&amp;quot;&amp;gt;&amp;lt;/link --&amp;gt;
+
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;</var><var name="html_footer">&amp;lt;hr&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;</var></vars>
+</properties>
+</VarsNode>
+<VarsNode
+id="-1"
+name="RU"
+>
+<properties>
+<vars>
+<var name="ABOUT_0">Динамическая локализация</var><var name="NODE_NAME">Узел Русское Имя</var><var name="SHORT_DESCR">Краткое описание...</var><var name="PART_1">Часть 1</var><var name="ABOUT_1">В пользовательской моде поменяйте местами наборы переменных EN и RU.
+При этом содержимое дерева будет отображаться в соответствии с актуальным набором переменных. </var></vars>
+</properties>
+</VarsNode>
+<VarsNode
+id="-1"
+name="EN"
+>
+<properties>
+<vars>
+<var name="NODE_NAME">Node English Name</var><var name="ABOUT_0">Dynamic Localisation</var><var name="SHORT_DESCR">Short Description...</var><var name="PART_1">Part 1</var><var name="ABOUT_1">In User mode switch places of Variable Sets EN and RU and you can see dynamic localisation effect.</var></vars>
+</properties>
+</VarsNode>
+<HtmlComposite
+id="-1"
+name="#{SHORT_DESCR}"
+>
+<properties>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+</properties>
+<HtmlTextNode
+id="-1"
+name="#{PART_1}"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt;#{ABOUT_0}&amp;lt;/h2&amp;gt;
+
+#{ABOUT_1}
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+<TreeNode
+id="-1"
+name="#{NODE_NAME}"
+>
+<properties>
+</properties>
+</TreeNode>
+</TreeNode>
+</ConfigTree>

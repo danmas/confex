@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ConfigTree version="0.0.2">
+<TreeNode
+id="-1"
+name="Examples Grace 0.9.12 20080423"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="OnStartNode"
+>
+<properties>
+<groovy>
+println &amp;quot;Started OnStartNode!    Current  confex dir: #{CONFEX_DIR}&amp;quot;
+</groovy>
+</properties>
+</GroovyNode>
+<FolderNode
+id="-1"
+name="#{CONFEX_DIR}"
+>
+<properties>
+<path>
+#{CONFEX_DIR}
+</path>
+</properties>
+</FolderNode>
+<VarsNode
+id="-1"
+name="html vars"
+not_vis_in_user_mode="true"
+>
+<properties>
+<vars>
+<var name="tmp_path">c:/temp/</var><var name="html_header">&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot;
+	content=&amp;quot;text/html; charset=&amp;quot;windows-1251&amp;quot; /&amp;gt;
+&amp;lt;meta name=&amp;quot;Content-Language&amp;quot; content=&amp;quot;russian&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;description&amp;quot;
+	content=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;keywords&amp;quot;
+  content=&amp;quot;eclipse,Rich,Client,Platform,rcp,java,книги,статьи,приложения&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;expires&amp;quot; content=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;resource-type&amp;quot; content=&amp;quot;document&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;author&amp;quot; content=&amp;quot;Автор&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;copyright&amp;quot;
+	content=&amp;quot;(C) 2006&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;robots&amp;quot; content=&amp;quot;index,all&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;revisit&amp;quot; content=&amp;quot;5 Days&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;revisit-after&amp;quot; content=&amp;quot;5 Days&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;distribution&amp;quot; content=&amp;quot;global&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;rating&amp;quot; content=&amp;quot;general&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;meta name=&amp;quot;audience&amp;quot; content=&amp;quot;all&amp;quot;&amp;gt;&amp;lt;/meta&amp;gt;
+&amp;lt;title&amp;gt;Title&amp;lt;/title&amp;gt;
+
+&amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
+&amp;lt; !-- 
+.text_my	 { 
+	color: black; 
+	font-size: 100%; 
+	table-layout: auto; 
+	font-family: serif;  
+} 
+.code { border-color: #CFDCFF; border-style: solid; border-width: 3px; 
+   color: #0000EF; background-color: #EFEFEF;  
+   margin: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
+} 
+.h_line { 
+	color: blue; 
+	font-size: 100%; font: italic; color: blue; 
+	table-layout: auto; 
+	font-family: serif; font-style: italic; 
+} 
+.output {
+   color: #FFFFFF; background: #837A67;
+} 
+.xml { border-color: #CFDCFF; border-style: solid; border-width: 3px; 
+   color: #0000EF; background-color: #EFEFEF; 
+   margin: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
+}
+-- &amp;gt;
+&amp;lt;/style&amp;gt;
+
+&amp;lt;!--  link href=&amp;quot;./bf.css&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; /--&amp;gt;
+&amp;lt;!--  link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;../im/logo.ico&amp;quot;&amp;gt;&amp;lt;/link --&amp;gt;
+
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;</var><var name="html_footer">&amp;lt;hr&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;</var></vars>
+</properties>
+</VarsNode>
+<TreeNode
+id="-1"
+name="1.0) Using Groovy in Grace"
+>
+<properties>
+</properties>
+<TreeNode
+id="-1"
+name="1.1) Groovy Nodes"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="(run) Simple groovy script"
+>
+<properties>
+<groovy>
+println &amp;quot;Simple groovy script   running&amp;quot;
+</groovy>
+</properties>
+</GroovyNode>
+<GroovyNode
+id="-1"
+name="(run) Executing method run() of class"
+>
+<properties>
+<groovy>
+
+class TestClass {
+
+	void run() {
+		   println &amp;quot;The  default method run() of TestClass was executed.&amp;quot;
+	} 
+
+}
+</groovy>
+</properties>
+</GroovyNode>
+<GroovyClassNode
+id="-1"
+name="(run to compile)  Class  ClassA"
+>
+<properties>
+<src_file_name>
+/groovy/ClassA.groovy
+</src_file_name>
+<groovy>
+
+</groovy>
+</properties>
+</GroovyClassNode>
+<GroovyNode
+id="-1"
+name="(run) Launch  ClassA example_run()"
+>
+<properties>
+<groovy>
+
+def cls = new ClassA()
+
+cls.example_run()
+
+
+</groovy>
+</properties>
+</GroovyNode>
+<TreeNode
+id="-1"
+name="Composite groovy documents (New, Experimental)"
+>
+<properties>
+</properties>
+<GroovyCompositeNode
+id="-1"
+name="Prepared form"
+>
+<properties>
+<header>
+import groovy.swt.SwtBuilder
+import org.eclipse.swt.layout.FormAttachment
+import org.eclipse.swt.graphics.Rectangle
+
+builder = new SwtBuilder()
+        
+shell = builder.shell ( text:'The Form Demo', location:[100,100], size:[500,400] ) {
+	fillLayout()
+</header>
+<footer>
+}		
+shell.open()
+	
+while(! shell.isDisposed()) { 
+	if (! shell.display.readAndDispatch()) {
+		shell.display.sleep();
+	}
+}
+</footer>
+</properties>
+</GroovyCompositeNode>
+<GroovyCompositeNode
+id="-1"
+name="Complex Sash form"
+>
+<properties>
+<header>
+import groovy.swt.SwtBuilder
+import org.eclipse.swt.layout.FormAttachment
+import org.eclipse.swt.graphics.Rectangle
+
+builder = new SwtBuilder()
+        
+shell = builder.shell ( text:'The SashForm Demo', location:[100,100], size:[500,400] )  {
+    	fillLayout()
+        
+	sashForm1 = sashForm( style:&amp;quot;horizontal&amp;quot; )  {
+		fillLayout()
+</header>
+<footer>
+} //-- end sashForm1
+sashForm1.weights = [10,40,30]
+}	//-- end shell
+
+shell.open()
+	
+while(! shell.isDisposed()) { 
+	if (! shell.display.readAndDispatch()) {
+		shell.display.sleep();
+	}
+}
+</footer>
+</properties>
+<GroovyNode
+id="-1"
+name="1) composite with label"
+>
+<properties>
+<groovy>
+composite( style:&amp;quot;none&amp;quot; ) {
+	       			fillLayout()
+	       			label( text:&amp;quot;Label in pane 1&amp;quot; )
+       			}
+</groovy>
+</properties>
+</GroovyNode>
+<GroovyNode
+id="-1"
+name="2) composite with button"
+>
+<properties>
+<groovy>
+composite( style:&amp;quot;none&amp;quot; ) {
+	       			fillLayout()
+	       			button( text:&amp;quot;Button in pane2&amp;quot;, style:&amp;quot;push&amp;quot; )
+       			}
+</groovy>
+</properties>
+</GroovyNode>
+<GroovyNode
+id="-1"
+name="3) composite with label"
+>
+<properties>
+<groovy>
+composite( style:&amp;quot;none&amp;quot; ) {
+       				fillLayout()
+	       			label( text:&amp;quot;Label in pane3&amp;quot; )
+       			}
+</groovy>
+</properties>
+</GroovyNode>
+</GroovyCompositeNode>
+<GroovyCompositeNode
+id="-1"
+name="Complex form with TabFolder"
+>
+<properties>
+<header>
+import groovy.swt.SwtBuilder
+import org.eclipse.swt.layout.FormAttachment
+import org.eclipse.swt.graphics.Rectangle
+
+builder = new SwtBuilder()
+        
+shell = builder.shell ( text:'The Tab Form Demo', location:[100,100], size:[300,200] ) {
+	fillLayout()
+
+	def tab = tabFolder( style:&amp;quot;none&amp;quot; ) {
+		gridData( style:&amp;quot;fill_horizontal&amp;quot; )
+</header>
+<footer>
+} //-- tab
+} //-- shell		
+shell.open()
+	
+while(! shell.isDisposed()) { 
+	if (! shell.display.readAndDispatch()) {
+		shell.display.sleep();
+	}
+}
+</footer>
+</properties>
+<VarsNode
+id="-1"
+name="ITEM_NAME"
+>
+<properties>
+<vars>
+<var name="ITEM_NAME">Item 1</var></vars>
+</properties>
+</VarsNode>
+<GroovyNode
+id="-1"
+name="first tabItem"
+>
+<properties>
+<groovy>
+tabItem( style:&amp;quot;none&amp;quot;, text:&amp;quot;#{ITEM_NAME}&amp;quot; ) {
+	composite {
+		gridData( style:&amp;quot;fill_both&amp;quot; )
+		gridLayout(numColumns:3) 
+ 		label( style:&amp;quot;none&amp;quot;, text:&amp;quot;Field #{ITEM_NAME}: &amp;quot; )
+		def v_testVar11 = text( style:&amp;quot;border&amp;quot; ) {  
+		    	gridData( style:&amp;quot;fill_horizontal&amp;quot;, grabExcessHorizontalSpace:true )
+		}
+		text( editable:false, enabled:true, style:&amp;quot;none&amp;quot;, text:&amp;quot;Just a text&amp;quot; )
+	} //-- composite
+} //-- tabItem
+</groovy>
+</properties>
+</GroovyNode>
+<VarsNode
+id="-1"
+name="ITEM_NAME"
+>
+<properties>
+<vars>
+<var name="ITEM_NAME">The Tab Item 2</var></vars>
+</properties>
+</VarsNode>
+<GroovyNode
+id="-1"
+name="second tabItem"
+not_run_in_batch="true"
+>
+<properties>
+<groovy>
+tabItem( style:&amp;quot;none&amp;quot;, text:&amp;quot;#{ITEM_NAME}&amp;quot; ) {
+	 composite {
+		gridData( style:&amp;quot;fill_both&amp;quot; )
+		gridLayout(numColumns:1) 
+        	label( style:&amp;quot;none&amp;quot;, text:&amp;quot;Field #{ITEM_NAME}:&amp;quot; )
+	}
+}
+</groovy>
+</properties>
+</GroovyNode>
+<VarsNode
+id="-1"
+name="ITEM_NAME"
+>
+<properties>
+<vars>
+<var name="ITEM_NAME">Other Item</var></vars>
+</properties>
+</VarsNode>
+<GroovyNode
+id="-1"
+name="third tabItem"
+>
+<properties>
+<groovy>
+tabItem( style:&amp;quot;none&amp;quot;, text:&amp;quot;#{ITEM_NAME}&amp;quot; ) {
+	composite {
+		gridData( style:&amp;quot;fill_both&amp;quot; )
+		gridLayout(numColumns:3) 
+ 		label( style:&amp;quot;none&amp;quot;, text:&amp;quot;Field #{ITEM_NAME}:&amp;quot; )
+		def v_testVar11 = text( style:&amp;quot;border&amp;quot; ) {  
+			gridData( style:&amp;quot;fill_horizontal&amp;quot;, grabExcessHorizontalSpace:true )
+		}
+		text( editable:false, enabled:true, style:&amp;quot;none&amp;quot;, text:&amp;quot;Another text.&amp;quot; )
+	} //-- composite
+} //-- tabItem
+</groovy>
+</properties>
+</GroovyNode>
+</GroovyCompositeNode>
+<GroovyCompositeNode
+id="-1"
+name="Composite inside composite"
+>
+<properties>
+<header>
+import groovy.swt.SwtBuilder
+import org.eclipse.swt.layout.FormAttachment
+import org.eclipse.swt.graphics.Rectangle
+
+builder = new SwtBuilder()
+        
+shell = builder.shell ( text:'The Composite Form Demo', location:[100,100], size:[500,400] ) {
+	fillLayout()
+</header>
+<footer>
+} //-- shell		
+shell.open()
+	
+while(! shell.isDisposed()) { 
+	if (! shell.display.readAndDispatch()) {
+		shell.display.sleep();
+	}
+}
+</footer>
+</properties>
+<GroovyCompositeNode
+id="-1"
+name="Composite on level 1"
+>
+<properties>
+<header>
+//-- header
+</header>
+<footer>
+//-- footer
+</footer>
+</properties>
+<GroovyNode
+id="-1"
+name="Composite on level 2"
+>
+<properties>
+<groovy>
+composite {
+		gridData( style:&amp;quot;fill_both&amp;quot; )
+		gridLayout(numColumns:1) 
+        	label( style:&amp;quot;none&amp;quot;, text:&amp;quot;Composite on level 2&amp;quot; )
+	}
+</groovy>
+</properties>
+<GroovyNode
+id="-1"
+name="Composite on level 3"
+>
+<properties>
+<groovy>
+composite {
+		gridData( style:&amp;quot;fill_both&amp;quot; )
+		gridLayout(numColumns:1) 
+        	label( style:&amp;quot;none&amp;quot;, text:&amp;quot;Composite on level 3&amp;quot; )
+	}
+</groovy>
+</properties>
+</GroovyNode>
+</GroovyNode>
+</GroovyCompositeNode>
+</GroovyCompositeNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="1.2) Working with confex tree"
+>
+<properties>
+</properties>
+<TreeNode
+id="-1"
+name="The use of confex-variables"
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="(run) Short description."
+>
+<properties>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+</properties>
+<HtmlTextNode
+id="-1"
+name="The use of confex-variables"
+>
+<properties>
+<htmltext>
+&amp;lt;h2&amp;gt;The use of confex-variables&amp;lt;/h2&amp;gt;
+This example shows how you can read confex-variable from the set and then write her a new meaning.
+&amp;lt;br&amp;gt;
+
+&amp;lt;h3&amp;gt;Reading variable&amp;lt;/h3&amp;gt;
+&amp;lt;pre&amp;gt;
+In this example occurs replacement variables with name &amp;quot;var 1&amp;quot;,&amp;quot;var 2&amp;quot;  their values
+&amp;lt;pre class=code&amp;gt;
+  label( style:&amp;quot;none&amp;quot;, text:'&amp;lt;b&amp;gt;#{&amp;lt;/b&amp;gt;var 1&amp;lt;b&amp;gt;}&amp;lt;/b&amp;gt;: ' )
+  text( style:&amp;quot;border&amp;quot;,text:'&amp;lt;b&amp;gt;#{&amp;lt;/b&amp;gt;var 2&amp;lt;b&amp;gt;}&amp;lt;/b&amp;gt;')
+&amp;lt;/pre&amp;gt;
+  The variables search produced up from current node (&amp;lt;b&amp;gt;thisGroovyNode&amp;lt;/b&amp;gt;) until variable with the name will not be found.
+   Thus, sets above the tree hiding.
+&amp;lt;/pre&amp;gt;
+
+
+&amp;lt;h3&amp;gt;Writing variable&amp;lt;/h3&amp;gt;
+&amp;lt;pre&amp;gt;
+In this example, produced record variable with the name &amp;quot;var 1&amp;quot;
+&amp;lt;pre class=code&amp;gt;
+&amp;lt;b&amp;gt;thisGroovyNode.setVarUp(&amp;quot;var 1&amp;quot;,t.text)&amp;lt;/b&amp;gt;
+&amp;lt;/pre&amp;gt;
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+</HtmlComposite>
+<VarsNode
+id="-1"
+name="var set for  Example: The use of confex-variables"
+>
+<properties>
+<vars>
+<var name="var 2">value 2</var><var name="var 1">value 1</var></vars>
+</properties>
+</VarsNode>
+<GroovyNode
+id="-1"
+name="(run) Example: The use of confex-variables"
+>
+<properties>
+<groovy>
+println &amp;quot;Value of 'var 1' is #{var 1}&amp;quot;
+println &amp;quot;Value of 'var 2' is #{var 2}&amp;quot;
+
+println &amp;quot;thisGroovyNode.setVarUp('var 1','NEW VALUE')&amp;quot;
+thisGroovyNode.setVarUp('var 1','NEW VALUE')
+
+println &amp;quot;Value of 'var 1' is #{var 1}&amp;quot;
+println &amp;quot;Value of 'var 2' is #{var 2}&amp;quot;
+
+//-- restore var 1
+thisGroovyNode.setVarUp('var 1','value 1')
+</groovy>
+</properties>
+</GroovyNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Construction of the built form."
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="(run) Short description"
+>
+<properties>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+</properties>
+<HtmlTextNode
+id="-1"
+name="Part 1"
+>
+<properties>
+<htmltext>
+&amp;lt;h1&amp;gt;Link groovy script with confex at runtime&amp;lt;/h1&amp;gt;
+
+&amp;lt;pre&amp;gt;	
+In this example, is described as a link groovy script with confex at runtime.
+
+Four variables are used for binding runtime confex with groovy script.
+
+	def ITreeNode thisGroovyNode //-- current node in confex tree
+	def Composite parent         //-- parent composite
+	def ViewPart  runViewPart    //-- eclipse View 
+	def IProgressMonitor monitor //-- monitor for background executing
+
+&amp;lt;/pre&amp;gt;
+</htmltext>
+</properties>
+</HtmlTextNode>
+<Java2HtmlNode
+id="-1"
+name="binding variables"
+>
+<properties>
+<header>
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+/**
+*/
+class Example1 {
+	//-- binding variables
+	def ITreeNode thisGroovyNode //-- current node in confex tree
+	def Composite parent         //-- parent composite
+	def ViewPart  runViewPart    //-- eclipse View 
+	def IProgressMonitor monitor //-- monitor for background executing
+
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<selected_words>
+parent,thisGroovyNode,runViewPart,monitor
+</selected_words>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+<Java2HtmlNode
+id="-1"
+name="create SwtBuilder"
+>
+<properties>
+<header>
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+	//-- create SwtBuilder
+	def swt = new SwtBuilder()
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+<Java2HtmlNode
+id="-1"
+name="Default run() method"
+>
+<properties>
+<header>
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+// Процедура для запуска формы
+	public void run() {
+		try {
+			//-- Set current builder composite as binding &amp;quot;parent&amp;quot; variable
+			swt.setCurrent(parent);
+			swt.composite {	
+				//-- задаем тип планировщика
+			    gridLayout(numColumns:2)         //-- колонок 2 
+				gridData( style:&amp;quot;fill_both&amp;quot; )    //-- растягивать во все стороны
+				//-- задаем надпись
+				label( style:&amp;quot;none&amp;quot;, text:&amp;quot;Пример ---: &amp;quot; )
+				text( style:&amp;quot;border&amp;quot;,text:'Текст')
+			} //-- swt.composite
+		} catch( Exception e) {
+			System.err.println(&amp;quot; &amp;quot;+e.getMessage())
+		}
+	} //-- run()
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+</HtmlComposite>
+<CompositeFormViewNode
+id="-1"
+name="(run) Example SWT Form.  Groovy script as property"
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="class Example2"
+>
+<properties>
+<groovy>
+/**
+*   Example1.groovy
+*   Shows launch the form inside grace application
+*   Author: Roman Eremeev, 2007 
+*/
+import org.eclipse.swt.widgets.Composite
+import groovy.swt.SwtBuilder
+
+import org.eclipse.ui.part.ViewPart
+import org.eclipse.core.runtime.IProgressMonitor
+import net.confex.tree.ITreeNode
+
+
+/**
+*    Groovy class Example2
+*/
+class Example2 {
+	//-- some variables for the link with application and confex tree
+	def Composite parent         //-- parent composite
+	def ITreeNode thisGroovyNode //-- this groovy node in confex tree
+	def ViewPart  runViewPart    //-- Eclipse View 
+	def IProgressMonitor monitor //-- Monitor (optional) 
+
+	//-- create SWT builder 	
+	def swt = new SwtBuilder() 
+
+	
+	// run() - is start method for launch form 
+	public void run() {
+		try {
+			//-- 
+			swt.setCurrent(parent);
+			swt.composite {
+				
+			    gridLayout(numColumns:2)         //-- columns - 2 
+				gridData( style:&amp;quot;fill_both&amp;quot; )    //--
+				
+				//-- make some GUI elemnts
+				label( style:&amp;quot;none&amp;quot;, text:&amp;quot;The example ---: &amp;quot; )
+				text( style:&amp;quot;border&amp;quot;,text:'Any text.')
+				
+			} //-- swt.composite
+		} catch( Exception e) {
+			System.err.println(&amp;quot; &amp;quot;+e.getMessage())
+		}
+	} //-- run()		
+	
+}
+</groovy>
+</properties>
+</GroovyNode>
+</CompositeFormViewNode>
+<CompositeFormViewNode
+id="-1"
+name="(run) Example SWT Form: Groovy script in external file."
+>
+<properties>
+</properties>
+<GroovyNode
+id="-1"
+name="/groovy/Example1.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/Example1.groovy
+</src_file_name>
+<groovy>
+
+</groovy>
+</properties>
+</GroovyNode>
+</CompositeFormViewNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Navigation on the confex tree"
+>
+<properties>
+</properties>
+<HtmlComposite
+id="-1"
+name="Description"
+>
+<properties>
+<header>
+#{html_header}
+</header>
+<footer>
+#{html_footer}
+</footer>
+</properties>
+<Java2HtmlNode
+id="-1"
+name="Get root node"
+>
+<properties>
+<header>
+Get root node, the topmost hidden node of tree
+
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+...
+def root = thisGroovyNode.getRoot()
+...
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<selected_words>
+getRoot
+</selected_words>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+<Java2HtmlNode
+id="-1"
+name="Get children list"
+>
+<properties>
+<header>
+Get children list
+
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+...
+def children = node.getChildren()
+
+for( i in 0..children.length-1) {
+	println children[i].name
+}
+...
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<selected_words>
+getChildren
+</selected_words>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+<Java2HtmlNode
+id="-1"
+name="Get child with given name"
+>
+<properties>
+<header>
+Get child with given name
+
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+...
+def node = thisGroovyNode.getChildWithName(&amp;quot;vars3&amp;quot;)
+println node.name		
+...
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<selected_words>
+getChildWithName,name
+</selected_words>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+<Java2HtmlNode
+id="-1"
+name="Search node with given class type up to tree."
+>
+<properties>
+<header>
+Search node with given class type up to tree.
+
+&amp;lt;pre class=code&amp;gt;
+</header>
+<codetext>
+p = TreeUtils.searchNodeUp(thisGroovyNode,JdbcConnectionNode.class);
+</codetext>
+<footer>
+&amp;lt;/pre&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+</footer>
+<selected_words>
+searchNodeUp
+</selected_words>
+<prefix>
+&amp;lt;b&amp;gt;
+</prefix>
+<postfix>
+&amp;lt;/b&amp;gt;
+</postfix>
+</properties>
+</Java2HtmlNode>
+</HtmlComposite>
+<VarsNode
+id="-1"
+name="vars1"
+>
+<properties>
+<vars>
+</vars>
+</properties>
+</VarsNode>
+<GroovyNode
+id="-1"
+name="/groovy/BuildChildList.groovy"
+>
+<properties>
+<src_file_name>
+/groovy/BuildChildList.groovy
+</src_file_name>
+<groovy>
+
+</groovy>
+</properties>
+<VarsNode
+id="-1"
+name="vars3"
+>
+<properties>
+<vars>
+</vars>
+</properties>
+</VarsNode>
+</GroovyNode>
+<VarsNode
+id="-1"
+name="vars2"
+>
+<properties>
+<vars>
+</vars>
+</properties>
+</VarsNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="1.3) The use of AntBuilder"
+>
+<properties>
+</properties>
+<UrlNode
+id="-1"
+name="Apache Ant Manual"
+>
+<properties>
+<url>
+http://ant.apache.org/manual/
+</url>
+</properties>
+</UrlNode>
+<UrlNode
+id="-1"
+name="http://gant.codehaus.org"
+>
+<properties>
+<url>
+http://gant.codehaus.org
+</url>
+</properties>
+</UrlNode>
+<TreeNode
+id="-1"
+name="FTP, Telnet, Files, Mail"
+>
+<properties>
+</properties>
+<TreeNode
+id="-1"
+name="FTP"
+>
+<properties>
+</properties>
+<UrlNode
+id="-1"
+name="Ant Ftp Task"
+>
+<properties>
+<url>
+http://ant.apache.org/manual/OptionalTasks/ftp.html
+</url>
+</properties>
+</UrlNode>
+<VarsNode
+id="-1"
+name="(edit) ftp variables"
+>
+<properties>
+<vars>
+<var name="file_extension">.xml</var><var name="local_dir">.</var><var name="ftp_user">smng</var><var name="ftp_dir">/ERV/IN/</var><var name="ftp_pwd"></var><var name="ftp_server">ftp.rdtex.ru</var></vars>
+</properties>
+</VarsNode>
+<GroovyNode
+id="-1"
+name="(run) Get files from FTP server"
+>
+<properties>
+<groovy>
+ant = new AntBuilder()
+ant.ftp( action:&amp;quot;get&amp;quot;, 
+	server:&amp;quot;#{ftp_server}&amp;quot;,
+    userid:&amp;quot;#{ftp_user}&amp;quot;,
+    password:&amp;quot;#{ftp_pwd}&amp;quot;,
+    passive:&amp;quot;yes&amp;quot;,
+    verbose:&amp;quot;yes&amp;quot;,
+    remotedir:&amp;quot;#{ftp_dir}&amp;quot;,
+    binary:&amp;quot;yes&amp;quot; ) {
+        fileset( dir:&amp;quot;#{local_dir}&amp;quot; ) {
+            include( name:&amp;quot;**/*#{file_extension}*&amp;quot; )
+        }
+    }
+</groovy>
+</properties>
+</GroovyNode>
+<GroovyNode
+id="-1"
+name="(run) Put files on FTP server"
+>
+<properties>
+<groovy>
+ant = new AntBuilder()
+ant.ftp( server:&amp;quot;#{ftp_server}&amp;quot;,
+    userid:&amp;quot;#{ftp_user}&amp;quot;,
+    password:&amp;quot;#{ftp_pwd}&amp;quot;,
+    passive:&amp;quot;yes&amp;quot;,
+    verbose:&amp;quot;yes&amp;quot;,
+    remotedir:&amp;quot;#{ftp_dir}&amp;quot;,
+    binary:&amp;quot;yes&amp;quot;) {
+        fileset( dir:&amp;quot;#{local_dir}&amp;quot; ) {
+            include( name:&amp;quot;**/*#{file_extension}&amp;quot; )
+        }
+    }
+</groovy>
+</properties>
+</GroovyNode>
+<GroovyNode
+id="-1"
+name="(run) Delete files from FTP server"
+>
+<properties>
+<groovy>
+ant = new AntBuilder()
+ant.ftp( action:&amp;quot;del&amp;quot;,
+	server:&amp;quot;#{ftp_server}&amp;quot;,
+    userid:&amp;quot;#{ftp_user}&amp;quot;,
+    password:&amp;quot;#{ftp_pwd}&amp;quot;	) {
+        fileset( dir:&amp;quot;#{ftp_dir}&amp;quot; ) {
+            include( name:&amp;quot;**/*#{file_extension}&amp;quot; )
+        }
+    }
+</groovy>
+</properties>
+</GroovyNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Telnet"
+>
+<properties>
+</properties>
+<UrlNode
+id="-1"
+name="Ant Telnet Task"
+>
+<properties>
+<url>
+http://ant.apache.org/manual/OptionalTasks/telnet.html
+</url>
+</properties>
+</UrlNode>
+<VarsNode
+id="-1"
+name="(edit) Telnet variables"
+>
+<properties>
+<vars>
+<var name="telnet_pwd"></var><var name="telnet_server"></var><var name="telnet_user"></var></vars>
+</properties>
+</VarsNode>
+<GroovyNode
+id="-1"
+name="telnet  ls /gis_data/in"
+>
+<properties>
+<groovy>
+ant = new AntBuilder()
+ant.telnet( server:&amp;quot;#{telnet_server}&amp;quot;,
+    userid:&amp;quot;#{telnet_user}&amp;quot;,
+    password:&amp;quot;#{telnet_pwd}&amp;quot;,
+    timeout:&amp;quot;7&amp;quot;	
+    ) {
+        read( string:&amp;quot;\$&amp;quot; )
+	  write( string:&amp;quot;cd /u00/app/com/gis_data/in/&amp;quot;)	
+        read( string:&amp;quot;\$&amp;quot; )
+	  write( string:&amp;quot;ls&amp;quot;)
+        read( string:&amp;quot;\$&amp;quot; )
+    }
+</groovy>
+</properties>
+</GroovyNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Files"
+>
+<properties>
+</properties>
+<VarsNode
+id="-1"
+name="(edit) File variables"
+>
+<properties>
+<vars>
+<var name="build_dir">d:/tmp/test/</var><var name="from_dir">d:/tmp/1/</var></vars>
+</properties>
+</VarsNode>
+<FolderNode
+id="-1"
+name="#{from_dir}"
+>
+<properties>
+<path>
+#{from_dir}
+</path>
+</properties>
+</FolderNode>
+<FolderNode
+id="-1"
+name="#{build_dir}"
+>
+<properties>
+<path>
+#{build_dir}
+</path>
+</properties>
+</FolderNode>
+<GroovyNode
+id="-1"
+name="Build dir and copy files"
+>
+<properties>
+<groovy>
+ant = new AntBuilder()
+
+ant.sequential {
+            echo(&amp;quot;inside sequential&amp;quot;)
+            
+            myDir = &amp;quot;#{build_dir}&amp;quot;
+            
+            mkdir(dir:myDir) 
+            copy(todir:myDir) {
+                fileset(dir:&amp;quot;#{from_dir}&amp;quot;) {
+                    include(name:&amp;quot;**/*.*&amp;quot;)
+                }
+            }
+            
+            echo(&amp;quot;done&amp;quot;)
+        }
+</groovy>
+</properties>
+</GroovyNode>
+<GroovyNode
+id="-1"
+name="File Scanner"
+>
+<properties>
+<groovy>
+def ant = new AntBuilder()
+        
+        // lets create a scanner of filesets
+        scanner = ant.fileScanner {
+            fileset(dir:&amp;quot;#{build_dir}&amp;quot;) {
+                include(name:&amp;quot;**/*.xml&amp;quot;)
+            }
+        }
+        
+        // now lets iterate over 
+        def found = false
+        for (f in scanner)  {
+            println(&amp;quot;Found file ${f}&amp;quot;)
+            
+            found = true
+            
+           // assert f instanceof File
+           // assert f.name.endsWith(&amp;quot;.groovy&amp;quot;)
+        }
+        //assert found
+</groovy>
+</properties>
+</GroovyNode>
+</TreeNode>
+</TreeNode>
+</TreeNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Links and other..."
+>
+<properties>
+</properties>
+<UrlNode
+id="-1"
+name="Groovy Home"
+>
+<properties>
+<url>
+http://groovy.codehaus.org
+</url>
+</properties>
+</UrlNode>
+</TreeNode>
+</TreeNode>
+</ConfigTree>
