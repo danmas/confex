@@ -70,7 +70,7 @@ public class ConfexPlugin extends AbstractUIPlugin {
 	
 	/**
 	 * This method is called upon plug-in activation
-	 */
+	 */	
 	public void start(BundleContext context) throws Exception {
 		super.start(context);
 		

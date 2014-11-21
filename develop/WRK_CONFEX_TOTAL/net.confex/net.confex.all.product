@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Confex All" id="net.confex.confex_all" application="net.confex.application" version="0.9.3" useFeatures="false" includeLaunchers="true">
+<product name="Confex All" id="net.confex.confex_all" application="net.confex.application" version="0.9.3.1" useFeatures="false" includeLaunchers="true">
 
    <aboutInfo>
       <image path="product_lg.gif"/>
@@ -11,7 +11,6 @@
    </aboutInfo>
 
    <configIni use="default">
-      <win32></win32>
    </configIni>
 
    <launcherArgs>
@@ -26,7 +25,7 @@
       startupProgressRect="5,283,403,15"
       startupMessageRect="7,267,445,20"
       startupForegroundColor="FFFF00" />
-   <launcher name="confex 0.9.3">
+   <launcher name="confex 0.9.3.1">
       <solaris/>
       <win useIco="false">
          <bmp/>

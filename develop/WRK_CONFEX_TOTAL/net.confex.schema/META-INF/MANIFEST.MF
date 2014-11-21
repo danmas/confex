@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Confex Diagram Editor Plug-in
-Bundle-SymbolicName: net.confex.schema.ConfexDiagramPlugin;singleton:=true
+Bundle-SymbolicName: net.confex.schema;singleton:=true
 Bundle-Version: 1.0.0
 Bundle-Activator: net.confex.schema.editor.ConfexDiagramPlugin
 Bundle-Localization: plugin

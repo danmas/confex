@@ -132,7 +132,7 @@ ConfexPlugin.java
 net.confex/src/net/confex/application
 </path>
 <location>
-98
+105
 </location>
 <selection>
 public void stop
@@ -453,6 +453,9 @@ NavigationView.java
 <path>
 net.confex/src/net/confex/views
 </path>
+<location>
+958
+</location>
 <selection>
 boolean isEditable
 </selection>
@@ -9336,6 +9339,9 @@ NavigationView.java
 <path>
 net.confex/src/net/confex/views
 </path>
+<location>
+433
+</location>
 <selection>
 search alternative variant
 </selection>

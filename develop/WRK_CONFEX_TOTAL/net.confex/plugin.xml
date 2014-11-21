@@ -293,4 +293,44 @@
          </property>
       </product>
    </extension>
+   <extension
+         id="grafin"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="net.confex.application"
+            name="Confex with Grafin">
+         <property
+               name="windowImages"
+               value="icons/sample.gif,icons/alt_window_32.png">
+         </property>
+         <property
+               name="aboutText"
+               value="%aboutText">
+         </property>
+         <property
+               name="aboutImage"
+               value="product_lg.gif">
+         </property>
+         <property
+               name="startupForegroundColor"
+               value="FFFF00">
+         </property>
+         <property
+               name="startupProgressRect"
+               value="5,283,403,15">
+         </property>
+         <property
+               name="startupMessageRect"
+               value="7,267,445,20">
+         </property>
+         <property
+               name="appName"
+               value="Confex with Grafin">
+         </property>
+         <property
+               name="preferenceCustomization"
+               value="plugin_customization.ini">
+         </property>
+      </product>
+   </extension>
 </plugin>
