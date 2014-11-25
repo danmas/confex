@@ -332,7 +332,7 @@ public class Schema extends PropertyAwareObject implements IModelElementContaine
 	}
 	
 	
-	protected static void pasteEdge(Node node,Schema schema) {
+	protected static void pasteEdge(Node node, Schema schema) {
 		String s_out_id=node.getAttributes().getNamedItem("id_out").getNodeValue();
 		NodeElement out_element=(NodeElement)schema.getChildWithOriginIdFromPaste(Integer.parseInt(s_out_id));
 		String s_in_id=node.getAttributes().getNamedItem("id_in").getNodeValue();

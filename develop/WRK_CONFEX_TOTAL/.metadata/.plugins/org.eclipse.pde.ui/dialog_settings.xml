@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="ProductExportWizard">
+		<item value="/net.confex/net.confex.grafin.product" key="productConfig2"/>
 		<item value="/net.confex/net.confex.all.product" key="productConfig1"/>
 		<item value="true" key="syncProduct"/>
 		<item value="true" key="exportSource"/>
@@ -9,7 +10,7 @@
 		<item value="true" key="exportDirectory"/>
 		<item value="/net.confex/net.confex.all.product" key="productConfig0"/>
 		<item value="C:\ERV\WRK\confex\develop\WRK_CONFEX_TOTAL\tmp" key="destination1"/>
-		<item value="C:\ERV\WRK\confex\develop\WRK_CONFEX_TOTAL\tmp" key="destination0"/>
+		<item value="C:\ERV\WRK\confex\develop\WRK_CONFEX_TOTAL\tmp2" key="destination0"/>
 		<item value="true" key="allowBinaryCycles"/>
 		<item value="confex" key="productRoot"/>
 	</section>

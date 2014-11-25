@@ -49,8 +49,10 @@ public class MyGridLayout extends GridLayout {
 				return ((SimpleContainerFigure)child).getGridData();
 			}
 			
-			GridData gridData = new GridData(GridData.HORIZONTAL_ALIGN_FILL
-					  		| GridData.GRAB_HORIZONTAL);
+			//GridData gridData = new GridData(GridData.HORIZONTAL_ALIGN_FILL
+			//		  		| GridData.GRAB_HORIZONTAL);
+			GridData gridData = new GridData(GridData.HORIZONTAL_ALIGN_CENTER);
+			
 			gridData.widthHint=100;
 			gridData.heightHint=50;
 			

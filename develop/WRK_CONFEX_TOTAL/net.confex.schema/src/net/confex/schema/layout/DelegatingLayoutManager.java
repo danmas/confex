@@ -36,12 +36,13 @@ public class DelegatingLayoutManager implements LayoutManager {
 		this.diagram = diagram;
 		// this.graphLayoutManager = new GraphLayoutManager(diagram);
 		this.xyLayoutManager = new GraphXYLayout();
+		
 		this.gridLayoutManager = new MyGridLayout(diagram);
 		this.gridLayoutManager.numColumns = 2;
 		
 		// use the graph layout manager as the initial delegate
-		//this.activeLayoutManager = this.xyLayoutManager;
-		this.activeLayoutManager = this.gridLayoutManager;
+		this.activeLayoutManager = this.xyLayoutManager;
+		//this.activeLayoutManager = this.gridLayoutManager;
 	}
 
 	// ********************* layout manager methods methods

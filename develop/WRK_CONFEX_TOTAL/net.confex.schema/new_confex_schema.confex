@@ -954,5 +954,76 @@ IFigure createFigure()
 </properties>
 </BookmarkNode>
 </TreeNode>
+<TreeNode
+id="-1"
+name="Новейшие переделки"
+>
+<properties>
+</properties>
+<BookmarkNode
+id="-1"
+name="Меняем поведение раскладки на выравнивание по центру"
+>
+<properties>
+<resource>
+MyGridLayout.java
+</resource>
+<path>
+net.confex.schema/src/net/confex/schema/layout
+</path>
+<location>
+52
+</location>
+<selection>
+GridData gridData = new GridData(
+</selection>
+</properties>
+</BookmarkNode>
+</TreeNode>
+<TreeNode
+id="-1"
+name="Layout"
+>
+<properties>
+</properties>
+<BookmarkNode
+id="-1"
+name="class MyGridLayout"
+>
+<properties>
+<resource>
+MyGridLayout.java
+</resource>
+<path>
+net.confex.schema/src/net/confex/schema/layout
+</path>
+<location>
+12
+</location>
+<selection>
+class MyGridLayout
+</selection>
+</properties>
+</BookmarkNode>
+<BookmarkNode
+id="-1"
+name="Задание вида вывода вложеных фигур getConstraint()"
+>
+<properties>
+<resource>
+MyGridLayout.java
+</resource>
+<path>
+net.confex.schema/src/net/confex/schema/layout
+</path>
+<location>
+38
+</location>
+<selection>
+Object getConstraint(
+</selection>
+</properties>
+</BookmarkNode>
+</TreeNode>
 </TreeNode>
 </ConfigTree>

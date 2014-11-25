@@ -494,7 +494,6 @@ public class ConfexDiagramEditor extends GraphicalEditorWithFlyoutPalette
 			IAction action = getActionRegistry().getAction(ids.next());
 			if (null != action && action instanceof UpdateAction)
 				((UpdateAction) action).update();
-
 		}
 	}
 

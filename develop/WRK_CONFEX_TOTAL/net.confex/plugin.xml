@@ -178,7 +178,7 @@
          point="org.eclipse.core.runtime.products">
       <product
             application="net.confex.application"
-            name="Confex All">
+            name="Confex All + Schema">
          <property
                name="windowImages"
                value="icons/sample.gif,icons/alt_window_32.png">
@@ -205,7 +205,7 @@
          </property>
          <property
                name="appName"
-               value="Confex All">
+               value="Confex All + Schema">
          </property>
          <property
                name="preferenceCustomization"

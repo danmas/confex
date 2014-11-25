@@ -38,4 +38,42 @@
 <entry path="C:\ERV\eclipse\indigo\eclipse\jre\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+<libraryInfo home="C:\ERV\eclipse\indigo-confex\eclipse\jre" version="1.7.0_25">
+<bootpath>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\resources.jar"/>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\rt.jar"/>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\sunrsasign.jar"/>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\jsse.jar"/>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\jce.jar"/>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\charsets.jar"/>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\jfr.jar"/>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\ERV\eclipse\indigo-confex\eclipse" version="1.7.0_25">
+<bootpath>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\resources.jar"/>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\rt.jar"/>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\sunrsasign.jar"/>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\jsse.jar"/>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\jce.jar"/>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\charsets.jar"/>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\jfr.jar"/>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\ERV\eclipse\indigo-confex\eclipse\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
 </libraryInfos>
